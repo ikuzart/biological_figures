@@ -1,0 +1,56 @@
+{
+  "key": "723676v1_fig5",
+  "paper": {
+    "preprint": "723676v1",
+    "doi": "10.64898/2026.05.07.723676",
+    "title": "USP10 Facilitates Homologous Recombination-Mediated DNA Double-Strand Break Repair through Localization to the Nucleolus",
+    "authors": "Utani et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "FIGURE 5.",
+    "caption": "Persistent RAD51 foci formation in USP10-KO HCT116 cells. (A) RAD51 (green) and γH2AX (red) foci in WT and USP10-KO HCT116 cells at the indicated time points following X-ray irradiation. Nuclei were counterstained with DAPI. Scale bar, 10 μm. (B–D) Quantification of RAD51 (B), γH2AX (C), and colocalized RAD51/γH2AX foci (D) shown in (A). (E) Localization of USP10 (green) and γH2AX (red) in WT and USP10-KO HCT116 cells before and after zeocin treatment. Nuclei were counterstained with DAPI. Scale bar, 20 μm. P values were determined by the Mann–Whitney U test. ****, P < 0.0001."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\n2 Gy\nUntreat\n0 h\n1 h\n3 h\n9 h\nMerged with DAPI\nWT\nHCT116\nRAD51 γH2AX\nMerged with DAPI\nKO\nHCT116\nRAD51 γH2AX\n\nB\n****\n50\n40\n30\nγH2AX foci per nucleus\n20\n10\n0\nRelease (h)\n(-)\n0\n1\n3\n9\n(-)\n0\n1\n3\n9\nIR (2 Gy)\n(-)\n(+)\n(-)\n(+)\nUSP10\nWT\nKO\n\nC\n****\n30\n20\nRAD51 foci per nucleus\n10\n0\nRelease (h)\n(-)\n0\n1\n3\n9\n(-)\n0\n1\n3\n9\nIR (2 Gy)\n(-)\n(+)\n(-)\n(+)\nUSP10\nWT\nKO\n\nD\n20\n***\n15\nColocalization incidence\nγH2AX / RAD51 foci\n10\n5\n0\nRelease (h)\n(-)\n0\n1\n3\n9\n(-)\n0\n1\n3\n9\nIR (2 Gy)\n(-)\n(+)\n(-)\n(+)\nUSP10\nWT\nKO\n\nγH2AX\nE\nUSP10\nDAPI\nWT\nHCT116\nUntreat\nKO\nHCT116\nWT\nHCT116\nzeocin 3 h\nKO\nHCT116",
+    "entities": [
+      {
+        "text": "RAD51",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "USP10",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "HCT116",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "γH2AX",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "X-ray irradiation",
+        "type": "technique"
+      },
+      {
+        "text": "IR",
+        "type": "technique"
+      },
+      {
+        "text": "DAPI",
+        "type": "chemical"
+      },
+      {
+        "text": "zeocin",
+        "type": "chemical"
+      },
+      {
+        "text": "nucleus",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "Panel E: the red \"γH2AX\" channel title sits above the panel letter, so it is written first. Panel C: a stray dot beside the y-axis label is left out. The scale bars in A and E have no printed label. \"IR (2 Gy)\" is read as irradiation and listed with X-ray irradiation as a technique. \"nucleus\" (image) and \"Nuclei\" (caption) are listed once, in the singular.",
+    "done": true
+  }
+}

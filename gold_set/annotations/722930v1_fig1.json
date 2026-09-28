@@ -1,0 +1,76 @@
+{
+  "key": "722930v1_fig1",
+  "paper": {
+    "preprint": "722930v1",
+    "doi": "10.64898/2026.05.07.722930",
+    "title": "Talin controls the spatial distribution of vinculin tension in focal adhesions",
+    "authors": "Kallem et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 1.",
+    "caption": "The A50I vinculin mutant retains binding to talin. (A) Schematic of the talin rod region showing the 13 rod domains (R1-R13). Vinculin-binding site (VBS) helices are highlighted in orange, the A-kinase anchoring (AKAP) helix in blue, and the dimerisation domain (DD) helix is shown in green. (B) Vinculin contains a single talin/α-catenin binding site in the VD1a domain (cyan). (C-D) Structures of talin-1 VBS helix 50 (H50; orange) from R11 folded within the R11 bundle (C) and a schematic model of mechanically exposed H50 bound to VD1 (D) . (E-H) Fluorescence polarisation assays of WT and A50I VD1 binding to talin and ⍺-catenin VBS peptides. (E) H58 binds tightly to WT but not to A50I VD1. (F) A50I prevents binding to the ⍺-catenin VBS. (G) A50I reduces the affinity of H46 by approximately 20-fold. (H) Binding to H50 is largely unaffected by the A50I mutation."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nTalin Rod Domain\nR4\nR1\nR8\nVBS\nR5\nR6\nR7\nR9\nR10\nR11\nR12\nR13\nDD\nR2\nR3\n\nB\nVinculin Head (Vh)\nVinculin\nVBS\nTail\nVD1a\nVD1b\nVD2a\nVD2b\nVD3a\nVD3b\nVD4\nVt\n\nC\nTalin R11 (Folded)\nH49\nVBS (H50)\nH51\n\nD\nVD1 + Talin VBS (H50)\nVD1b\nH1\nH51\nH49\nH50\nVD1a\nTalin R11\n(Unfolded)\nH2\n\nE\nVD1 + H58\n40\nWT (Kd = 197 ± 52 nM)\nA50I (ND)\nPolarisation (mP)\n20\n0\n0\n10\n20\n30\n40\n[VD1] (µM)\n\nF\nVD1 + α-Cat\n100\n80\nWT (Kd = 520 ± 70 nM)\nA50I (ND)\nPolarisation (mP)\n60\n40\n20\n0\n0\n10\n20\n30\n40\n[VD1] (µM)\n\nG\nVD1 + H46\n140\n120\n100\nWT (Kd = 32 ± 12 nM)\nA50I (Kd = 740 ± 170 nM)\n80\nPolarisation (mP)\n60\n40\n20\n0\n0\n10\n20\n30\n40\n[VD1] (µM)\n\nH\nVD1 + H50\n140\n120\n100\nWT (Kd = 95 ± 19 nM)\nA50I (Kd = 85 ± 32 nM)\n80\nPolarisation (mP)\n60\n40\n20\n0\n0\n10\n20\n30\n40\n[VD1] (µM)",
+    "entities": [
+      {
+        "text": "A50I vinculin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "talin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Vinculin-binding site",
+        "type": "other"
+      },
+      {
+        "text": "VBS",
+        "type": "other"
+      },
+      {
+        "text": "A-kinase anchoring",
+        "type": "other"
+      },
+      {
+        "text": "AKAP",
+        "type": "other"
+      },
+      {
+        "text": "dimerisation domain",
+        "type": "other"
+      },
+      {
+        "text": "DD",
+        "type": "other"
+      },
+      {
+        "text": "vinculin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "α-catenin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "talin-1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "VD1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Fluorescence polarisation",
+        "type": "technique"
+      },
+      {
+        "text": "α-Cat",
+        "type": "gene_or_protein"
+      }
+    ],
+    "notes": "The helix numbers inside the bundles in A and B are too small to read and are left out.",
+    "done": true
+  }
+}

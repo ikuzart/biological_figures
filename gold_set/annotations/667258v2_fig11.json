@@ -1,0 +1,36 @@
+{
+  "key": "667258v2_fig11",
+  "paper": {
+    "preprint": "667258v2",
+    "doi": "10.1101/2025.07.28.667258",
+    "title": "A Dynamic Model of Calcium Frequency Modulation by Mitochondrial Superoxide in Non-excitable Cells",
+    "authors": "Same-Majandeh et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Fig 11:",
+    "caption": "The calcium frequency modulation ratio across different values of τ max and k shunt . (a) Shows this ratio in the MAM cytosol and (b) presents it in the near cytosol."
+  },
+  "gold": {
+    "figure_type": "plot",
+    "ocr_text": "a\nMAM Cytosol\n5\n700\n4\n3\n600\n2\n500\nτmax (1/s)\n400\n1\nVariable Kp\nFixed Kp\n[Ca+2] Frequency\n300\n200\n100\n0\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1.0\n1.1\nkshunt (mM/s)\n\nb\nNear Cytosol\n5\n700\n4\n3\n600\n2\n500\nτmax (1/s)\n400\n1\nVariable Kp\nFixed Kp\n[Ca+2] Frequency\n300\n200\n100\n0\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1.0\n1.1\nkshunt (mM/s)",
+    "entities": [
+      {
+        "text": "calcium",
+        "type": "chemical"
+      },
+      {
+        "text": "Ca+2",
+        "type": "chemical"
+      },
+      {
+        "text": "MAM",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "cytosol",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "The rotated colour-bar title in both panels is a stacked fraction (Variable Kp over Fixed Kp) followed by [Ca+2] Frequency; it is written as three lines: numerator, denominator, rest. The subscript p of Kp is small; read as lower case. MAM and cytosol are listed separately rather than as MAM cytosol. The model parameters τmax, kshunt and Kp are not listed as entities.",
+    "done": true
+  }
+}

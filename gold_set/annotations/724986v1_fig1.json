@@ -1,0 +1,32 @@
+{
+  "key": "724986v1_fig1",
+  "paper": {
+    "preprint": "724986v1",
+    "doi": "10.64898/2026.05.13.724986",
+    "title": "Organelle scaling over a 100-fold cell size range",
+    "authors": "Wirshing and Lew",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 1:",
+    "caption": "Schematic of A. pullulans budding proliferation. A. pullulans cells can undergo budding cycles (B) in which daughters usually receive 1 or 2 nuclei. Cells with more nuclei generally produce more buds. In addition, cells can undergo nuclear cycles (N) in which cells grow isotropically and mitosis doubles the nuclear content. Cells switch back and forth between budding cycles and nuclear cycles, resulting in cells of heterogeneous size and number of nuclei."
+  },
+  "gold": {
+    "figure_type": "diagram",
+    "ocr_text": "N = nuclear cycle\nB = budding cycle\nNewly born\ndaughter cell\nB\nN\nN\nB\nN\nN\nB\nB\n100-fold volume\ndifference",
+    "entities": [
+      {
+        "text": "A. pullulans",
+        "type": "organism"
+      },
+      {
+        "text": "nuclei",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "buds",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "Cell drawings, arrows and the legend box outline are left out. The B and N labels above the arrows are written left to right. buds is listed as a part of the cell (cellular bud); daughter cell and daughters are taken as generic descriptions and not listed. mitosis is a process and not listed.",
+    "done": true
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "key": "723191v1_fig6",
+  "paper": {
+    "preprint": "723191v1",
+    "doi": "10.64898/2026.05.06.723191",
+    "title": "Septin crosstalk with microtubules and actin is regulated by a GSK3-dependent phosphoswitch",
+    "authors": "Alam et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 6.",
+    "caption": "SEPT9 association with neuronal microtubules promotes asymmetric neurite growth in a GSK3 inactivation-dependent manner (A) Super-resolution SoRa spinning-disk confocal microscopy images of growth cones in primary rat embryonic (E18) hippocampal neurons at day in vitro 2 (DIV2), following 1 h treatment with CHIR99021 (3 μM) or DMSO (control). Neurons were stained for endogenous Sept9 (inverted forest green), acetylated tubulin (inverted magenta) and filamentous actin (phalloidin; inverted magenta). Overlap between forest green and magenta colors appears black. Scale bars, 5 μm. (B) Pearson’s correlation coefficient (mean ± SEM) between Sept9 and acetylated tubulin fluorescent channels measured in growth cones and neurite shafts of the longest neurites ( n = 29-32 neurons per condition) following 1 h treatment with CHIR99021 (3 μM) or DMSO. Pairwise comparisons were performed using an unpaired Welch’s t-test. *, p < 0.05 (C) Pearson’s correlation coefficient (mean ± SEM) between the Sept9 and phalloidin fluorescent channels in growth cones and neurite shafts of the longest neurites ( n = 27 neurons per condition) following 1 h treatment with CHIR99021 (3 μM) or DMSO. Pairwise comparisons were performed using an unpaired Welch’s t-test. *, p < 0.05; ns, not significant (D-E) Super-resolution SoRa spinning-disk confocal microscopy images (D) of neurite growth cones in primary rat embryonic (E18) hippocampal neurons at DIV2, following 1 h treatment with CHIR99021 (3 μM) or DMSO. Neurons were co-stained for endogenous Sept9 and inactive GSK3β using a phospho-specific antibody against pSer9-GSK3β. Scale bars, 5 μm. Quantification (E) shows the Pearson’s correlation coefficients (mean ± SEM) between Sept9 and pSer9-GSK3β fluorescent channels in growth cones and shafts of neurites ( n = 28-30 neurons per condition) for the indicated treatments. Pairwise comparisons were performed using an unpaired Welch’s t-test. ****, p < 0.0001 (F) Super-resolution SoRa spinning-disk confocal microscopy image of the growth cone of the longest neurite in a primary rat hippocampal neuron (DIV2), co-stained for endogenous acetylated tubulin (cyan), Sept9 (orange) and inactive pS9-GSK3β (magenta). Arrows indicate colocalization of Sept9 and pS9-GSK3β on distinct microtubule segments and tracks of the growth cone. Insets show the at higher magnification the region outlined by a dashed rectangle. Scale bars, 5 μm. (G-H) Wide field fluorescence microscopy images (G) of primary rat hippocampal neurons at DIV3, stained for α-tubulin (magenta), following co-transfection with plasmid expressing SEPT9 shRNA and shRNA-resistant GFP-SEPT9_i1 constructs (wild-type, S82A/S85A, or S82E/S85E). Scale bars, 50 μm. Quantification (H) shows the percentage of multipolar neurons – defined as neurons lacking single dominant asymmetric neurite – after 3 days of expressing wild type GFP-SEPT9_i1 ( n = 33, 24, 35), GFP-SEPT9_i1-S82A/S85A ( n = 52, 25, 32) and GFP-SEPT9_i1-S82E/S85E ( n = 36, 21, 33). Results from three independent experiments are shown."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nDMSO\nSept9/\nSept9/\nSept9\nTubulin\nTubulin\nActin\nActin\nCHIR99021\n\nB\n*\n0.8\n*\n0.6\nPearson’s Coefficient\n(Sept9 and Tubulin)\n0.4\n0.2\n0\nCHIR99021:\n-\n+\n-\n+\nGrowth\nShaft\nCone\n\nC\n0.8\nns\n0.6\n*\nPearson’s Coefficient\n(Sept9 and Actin)\n0.4\n0.2\n0\nCHIR99021:\n-\n+\n-\n+\nGrowth\nShaft\nCone\n\nD\nDMSO\nCHIR99021\npS9-GSK3β\nSept9\nMerge\npS9-GSK3β\nSept9\nMerge\n\nE\n****\n0.8\n****\n0.6\nPearson’s Coefficient\n(Sept9 and pS9-GSK3β)\n0.4\n0.2\n0\nCHIR99021:\n-\n+\n-\n+\nGrowth\nShaft\nCone\n\nF\nTubulin\nSept9\npS9-GSK3β\nMerge\n5µικρο\n\nG\nWT\nS82A/S85A\nS82E/S85E\nGFP-SEPT9_i1\nGFP-SEPT9_i1\nTubulin\n\nH\n50\n40\n30\nPercent of multipolar\nneurons\n20\n10\n0\nGFP-\nS82A/\nS82E/\nSEPT9_i1:\nWT\nS85A\nS85E",
+    "entities": [
+      {
+        "text": "SEPT9",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "microtubules",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "neurites",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "GSK3",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "SoRa",
+        "type": "technique"
+      },
+      {
+        "text": "spinning-disk confocal microscopy",
+        "type": "technique"
+      },
+      {
+        "text": "growth cones",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "rat",
+        "type": "organism"
+      },
+      {
+        "text": "hippocampal neurons",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "neurons",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "CHIR99021",
+        "type": "chemical"
+      },
+      {
+        "text": "DMSO",
+        "type": "chemical"
+      },
+      {
+        "text": "acetylated tubulin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "tubulin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "filamentous actin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "actin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "phalloidin",
+        "type": "chemical"
+      },
+      {
+        "text": "GSK3β",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "pSer9-GSK3β",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "pS9-GSK3β",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Wide field fluorescence microscopy",
+        "type": "technique"
+      },
+      {
+        "text": "α-tubulin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "co-transfection",
+        "type": "technique"
+      },
+      {
+        "text": "GFP-SEPT9_i1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "GFP-SEPT9_i1-S82A/S85A",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "GFP-SEPT9_i1-S82E/S85E",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "S82A/S85A",
+        "type": "other"
+      },
+      {
+        "text": "S82E/S85E",
+        "type": "other"
+      }
+    ],
+    "notes": "\"5µικρο\" under the last panel F image is printed in Greek letters (apparently a font slip for a 5 micro scale label) and is typed as printed. The other scale bars carry no text. Arrows, insets and dashed boxes are left out. In panel A the one-line labels between the image rows sit level with the second line of the two-line labels, so the text follows that order. The standalone mutation names S82A/S85A and S82E/S85E are typed as other. SEPT9_i1 is not listed on its own because in panel H it is only the second line of the split label GFP-SEPT9_i1.",
+    "done": true
+  }
+}

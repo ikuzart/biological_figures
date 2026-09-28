@@ -1,0 +1,104 @@
+{
+  "key": "721503v1_fig3",
+  "paper": {
+    "preprint": "721503v1",
+    "doi": "10.64898/2026.04.28.721503",
+    "title": "The Nuclear Pore Complex Facilitates Centriole-Nuclear Attachment in Spermatids",
+    "authors": "Buglak et al.",
+    "licence": "CC0 1.0",
+    "figure_label": "Figure 3:",
+    "caption": "Nup133 and Nup107 are needed for proper localization of HTCA and nuclear envelope proteins (A) Representative images of Nup133 (UAS-GFP::Nup133, green) localization in wild-type Spermatocytes, Round spermatids, and Canoe spermatids. Blue, nucleus (DAPI); magenta, centriole adjunct (Asl). (B) Representative images of Nup107 (GFP::Nup107, green) localization in wild-type Spermatocytes, Round spermatids, and Canoe spermatids. Blue, nucleus (DAPI); magenta, centriole adjunct (Asl). Scale bar 5um. (C-C’) Electron micrograph of a wild-type spermatid showing nuclear pores (yellow arrows) clustered towards the HTCA. Scale bar 1um (C), 200nm (C’) . (D-E) Representative images of Round and Canoe spermatids for the indicated genotypes. Blue, nucleus (DAPI); magenta, centriole adjunct (Asl); green, Spag4 (Spag4::6myc) (D) or LamC (E) . Yellow arrows indicate normal polarized Spag4 or LamC localization. Red arrows indicate abnormal Spag4 or LamC surrounding the nucleus. Scale bars 5um."
+  },
+  "gold": {
+    "figure_type": "micrograph",
+    "ocr_text": "A\nNup133\nSpermatocyte\n5µm\nRound\n(early)\nCanoe\n(late)\n5µm\nNucleus Centriole Adjunct\n\nB\nNup107\nSpermatocyte\n5µm\nRound\n(early)\nCanoe\n(late)\n5µm\nNucleus Centriole Adjunct\n\nC\nNucleus\n1µm\n\nC’\nNucleus\nCentriole\nCentriole\n200nm\nAdjunct\n\nD\nControl\nnup133 RNAi\nnup107 RNAi\nRound\n(early)\nSpag4\nCanoe\n(late)\nSpag4\n5µm\nNucleus Centriole Adjunct\n\nE\nControl\nnup133 RNAi\nnup107 RNAi\nRound\n(early)\nLamC\nCanoe\n(late)\nLamC\n5µm\nNucleus Centriole Adjunct",
+    "entities": [
+      {
+        "text": "Nup133",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Nup107",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "HTCA",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "nuclear envelope",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "UAS-GFP::Nup133",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Spermatocytes",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Round spermatids",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Canoe spermatids",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "nucleus",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "DAPI",
+        "type": "chemical"
+      },
+      {
+        "text": "centriole adjunct",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Asl",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "GFP::Nup107",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Electron micrograph",
+        "type": "technique"
+      },
+      {
+        "text": "spermatid",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "nuclear pores",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Spag4",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Spag4::6myc",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "LamC",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Centriole",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "RNAi",
+        "type": "technique"
+      }
+    ],
+    "notes": "The legend \"Nucleus Centriole Adjunct\" under A, B, D and E is one printed line in two colours and is kept as one line. The italic nup133 and nup107 in the D and E column headers are the same names as Nup133 and Nup107 and are listed once. Round spermatids and Canoe spermatids are listed as named spermatid stages.",
+    "done": true
+  }
+}

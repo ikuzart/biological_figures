@@ -1,0 +1,100 @@
+{
+  "key": "727487v1_fig5",
+  "paper": {
+    "preprint": "727487v1",
+    "doi": "10.64898/2026.05.24.727487",
+    "title": "Cross-species molecular mapping of the photoreceptor sensory cilium and periciliary complexes identifies conserved and species-specific architectural features",
+    "authors": "Takahashi et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 5.",
+    "caption": "Molecular organization of periciliary complexes in canine and NHP cone photoreceptors (A) Representative images showing molecular localization in periciliary structures of cone PSCs from canine and NHP retinas. PCDH15 (USH1F, green) and Whirlin (USH2D, magenta) were visualized by immunolabeling, together with NHS-ester pan-staining (gray). For both species, left panels show single optical sections, whereas middle and right panels show three-dimensional rendered images in lateral and axial views. Yellow arrowheads indicate ectopic Whirlin localization in canine cones. Scale bars, 1 μm, corrected for the expansion factor. (B) Axial views of periciliary structures in cone photoreceptors at the basal (lower) and apical (upper) regions of the CC. Yellow arrowhead indicates ectopic Whirlin localization in canine cones. All images are shown as single optical sections. Scale bars, 1 μm, corrected for the expansion factor. (C) Normalized line intensity profiles of Whirlin distribution along the periciliary membrane, corresponding to the white arrows indicated in (B). X-axis values are corrected for the expansion factor. (D) Three-dimensional rendered images showing the distribution pattern of actin filaments associated with calyceal processes. Actin filaments are visualized by β-actin immunolabeling (orange). Scale bars, 1 μm, corrected for the expansion factor. (E) Axial views of calyceal processes in canine (left) and NHP (right) cone photoreceptors. All images are shown as single optical sections. Scale bars, 1 μm, corrected for the expansion factor. (F) Schematic diagram illustrating the updated structural characteristics of periciliary structures in canine and NHP cone photoreceptors."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nCanine\nNHP\n3D\n3D\n3D\n3D\nNHS-ester Whirlin PCDH15\n3D\n3D\n\nB\nCanine\nNHP\nCC apical\nNHS-ester Whirlin PCDH15\nCC basal\n\nC\n1.2\nCanine\n1.2\nNHP\n1.0\n1.0\n0.8\n0.8\nNormalized signal intensity\n0.6\n0.6\n0.4\n0.4\n0.2\n0.2\n0\n0\n0\n100\n200\n300\n0\n100\n200\n300\nDistance (nm)\nDistance (nm)\n\nD\nCanine\nNHP\n3D\n3D\n3D\n3D\nRod\nRod\nRod\nRod\nRod\nRod\nRod\nRod\nRod\nRod\nNHS-ester β-actin PCDH15\nCone\nCone\n\nE\nCanine\nNHP\nNHS-ester β-actin PCDH15\nCalyceal processes\n\nF\nCanine cone\nNHP cone\nCalyceal\nCalyceal\nprocesses\nprocesses\nIS/OS boundary\nIS/OS\nboundary\nPericiliary\nPericiliary\nmembrane\nmembrane\nCiliary pocket\nCiliary pocket",
+    "entities": [
+      {
+        "text": "canine",
+        "type": "organism"
+      },
+      {
+        "text": "NHP",
+        "type": "organism"
+      },
+      {
+        "text": "cone photoreceptors",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "PSCs",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "retinas",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "PCDH15",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "USH1F",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Whirlin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "USH2D",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "immunolabeling",
+        "type": "technique"
+      },
+      {
+        "text": "NHS-ester",
+        "type": "chemical"
+      },
+      {
+        "text": "cones",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "CC",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "periciliary membrane",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "actin filaments",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "calyceal processes",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "β-actin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Rod",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "IS/OS boundary",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "ciliary pocket",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "Cone in panel D and cones in the caption are listed once, as cones. The scale bars carry no printed labels.",
+    "done": true
+  }
+}

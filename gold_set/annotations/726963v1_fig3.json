@@ -1,0 +1,72 @@
+{
+  "key": "726963v1_fig3",
+  "paper": {
+    "preprint": "726963v1",
+    "doi": "10.64898/2026.05.21.726963",
+    "title": "Personalized multi-assay profiling of respiratory motile ciliopathies and mRNA therapy",
+    "authors": "Ithakisiou et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 3.",
+    "caption": "3D rotation of apical out nasal organoids (AONOs) derived from differentiated HNECs of healthy individuals. A Graphical illustration showing the procedure from disrupting the differentiated monolayer to seeding of the AONOs in a 96-well plate. B Representative bright-field image of an AONO derived from a healthy individual, showing cilia facing outwards (indicated with white arrow) and stained for the nuclear marker DAPI (gray) and the ciliated cell marker β-tubulin IV (red). Scale bar, 25 μm. C Representative image of segmented AONOs including indication of rotational movement of an individual organoid. Scale bar, 50 μm. D Schematic overview of the experimental workflow of the addition of paclitaxel on AONOs and E quantification of the percentage of rotating AONOs generated from healthy individuals treated with various concentrations of paclitaxel at t = 0h (before treatment), t = 6h (immediately after treatment removal), and t = 24h (18h after treatment removal). Green lines indicate rotational movement. Results are shown as mean ± SEM of HNECs from one healthy individual. **** p < 0.0001 in panel B (linear mixed model followed by a type III ANOVA)."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nMechanical disruption\nOrganoid formation\nof epithelial fragments\non an orbital shaker\nAssay 3\nSeeding\n3D cilia activity\nin Matrigel\n\nB\nDAPI\nBright-field\nβ-tubulin IV\nSingle plane\nMAX\n\nC\nSegmented\norganoids\nRotational\nMovement\n\nD\npaclitaxel\npaclitaxel\nremoval\nt = 0\nt = 6h\nt = 24h\n\nE\n100\n0 Hours\n6 Hours\n80\n24 Hours\nRotating AONOs (%)\n60\n40\n****\n20\n****\n0\n0\n6.25\n12.5\n25\n50\n100\n200\nPaclitaxel (µM)",
+    "entities": [
+      {
+        "text": "apical out nasal organoids",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "AONOs",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "HNECs",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "organoids",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "bright-field",
+        "type": "technique"
+      },
+      {
+        "text": "cilia",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "DAPI",
+        "type": "chemical"
+      },
+      {
+        "text": "ciliated cell",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "β-tubulin IV",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "paclitaxel",
+        "type": "chemical"
+      },
+      {
+        "text": "Matrigel",
+        "type": "chemical"
+      },
+      {
+        "text": "orbital shaker",
+        "type": "technique"
+      },
+      {
+        "text": "MAX",
+        "type": "technique"
+      }
+    ],
+    "notes": "The upper **** in E has a slightly wider gap after the second asterisk and is typed as ****. MAX (maximum intensity projection) is listed as a technique. The scale bars in B and C carry no printed label.",
+    "done": true
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "key": "722309v1_fig3",
+  "paper": {
+    "preprint": "722309v1",
+    "doi": "10.64898/2026.05.01.722309",
+    "title": "An interaction between HP1 and the Chromosomal Passenger Complex Initiates Acentrosomal Spindle Assembly in Drosophila oocytes",
+    "authors": "Wu et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 3.",
+    "caption": "HP1 is required for chromosomal CPC recruitment in meiosis. (A) One hour incubation of oocytes in the Aurora B inhibitor BN2 causes loss of the meiotic spindle and localization of CPC component Borealin (red) and HP1 (purple) to the chromosomes. Also shown are SPC105R (white), tubulin (green) and DNA (blue). (B) Quantitative analysis of Hp1 RNAi-276 (n = 25) and Hp1 RNAi-765 (n = 27) oocytes compared with wild type (n = 19) (t-test: *= P < 0.05, ** = P < 0.01, **** = P <0.0001). (C) Aurora B (AurB) was depleted via RNAi to test CPC (Borealin, red) and HP1 (purple) localization prior to spindle assembly, with CENP-C in white. The white arrows show the concentration of HP1 and the CPC not colocalizing with the spindle or chromosomes. (D) Quantification of HP1 and CPC volume on chromosomes in AurB RNAi (n = 27), Hp1 RNAi-276 ; AurB RNAi (n = 22), and Hp1 RNAi-765 ; AurB RNAi (n = 25) oocytes ( t-test: **** = P <0.0001). Error bars represent 95% confidence intervals. (E) Drosophila kinesin-like protein Subito lacking its N-terminal domain ( GFP-sub Δ N ) induces ectopic spindle formation in stage 14 oocytes 50 . DNA is blue, Borealin is white, Subito is green, HP1 is purple and tubulin is red. (F) Quantification of ectopic spindle assembly based on 18 GFP-sub Δ N oocytes and 26 Hp1 RNAi GFP-sub Δ N oocytes using (Fisher’s exact test). **** = P <0.0001. Scale bar, 5 µm (all images)."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nBN2 treatment\nWild type\nHp1RNAi 276\nHp1RNAi 765\nDNA\nSpc105R\nTubulin\nBorealin\nHP1\nBorealin\nHP1\n\nB\n****\n**\n****\n15\n*\n15\n10\n10\nHP1 volume on DNA (µM3)\nCPC volume on DNA (µM3)\n5\n5\n0\n0\nWT\nWT\nHp1RNAi 276\nHp1RNAi 765\nHp1RNAi 276\nHp1RNAi 765\nBN2 treatment\nBN2 treatment\n\nC\nAurBRNAi\nHp1RNAi 276\nHp1RNAi 765\nDNA\nCenpC\nTubulin\nBorealin\nHP1\nBorealin\nHP1\n\nD\n****\n****\n****\n****\n8\n15\n6\n10\nHP1 volume on DNA (µM3)\n4\nCPC volume on DNA (µM3)\n5\n2\n0\n0\nHp1RNAi 276\nHp1RNAi 765\nHp1RNAi 276\nHp1RNAi 765\nAurBRNAi\nAurBRNAi\n\nE\nGFP-subΔN\nHp1RNAi, GFP-subΔN\nBorealin\n34.6%\n38.5%\n15.4%\nSubito\nTubulin\nHP1\nDNA\nHP1\n\nF\nSpindle on karyosome\nEctopic spindle\nNo spindle\nSpindle material\nnear karyosome\nSubito array\n****\n100\n15.4%\n80\n38.5%\n60\n88.9%\n40\n34.6%\n20\n11.1%\n11.5%\n0\nGFP-subΔN\nHp1RNAi, GFP-subΔN",
+    "entities": [
+      {
+        "text": "HP1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "CPC",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "oocytes",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Aurora B",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "AurB",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "BN2",
+        "type": "chemical"
+      },
+      {
+        "text": "meiotic spindle",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "spindle",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Borealin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "chromosomes",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "SPC105R",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "tubulin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "DNA",
+        "type": "chemical"
+      },
+      {
+        "text": "RNAi",
+        "type": "technique"
+      },
+      {
+        "text": "CENP-C",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "CenpC",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Drosophila",
+        "type": "organism"
+      },
+      {
+        "text": "kinesin-like protein",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Subito",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "GFP-subΔN",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "karyosome",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "Panels B and D each hold two plots side by side, and their text is ordered by height across both plots. The \"1\" of the HP1 channel label in the first image of panel E is partly covered by a cell but still readable. Arrows in panel C, the unlabelled scale bars and the yellow inset boxes in panel E are left out. GFP-sub Δ N (caption) and GFP-subΔN (image) are both listed because they are printed differently, and so are CENP-C and CenpC. \"kinesin-like protein\" is kept whole as the protein family name.",
+    "done": true
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "key": "724832v1_fig4",
+  "paper": {
+    "preprint": "724832v1",
+    "doi": "10.64898/2026.05.13.724832",
+    "title": "The Spectraplakin Short Stop (Shot) Organizes an Acentrosomal Microtubule Network in Early Oogenesis, Essential for Nuclear Positioning",
+    "authors": "Roland-Gosselin et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 4.",
+    "caption": "Katanin is required for MT network integrity and nuclear centration. (A) Representative image of wild-type stage 6B oocyte labeled Ninein antibody. (B) Representative images illustrating the position of the nucleus in stage 6B oocyte expressing ninein-RNAi val 20 . The nuclear envelope (cyan) is highlighted by Fs(2)Ket-GFP and the plasma membrane (magenta) by PH-RFP. (C) Quantification of the proportions of nuclear positions in the control and ninein-RNAi val 20 groups. Positions have been categorized and color-coded as anterior in pale blue, center in green, and posterior in red. n indicates the number of analyzed egg chambers. (D, E) Representative images of wild-type stage 6B oocyte expressing Kat80-YFP genomic bac (D) and labeled with Kat60 antibody (E). The red arrowheads illustrate the association with the plasma membrane. (F-H) Representative images illustrating the position of the nucleus in stage 6B oocyte for kat80-RNAi val 20 (F), and joint inactivation of Kat60 and Kat60L1 via RNAi (G) conditions and quantifications (H). Positions have been categorized and color-coded as anterior in pale blue, center in green, and posterior in red. n indicates the number of analyzed egg chambers. (I-K) Representative images of Stage 6B egg chambers labeled with the SiR-Tubulin probe to reveal MT with kat80-RNAi val 20 (I), and kat60-RNAi val 22 ; kat60L1-RNAi val 20 (J) conditions. The yellow and orange dashed lines, placed using ubi-PH-RFP, highlight the anterior and posterior plasma membranes of the oocyte, respectively. Quantification of MT corrected intensity at the vicinity of the posterior plasma membrane (pPM) of oocytes in the control, Kat80-RNAi and joint inactivation of Kat60 and Kat60L1 via RNAi conditions (K). (L-M) Quantification of pPMACs numbers (L) and speed (M) in control and kat80-RNAi val 20 conditions. In all panels, the oocytes are oriented with anterior at the top and posterior at the bottom. Scale bars: 10µm. * : p<0.05 ; ** : p<0.01 ; *** : p<0.001 ; **** : p<0.0001; ns, not significant. N: oocyte nucleus"
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nCanton S\nα-Ninein\n\nB\nninein-RNAival20\n\nC\n***\n100\nAnterior\n80\nCentered\n60\nPosterior\nPercent of nuclei (%)\n40\n20\n0\nhim-RNAi (n=45)\nninein-RNAi (n=23)\n\nD\nKat80-YFPCPTI000764\nN\n\nE\nα-Kat60\nN\n\nF\nkat80-RNAival20\nFs(2)Ket-GFP\npUbi-PH-RFP\nN\n\nG\nkat60-RNAival22; kat60L1-RNAival20\nN\n\nH\n****\n****\n100\nAnterior\n80\nCentered\nPosterior\n60\nPercent of nuclei (%)\n40\n20\n0\nhim-RNAi (n=45)\nkat80-RNAi (n=34)\nkat60-RNAi,\nkat60l1-RNAi (n=13)\n\nI\nkat80-RNAival20\nSiRTub - Microtubules\nN\n\nJ\nkat60-RNAival22; kat60L1-RNAival20\nN\n\nK\n****\n15.105\n***\n10.105\npPM corrected Intensity (A.U.)\n5.105\n0\nhim-RNAi (n=23)\nkat80-RNAi (n=8)\nkat60-RNAi (n=9)\nkat60-l1-RNAi\n\nL\n*\n150\n100\nNumber of pPMACs\n50\n0\nhim-RNAi (n=7)\nkat80-RNAi (n=9)\n\nM\nns\n0.5\n0.4\n0.3\n0.2\nSpeed of pPMACs (µm.s-1)\n0.1\n0.0\nhim-RNAi (n=7)\nkat80-RNAi (n=23)",
+    "entities": [
+      {
+        "text": "Katanin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "MT",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Microtubules",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "oocyte",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Ninein",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "nucleus",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "nuclear envelope",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Fs(2)Ket-GFP",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "plasma membrane",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "PH-RFP",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "ubi-PH-RFP",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "pUbi-PH-RFP",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "egg chambers",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Kat80-YFP",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Kat80",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Kat60",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Kat60L1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "kat60-l1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "RNAi",
+        "type": "technique"
+      },
+      {
+        "text": "SiR-Tubulin",
+        "type": "chemical"
+      },
+      {
+        "text": "SiRTub",
+        "type": "chemical"
+      },
+      {
+        "text": "posterior plasma membrane",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "pPM",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "pPMACs",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Canton S",
+        "type": "organism"
+      },
+      {
+        "text": "him",
+        "type": "gene_or_protein"
+      }
+    ],
+    "notes": "Superscripts are written inline (RNAival20, YFPCPTI000764, and 15.105 for 15.10 with superscript 5). The letter after kat60 in kat60l1 (H) and kat60-l1 (K) is read as a lowercase L. In K, (n=9) sits between the two label lines and is kept on the first line. Each panel letter is written before the header box or significance marks above it, and the rotated row labels go with panels A, F and I. For entities, -RNAi, the val20/val22 vector marks, the CPTI line number and the α- antibody prefix are dropped. him is the gene named by the him-RNAi control. The N label (oocyte nucleus) is not listed as an entity.",
+    "done": true
+  }
+}

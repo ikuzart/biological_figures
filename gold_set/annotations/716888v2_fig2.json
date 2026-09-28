@@ -1,0 +1,19 @@
+{
+  "key": "716888v2_fig2",
+  "paper": {
+    "preprint": "716888v2",
+    "doi": "10.64898/2026.04.07.716888",
+    "title": "Tell your friends: communication through autoattractants can enhance and limit migration of immune cells",
+    "authors": "Versluis and Insall",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 2:",
+    "caption": "Autoattractant leads to more migration at correct production ratios. A . Cell locations and primary attractant distribution during a representative model simulation with only a primary attractant. B . Cell locations and primary attractant (left) and autoattractant (right) concentration during a model simulation with an added autoattractant. C . Cell migration over a wide range of autoattractant production ratios. n = 10 per condition. D , E . Visualisations as in A of the effects of lower and higher production, which both lead to less migration compared to B, as either a very small autoattractant gradient forms (D), or it forms very far away (E)."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nMigration without\nautoattractant\n10nM\nPrimary attractant\nconcentration\n0nM\n\nB\nMigration with\nautoattractant\n10nM\n10nM\nPrimary attractant\nconcentration\nAutoattractant\nconcentration\n0nM\n0nM\n\nC\n40\n30\n20\nCells migrated\n10\n0\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\n85\n90\n95\n100\nProduction of autoattractant from primary attractant\n\nD\nLower autoattractant\nproduction\n10nM\n10nM\nPrimary attractant\nconcentration\nAutoattractant\nconcentration\n0nM\n0nM\n\nE\nHigher autoattractant\nproduction\n10nM\n10nM\nPrimary attractant\nconcentration\nAutoattractant\nconcentration\n0nM\n0nM",
+    "entities": [],
+    "notes": "No entities are listed. The figure shows a computational model: \"autoattractant\" and \"primary attractant\" are generic roles rather than named substances, and migration is a process. Panels A, B, D and E are simulation renderings, typed as diagrams. In panel C the orange arrows cross the 15, 80 and 85 tick labels, which are still legible.",
+    "done": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "key": "724108v1_fig6",
+  "paper": {
+    "preprint": "724108v1",
+    "doi": "10.64898/2026.05.10.724108",
+    "title": "A Geometric Model of Nucleus-Constrained Frustrated Phagocytosis",
+    "authors": "Fukuda and Guan",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 6.",
+    "caption": "Proposed method for determining k intrinsic through phagocytosis of multiple small spherical targets by a phagocyte."
+  },
+  "gold": {
+    "figure_type": "diagram",
+    "ocr_text": "Phagocyte\nTarget\nNu.\n+",
+    "entities": [
+      {
+        "text": "phagocyte",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Nu.",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "The plus sign between the drawings is kept as printed text. The block arrow is a drawn shape and is left out.",
+    "done": true
+  }
+}

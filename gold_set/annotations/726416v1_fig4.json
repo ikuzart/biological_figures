@@ -1,0 +1,92 @@
+{
+  "key": "726416v1_fig4",
+  "paper": {
+    "preprint": "726416v1",
+    "doi": "10.64898/2026.05.20.726416",
+    "title": "Prefoldin function links meiotic chromosome segregation with cellular remodeling and reveals tubulin sensitivity of the meiotic spindle",
+    "authors": "Kuwayama et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 4.",
+    "caption": "Reduced Tub1 levels or inhibition of tubulin polymerization leads to chromosome mis-segregation (A) Live-cell imaging of WT and TUB1/tub1Δ strains expressing Htb1-mCherry and CenV GFP dots during meiosis. Yellow arrowheads indicate a CenV GFP dot that does not overlap with the corresponding Htb1-mCherry signal. Time 0 was set at the onset of anaphase I. Scale bars, 3 µm. (B) Quantification of mis-segregation events from (A), scored by Htb1-mCherry (left) and CenV GFP (right). N = 3; data are represented as mean ± SD; Welch’s t-test. 56-145 cells were quantified per replicate. (C) Quantification of spindle length at anaphase I (left) and anaphase II (right) in WT and TUB1/tub1Δ cells, using Spc42-mCherry to mark spindle pole bodies. Each dot represents an individual cell. Bars indicate the mean ± SD. Mann-Whitney U test; 73-75 cells were quantified. (D) Live-cell imaging of control and benomyl-treated cells expressing Htb1-mCherry and CenV GFP during meiosis. Benomyl was used at 20 μg/mL. Yellow arrowheads indicate chromatin masses lacking a CenV GFP dot, and blue arrowheads indicate a chromatin mass containing two CenV GFP dots. Time 0 was set at the onset of anaphase I. Scale bars, 3 µm. (E) Quantification of mis-segregation events from (D), scored by Htb1-mCherry (left) and CenV GFP (right). N = 3; data are represented as mean ± SD; Welch’s t-test. 58-93 cells were quantified per replicate. (F) Quantification of spindle length at anaphase I (left) and anaphase II (right) in control and benomyl-treated cells, using Spc42-mCherry to mark spindle pole bodies. Each dot represents an individual cell. Bars indicate the mean ± SD. Mann-Whitney U test; 72 cells were quantified. (G) Spore colony growth of tetrads derived from control and benomyl-treated cells. (H) Quantification of spore viability from (G). Data are represented as mean ± SD; N = 3; Welch’s t-test. 80 cells were quantified per replicate. (I) Live-cell imaging of WT cells, gim3Δ cells and gim3Δ cells expressing TUB1 , all expressing Htb1-mCherry. Tub1 expression was driven by a GAL promoter and induced using the Gal4-ER system upon addition of β-estradiol ( Gao and Pinkham, 2000 ). β-estradiol was added at 0 hour in SPO to a final concentration of 5 nM to induce expression. Yellow arrowheads indicate chromatin mis-segregation. Time 0 was set at the onset of anaphase I. Scale bars, 3 µm. (J) Quantification of mis-segregation events from (I), scored by Htb1-mCherry. N = 3; data are represented as mean ± SD; Tukey’s multiple comparison test. 129-199 cells were quantified per replicate. (K) Spore colony growth of WT, gim3Δ with empty cassette, and gim3Δ with TUB1 complementation after 2 days at 30 °C. (L) Quantification of spore viability from (K). N = 3; data are represented as mean ± SD. Tukey’s multiple comparison test. 80 spores were quantified per replicate."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nWT\nTUB1/tub1Δ\nmin\n-30\n0\n30\n60\n90\n-30\n0\n30\n60\n90\nMerge\nHtb1-mCherry\nCenV GFP\n\nB\nP = 8.4 x 10-4\nP = 1.4 x 10-3\n1.0\n1.0\n0.8\n0.8\nProportion of\nchromatin mis-segregation\n0.6\nProportion of\nchromosome mis-segregation\n0.6\n0.4\n0.4\n0.2\n0.2\n0\n0\nWT\nTUB1/\ntub1Δ\nWT\nTUB1/\ntub1Δ\n\nC\nP < 1.0 x 10-4\nP < 1.0 x 10-4\n10\n10\n8\n8\n6\n6\nMI spindle length (µm)\nMII spindle length (µm)\n4\n4\n2\n2\n0\n0\nWT\nTUB1/\ntub1Δ\nWT\nTUB1/\ntub1Δ\n\nD\nControl\nBenomyl\nmin\n-30\n0\n30\n60\n105\n-30\n0\n30\n60\n105\nMerge\nHtb1-mCherry\nCenV GFP\n\nE\nP < 1.0 x 10-4\nP = 5.0 x 10-4\n1.0\n1.0\n0.8\n0.8\nProportion of\nchromatin mis-segregation\n0.6\nProportion of\nchromosome mis-segregation\n0.6\n0.4\n0.4\n0.2\n0.2\n0\n0\nControl\nBenomyl\nControl\nBenomyl\n\nF\nP < 1.0 x 10-4\nP < 1.0 x 10-4\n8\n8\n6\n6\nMI spindle length (µm)\n4\nMII spindle length (µm)\n4\n2\n2\n0\n0\nControl\nBenomyl\nControl\nBenomyl\n\nG\nControl\nBenomyl\n\nH\nP = 6.0 x 10-2\n1.0\n0.8\n0.6\nSpore viability\n0.4\n0.2\n0\nControl\nBenomyl\n\nI\nmin\n-30\n0\n45\n90\n150\nWT\ngim3Δ\ngim3Δ\n+ TUB1\n\nJ\nP =\n5.0 x 10-3\nP =\n7.8 x 10-3\n1.0\n0.8\n0.6\nProportion of\nchromatin mis-segregation\n0.4\n0.2\n0\nWT\ngim3Δ\ngim3Δ\n+ TUB1\n\nK\ngim3Δ\nWT\ngim3Δ\n+ TUB1\n\nL\nP =\n6.1 x 10-3\nP =\n4.8 x 10-2\n1.0\n0.8\n0.6\nSpore viability\n0.4\n0.2\n0\nWT\ngim3Δ\ngim3Δ\n+ TUB1",
+    "entities": [
+      {
+        "text": "TUB1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "tubulin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "chromosome",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Live-cell imaging",
+        "type": "technique"
+      },
+      {
+        "text": "Htb1-mCherry",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "CenV GFP",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "chromatin",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "spindle",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Spc42-mCherry",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "spindle pole bodies",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "benomyl",
+        "type": "chemical"
+      },
+      {
+        "text": "tetrads",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "spores",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "gim3",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "GAL",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Gal4-ER",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "β-estradiol",
+        "type": "chemical"
+      },
+      {
+        "text": "SPO",
+        "type": "chemical"
+      }
+    ],
+    "notes": "The x in the P values is printed as a letter x and typed as such; exponents are written inline. The deletion mark Δ is dropped from the entity names (gim3Δ as gim3, TUB1/tub1Δ as TUB1). GAL promoter is listed as GAL. SPO is the sporulation medium.",
+    "done": true
+  }
+}

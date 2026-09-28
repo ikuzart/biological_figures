@@ -1,0 +1,128 @@
+{
+  "key": "719914v1_fig2",
+  "paper": {
+    "preprint": "719914v1",
+    "doi": "10.64898/2026.04.30.719914",
+    "title": "Mesenchymal stroma cell-derived stem cell factor mediates cross-species compatibility of the hematopoietic stem cell niche",
+    "authors": "Fröbel et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 2:",
+    "caption": "Cellular response of bone marrow niche to the transplantation of human HSCs. A,B Representative FACS profiles showing the identification of endothelial cells (Endo), CD51 + PDGFRɑ + mesenchymal stromal cells (MSC), and CD51 + PDGFRɑ - osteoprogenitors (OP) in the bone marrow (A) and the same cells plus CD51 + PDGFRɑ + Sca-1 + PaS cells in the bone (B) fractions of untreated control mice and humanized mice that have received human donor CB cells 29 weeks before. C,D Quantification of niche cell populations as shown in A and B in the bone marrow (C) and bone (D) fractions of 2 femora. Data of 14 independent experiments analyzed 23-29 weeks post transplantation is shown. E MSCs per 2 femora from non-humanized and humanized NSGW41 mice plotted against age. Data were analyzed by linear regression. Intercepts of humanized NSGW41 MSC numbers were found to be significantly elevated throughout the test period of >50 weeks after confirming that the slopes were statistically indistinguishable (color code indicates weeks post Tx). F Correlation between the numbers of bone marrow murine MSCs (left), osteoprogenitors (middle), or endothelial cells (right) and engrafted human HSCs (15 independent experiments, 4-35 weeks post Tx, p-values of Pearson correlation)."
+  },
+  "gold": {
+    "figure_type": "plot",
+    "ocr_text": "A\nBone marrow\nCD45-Lin-\n105\nEndo\n105\n105\nMSC\n82.7%\n104\n0.09%\n104\n104\nw/o Tx\n103\n103\n0.81%\n103\n102\n102\n0\n0\n0\n98.1%\n-102\nOP\n16.6%\nCD31\n0\n103\n104\n105\nLineage\n0\n103\n104\n105\nPDGFRα\n0\n103\n104\n105\n105\n105\n105\n85.2%\n104\n0.11%\n104\n104\n+Tx\n103\n103\n0.47%\n103\n102\n102\n0\n0\n0\n99.8%\n-102\n14.6%\n0\n103\n104\n105\n0\n103\n104\n105\n0\n103\n104\n105\nVE-Cadherin\nCD51\nSca-1\n\nB\nBone\nCD45- Lin-\n105\n105\n105\nMSC\nPαS\n67.8%\n12.1%\n104\nEndo\n104\n104\n0.37%\nw/o Tx\n103\n103\n1.26%\n103\n102\n102\n0\n0\n0\n96.3%\n-102\nOP\n19.3%\nCD31\n0\n103\n104\n105\nLineage\n0\n103\n104\n105\nPDGFRα\n0\n103\n104\n105\n105\n105\n105\n73.1%\n6.05%\n104\n0.41%\n104\n104\n+Tx\n103\n103\n2.00%\n103\n102\n102\n0\n0\n0\n96.4%\n-102\n20.3%\n0\n103\n104\n105\n0\n103\n104\n105\n0\n103\n104\n105\nVE-Cadherin\nCD51\nSca-1\n\nC\nEndo\nMSC\nOP\n106\n<0.001\n<0.001\n105\n<0.001\n104\n# BM niche cells / 2 femura\n103\n102\n101\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\nNSG\nNSGW41\nNSG\nNSGW41\nNSG\nNSGW41\n\nD\nEndo\nMSC\nOP\nPαS\n105\n104\n# bone niche cells / 2 femora\n103\n102\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\n-\n+\nNSG\nNSGW41\nNSG\nNSGW41\nNSG\nNSGW41\nNSG\nNSGW41\n\nE\n105\n# MSCs / 2 femora\n104\n<0.001\n103\n10\n20\n30\n40\n50\n60\n70\nage (w)\nno Tx\n+Tx 12w\n+Tx 21-28w\n+Tx 4-5w\n+Tx 15-18w\n+Tx >29w\nlinear regression:\nno Tx\n+Tx\n\nF\nMSC\nOP\nEndo\nNSGW41\n30\n30\n30\nNSG\np<0.001\n20\n20\n20\n# Human HSCs CD90+\nCD45RA-) / 2 femora (x103)\np=0.89\np=0.17\n10\n10\n10\np=0.62\np=0.86\np=0.73\n0\n0\n0\n0\n20\n40\n60\n80\n100\n0\n5\n10\n15\n0\n5\n10\n15\n# BM niche cells / 2 femora (x103)",
+    "entities": [
+      {
+        "text": "bone marrow",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "BM",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "bone",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "femora",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "human",
+        "type": "organism"
+      },
+      {
+        "text": "mice",
+        "type": "organism"
+      },
+      {
+        "text": "murine",
+        "type": "organism"
+      },
+      {
+        "text": "NSGW41",
+        "type": "organism"
+      },
+      {
+        "text": "NSG",
+        "type": "organism"
+      },
+      {
+        "text": "HSCs",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "CB",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "FACS",
+        "type": "technique"
+      },
+      {
+        "text": "endothelial cells",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Endo",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "mesenchymal stromal cells",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "MSC",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "osteoprogenitors",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "OP",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "PαS",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "CD51",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "PDGFRα",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Sca-1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "CD45",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "CD31",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "VE-Cadherin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "CD90",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "CD45RA",
+        "type": "gene_or_protein"
+      }
+    ],
+    "notes": "Superscripts written inline (105, CD45-Lin-, CD90+). The lightning-bolt symbol after NSG in the F legend is a drawn symbol and is left out. As printed: C's y label says \"femura\", and F's y label has no opening parenthesis before CD90+. The caption writes \"PDGFRɑ\" with a Latin alpha and \"PaS\"; entities use the image forms PDGFRα and PαS. MSC/MSCs and femora/femura listed once. Lineage (Lin, a marker cocktail) and transplantation (Tx) not listed.",
+    "done": true
+  }
+}

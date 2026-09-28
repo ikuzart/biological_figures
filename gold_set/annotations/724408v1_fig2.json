@@ -1,0 +1,56 @@
+{
+  "key": "724408v1_fig2",
+  "paper": {
+    "preprint": "724408v1",
+    "doi": "10.64898/2026.05.12.724408",
+    "title": "Optimizing Primary Human Salivary Stem/Progenitor Cells for Tissue Engineering Applications",
+    "authors": "Geremias et al.",
+    "licence": "CC0 1.0",
+    "figure_label": "Figure 2.",
+    "caption": "Flow cytometry analysis across different donors. (A) F61C (P1), M50C (P4), F50A (P5), M75C (P6) and CD44-sorted populations. Dense elliptical patterns defined all the predominantly homogeneous hS/PCs populations; within the rectangular gates, the presence of high numbers of CD44 expressing cells in all donor specimens was evident; fibroblast antigen expression was only observed in a few cells of early passage then disappeared whereas CD133 was not expressed (P1) even in the more heterogeneous CD44 - cultured population. (B) Positive controls for CD133, tested in colorectal adenocarcinoma Caco-2 (P2), and fibroblast marker, screened in primary human salivary fibroblasts (hSF) separately isolated (tested at P9) showed antibody-antigen recognition, thus negative results are true negatives. (C) Frequency (%) of CD44, CD133 and fibroblast across different donors."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nF61C P1\nM50C P4\nF50A P5\nM75C P6\nM75C Sorted CD44+\nM75C Sorted CD44-\nCD44\n4.0M\n99.3%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n99.7%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n99.9%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n99.7%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n99.9%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n99.5%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\nCD133\n4.0M\n0.011%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n0.008%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n0.005%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n0.003%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n0.027%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n4.0M\n0.07%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\nFibroblast\n4.0M\n27.7%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n0\n104\n105\n4.0M\n1.92%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n0\n104\n105\n4.0M\n1.61%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n0\n104\n105\n4.0M\n0.17%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n0\n104\n105\n4.0M\n1.06%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n0\n104\n105\n4.0M\n86.7%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n0\n104\n105\n\nB\nCD133 - Caco-2\nFibroblast - hSF\n4.0M\n72.9%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n-104\n0\n104\n105\n106\n7\n4.0M\n90.9%\n3.0M\n2.0M\nSSC-A\n1.0M\n0\n0\n104\n105\n\nC\n100\n0.08\n100\n80\n0.06\n60\n50\n% of cells CD44\n0.04\n% of cells CD133\n40\n% of Fibroblast cells\n0.02\n20\n0\n0.00\n0\nF61C P1\nM50C P4\nF50A P5\nM75C P6\nM75C Sorted CD44 +\nM75C Sorted CD44 -\nF61C P1\nM50C P4\nF50A P5\nM75C P6\nM75C Sorted CD44 +\nM75C Sorted CD44 -\nF61C P1\nM50C P4\nF50A P5\nM75C P6\nM75C Sorted CD44 +\nM75C Sorted CD44 -",
+    "entities": [
+      {
+        "text": "Flow cytometry",
+        "type": "technique"
+      },
+      {
+        "text": "CD44",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "hS/PCs",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "fibroblast",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "CD133",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "colorectal adenocarcinoma",
+        "type": "disease"
+      },
+      {
+        "text": "Caco-2",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "human salivary fibroblasts",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "hSF",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "Order inside each density plot in A and B is approximate. The small x-axis exponents are typed inline, so 10 to the 4 is 104.",
+    "done": true
+  }
+}

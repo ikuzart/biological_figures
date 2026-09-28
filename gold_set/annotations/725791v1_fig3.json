@@ -1,0 +1,84 @@
+{
+  "key": "725791v1_fig3",
+  "paper": {
+    "preprint": "725791v1",
+    "doi": "10.64898/2026.05.17.725791",
+    "title": "Nascent protein retention at polysomes reduces kinetic barriers to self-assembly",
+    "authors": "Venkatesan et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 3:",
+    "caption": "Nucleation is governed by transcript-level ribosome loading rather than global protein abundance. (A) Overview of the Ura-doping strategy in S. cerevisiae utilized to isolate the effect of initiation rate from global protein concentration. By titrating uracil levels in the growth medium, we obtained a specific condition where cells expressing a strong Kozak sequence at low plasmid copy numbers exhibited a total protein expression distribution indistinguishable from cells expressing a weak Kozak sequence at high plasmid copy numbers. (B) Representative expression histograms confirming identical endpoint global protein distributions for cells expressing a strong Kozak sequence at low plasmid copy number (SGal complete media) and a weak Kozak sequence at high plasmid copy number (SGal -Ura media) for both Pub1 PrD and NLRP3 PYD, suggestive of equal translation output. (C–D) DAmFRET analysis demonstrating that the increased ribosome loading suffices to increase nucleation for both the Pub1 PrD ( [pin − ] ) (C) and the NLRP3 PYD ( [PIN + ] ) (D) despite identical total protein abundance. ( n=3 ; * p < 0.05 , *** p < 0.001 , **** p < 0.0001 ). (E) Schematic of experimental design showing elimination of the nucleation barrier of NLRP3 PYD-mEos expressing artificial NLRP3-PYD condensates in trans. (F) Spline fits of AmFRET trace over the range of protein concentration showing overlapping fits despite Kozak mutation, while allowing NLRP3 PYD polymerization to not be rate-limited by nucleation."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A.\nSGal Complete\nStrong Initiation\n5'\n3'\nURA3\nURA3\n5'\n3'\nWeak Initiation\nSGal-Ura\n5'\n3'\nURA3\nURA3\nURA3\n5'\n3'\nURA3\nURA3\n5'\n3'\n5'\n3'\n\nB.\nPub1 PrD\n0.03\nWeak Kozak\n0.02\n(High mRNA)\nNormalized\nCount (a.u.)\nStrong Kozak\n(Low mRNA)\n0.01\n0.00\n1×105\n1×106\n1×107\n1×108\n1×109\n1×1010\nProtein Concentration (a.u.)\nNLRP3 PYD\n0.03\nWeak Kozak\n0.02\n(High mRNA)\nNormalized\nCount (a.u.)\nStrong Kozak\n(Low mRNA)\n0.01\n0.00\n1×105\n1×106\n1×107\n1×108\n1×109\n1×1010\nProtein Concentration (a.u.)\n\nC.\nPub1 PrD\n1.0\nWeak Kozak/ High mRNA\n****\nStrong Kozak/ Low mRNA\nStrong Kozak/ High mRNA\nfpos\n0.5\n0.0\n10\n100\nProtein Concentration (a.u.)\n\nD.\nNLRP3 PYD\nWeak Kozak/ High mRNA ****\n1.0\nStrong Kozak/ Low mRNA\nStrong Kozak/ High mRNA\nfpos\n0.5\n0.0\n1\n10\n100\nProtein Concentration (a.u.)\n\nE.\nNLRP3 PYD\nµNS--NLRP3 PYD\nstrong/weak Kozak\n+\nstochastic\ndeterministic\nnucleation-limited\nnucleated polymerization\n\nF.\nNLRP3 PYD (seeded)\n0.3\nStrong\nWeak\n0.2\nAmFRET\n0.1\n0.0\n0.01\n0.1\nProtein Concentration (a.u.)",
+    "entities": [
+      {
+        "text": "S. cerevisiae",
+        "type": "organism"
+      },
+      {
+        "text": "uracil",
+        "type": "chemical"
+      },
+      {
+        "text": "Ura",
+        "type": "chemical"
+      },
+      {
+        "text": "SGal",
+        "type": "chemical"
+      },
+      {
+        "text": "Kozak sequence",
+        "type": "other"
+      },
+      {
+        "text": "Kozak",
+        "type": "other"
+      },
+      {
+        "text": "ribosome",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Pub1 PrD",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "NLRP3 PYD",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "NLRP3 PYD-mEos",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "NLRP3-PYD",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "µNS--NLRP3 PYD",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "PIN",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "DAmFRET",
+        "type": "technique"
+      },
+      {
+        "text": "AmFRET",
+        "type": "technique"
+      },
+      {
+        "text": "URA3",
+        "type": "gene_or_protein"
+      }
+    ],
+    "notes": "Exponents in the panel B x-axis ticks are typed inline (1×105 to 1×1010). The panel F title is printed with a double space between NLRP3 and PYD. Ribosome, mRNA, plasmid, yeast and assembly drawings in A to F are not text. Ura is taken as the uracil abbreviation (SGal-Ura, Ura-doping). The caption prion states [pin-] and [PIN+] are listed once as PIN, with the state marks dropped like genotype marks. The Kozak sequence is listed as other. NLRP3-PYD is listed as printed in the caption next to NLRP3 PYD.",
+    "done": true
+  }
+}
