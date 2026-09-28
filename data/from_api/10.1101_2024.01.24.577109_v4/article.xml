@@ -1,0 +1,2388 @@
+<article article-type="article" specific-use="production" xml:lang="en" xmlns:hw="org.highwire.hpp"
+         xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:ref="http://schema.highwire.org/Reference"
+         xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:nlm="http://schema.highwire.org/NLM/Journal"
+         xmlns:a="http://www.w3.org/2005/Atom" xmlns:c="http://schema.highwire.org/Compound"
+         xmlns:hpp="http://schema.highwire.org/Publishing" xmlns:hwp="http://schema.highwire.org/Journal"
+         xmlns:l="http://schema.highwire.org/Linking" xmlns:r="http://schema.highwire.org/Revision"
+         xmlns:x="http://www.w3.org/1999/xhtml" xmlns:app="http://www.w3.org/2007/app">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="hwp">biorxiv</journal-id>
+            <journal-id journal-id-type="publisher-id">BIORXIV</journal-id>
+            <journal-title>bioRxiv</journal-title>
+            <abbrev-journal-title abbrev-type="publisher">bioRxiv</abbrev-journal-title>
+            <issn pub-type="epub">2692-8205</issn>
+            <publisher>
+                <publisher-name>Cold Spring Harbor Laboratory</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.1101/2024.01.24.577109</article-id>
+            <article-id pub-id-type="other" hwp:sub-type="pisa">biorxiv;2024.01.24.577109v4</article-id>
+            <article-id pub-id-type="other" hwp:sub-type="pisa-master">biorxiv;2024.01.24.577109</article-id>
+            <article-id pub-id-type="other" hwp:sub-type="slug">2024.01.24.577109</article-id>
+            <article-id pub-id-type="other" hwp:sub-type="atom-slug">2024.01.24.577109</article-id>
+            <article-id pub-id-type="other" hwp:sub-type="tag">2024.01.24.577109</article-id>
+            <article-version>1.4</article-version>
+            <article-categories>
+                <subj-group subj-group-type="author-type">
+                    <subject>Regular Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                    <subject>New Results</subject>
+                </subj-group>
+                <subj-group subj-group-type="hwp-journal-coll" hwp:journal-coll-id="Cell Biology" hwp:journal="biorxiv">
+                    <subject>Cell Biology</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title hwp:id="article-title-1">p66Shc Mediates SUMO2-induced Endothelial Dysfunction
+                </article-title>
+            </title-group>
+            <author-notes hwp:id="author-notes-1">
+                <corresp id="cor1" hwp:id="corresp-1" hwp:rev-id="xref-corresp-1-1">
+                    <label>*</label>
+                    <bold>Corresponding author</bold>
+                    Santosh Kumar, PhD, University of Iowa, Department of Internal Medicine, Division of Cardiovascular
+                    Medicine, François M. Abboud Cardiovascular Research Center, 25 South Grand Ave., ML B191, Iowa
+                    City, IA-52242, Phone: 319-335-92238, <bold>Email:</bold>
+                    <email hwp:id="email-1">santosh-kumar@uiowa.edu</email>
+                </corresp>
+                <fn fn-type="con" hwp:id="fn-1">
+                    <p hwp:id="p-1">
+                        <bold>Author Contributions:</bold>
+                        JK, SKU, S Kumari, KS, CA, S Kumar performed studies, analyzed data, and prepared figures; WP
+                        and RPY contributed to reagent generation and validation; VK and S Kumar analyzed data, prepared
+                        figures and wrote manuscript.
+                    </p>
+                </fn>
+                <fn fn-type="conflict" hwp:id="fn-2">
+                    <p hwp:id="p-2">
+                        <bold>Competing Interest Statement:</bold>
+                        The authors have declared that no conflicts of interest exist.
+                    </p>
+                </fn>
+            </author-notes>
+            <contrib-group hwp:id="contrib-group-1">
+                <contrib contrib-type="author" hwp:id="contrib-1">
+                    <name name-style="western" hwp:sortable="Kumar Jitendra">
+                        <surname>Kumar</surname>
+                        <given-names>Jitendra</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="a1" hwp:id="xref-aff-1-1" hwp:rel-id="aff-1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" hwp:id="contrib-2">
+                    <name name-style="western" hwp:sortable="Uppulapu Shravan K.">
+                        <surname>Uppulapu</surname>
+                        <given-names>Shravan K.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="a1" hwp:id="xref-aff-1-2" hwp:rel-id="aff-1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" hwp:id="contrib-3">
+                    <name name-style="western" hwp:sortable="Kumari Sujata">
+                        <surname>Kumari</surname>
+                        <given-names>Sujata</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="a1" hwp:id="xref-aff-1-3" hwp:rel-id="aff-1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" hwp:id="contrib-4">
+                    <name name-style="western" hwp:sortable="Sharma Kanika">
+                        <surname>Sharma</surname>
+                        <given-names>Kanika</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="a2" hwp:id="xref-aff-2-1" hwp:rel-id="aff-2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" hwp:id="contrib-5">
+                    <name name-style="western" hwp:sortable="Paradee William">
+                        <surname>Paradee</surname>
+                        <given-names>William</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="a3" hwp:id="xref-aff-3-1" hwp:rel-id="aff-3">3</xref>
+                </contrib>
+                <contrib contrib-type="author" hwp:id="contrib-6">
+                    <name name-style="western" hwp:sortable="Yadav Ravi Prakash">
+                        <surname>Yadav</surname>
+                        <given-names>Ravi Prakash</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="a4" hwp:id="xref-aff-4-1" hwp:rel-id="aff-4">4</xref>
+                </contrib>
+                <contrib contrib-type="author" hwp:id="contrib-7">
+                    <name name-style="western" hwp:sortable="Kumar Vikas">
+                        <surname>Kumar</surname>
+                        <given-names>Vikas</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="a5" hwp:id="xref-aff-5-1" hwp:rel-id="aff-5">5</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes" hwp:id="contrib-8">
+                    <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1418-2020
+                    </contrib-id>
+                    <name name-style="western" hwp:sortable="Kumar Santosh">
+                        <surname>Kumar</surname>
+                        <given-names>Santosh</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="a1" hwp:id="xref-aff-1-4" hwp:rel-id="aff-1">1</xref>
+                    <xref ref-type="corresp" rid="cor1" hwp:id="xref-corresp-1-1" hwp:rel-id="corresp-1">*</xref>
+                    <object-id pub-id-type="other" hwp:sub-type="orcid"
+                               xlink:href="http://orcid.org/0000-0003-1418-2020"/>
+                </contrib>
+                <aff id="a1" hwp:id="aff-1" hwp:rev-id="xref-aff-1-1 xref-aff-1-2 xref-aff-1-3 xref-aff-1-4">
+                    <label>1</label>
+                    <institution hwp:id="institution-1">Department of Internal Medicine, Division of Cardiovascular
+                        Medicine, University of Iowa</institution>, Iowa City, IA
+                </aff>
+                <aff id="a2" hwp:id="aff-2" hwp:rev-id="xref-aff-2-1">
+                    <label>2</label>
+                    <institution hwp:id="institution-2">Department of Genetics, Cell Biology and Anatomy, University of
+                        Nebraska Medical Center</institution>, Omaha, NE
+                </aff>
+                <aff id="a3" hwp:id="aff-3" hwp:rev-id="xref-aff-3-1">
+                    <label>3</label>
+                    <institution hwp:id="institution-3">Genome Editing Core Facility, University of Iowa</institution>,
+                    Iowa City, IA
+                </aff>
+                <aff id="a4" hwp:id="aff-4" hwp:rev-id="xref-aff-4-1">
+                    <label>4</label>
+                    <institution hwp:id="institution-4">Regional Institute of Education-NCERT</institution>, Mysore,
+                    Karnataka,
+                    <country>India</country>
+                </aff>
+                <aff id="a5" hwp:id="aff-5" hwp:rev-id="xref-aff-5-1">
+                    <label>5</label>
+                    <institution hwp:id="institution-5">Department of Biochemistry and Molecular Biotechnology, Mass
+                        Spectrometry Facility, University of Massachusetts Chan Medical School</institution>, Worcester,
+                    MA
+                </aff>
+            </contrib-group>
+            <pub-date pub-type="epub-original" date-type="pub" publication-format="electronic" hwp:start="2026">
+                <year>2026</year>
+            </pub-date>
+            <pub-date pub-type="hwp-created" hwp:start="2024-01-26T08:15:15-08:00">
+                <day>26</day>
+                <month>1</month>
+                <year>2024</year>
+            </pub-date>
+            <pub-date pub-type="hwp-received" hwp:start="2026-05-28T19:21:17-07:00">
+                <day>28</day>
+                <month>5</month>
+                <year>2026</year>
+            </pub-date>
+            <pub-date pub-type="epub" hwp:start="2024-01-26T08:18:48-08:00">
+                <day>26</day>
+                <month>1</month>
+                <year>2024</year>
+            </pub-date>
+            <pub-date pub-type="epub-version" hwp:start="2026-05-28T19:27:07-07:00">
+                <day>28</day>
+                <month>5</month>
+                <year>2026</year>
+            </pub-date>
+            <elocation-id>2024.01.24.577109</elocation-id>
+            <history hwp:id="history-1">
+                <date date-type="received" hwp:start="2024-01-24">
+                    <day>24</day>
+                    <month>1</month>
+                    <year>2024</year>
+                </date>
+                <date date-type="rev-recd" hwp:start="2026-05-28">
+                    <day>28</day>
+                    <month>5</month>
+                    <year>2026</year>
+                </date>
+                <date date-type="accepted" hwp:start="2026-05-28">
+                    <day>28</day>
+                    <month>5</month>
+                    <year>2026</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement hwp:id="copyright-statement-1">© 2026, Posted by openRxiv</copyright-statement>
+                <copyright-year>2026</copyright-year>
+                <license license-type="creative-commons" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/"
+                         hwp:id="license-1">
+                    <p hwp:id="p-3">This article is a US Government work. It is not subject to copyright under 17 USC
+                        105 and is also made available for use under a CC0 license
+                    </p>
+                </license>
+            </permissions>
+            <self-uri xlink:href="577109.pdf" content-type="pdf" xlink:role="full-text"/>
+            <self-uri l:ref="forthcoming:yes" c:role="http://schema.highwire.org/variant/abstract" xlink:role="abstract"
+                      content-type="xhtml+xml" hwp:variant="yes"/>
+            <self-uri l:ref="forthcoming:yes" c:role="http://schema.highwire.org/variant/change-list"
+                      xlink:role="change-list" content-type="xhtml+xml" hwp:variant="yes"/>
+            <self-uri l:ref="forthcoming:yes" c:role="http://schema.highwire.org/variant/full-text"
+                      xlink:href="file:/content/biorxiv/vol0/issue2026/pdf/2024.01.24.577109v4.pdf" hwp:variant="yes"
+                      content-type="pdf" xlink:role="full-text"/>
+            <self-uri l:ref="forthcoming:yes" c:role="http://schema.highwire.org/variant/full-text"
+                      xlink:role="full-text" content-type="xhtml+xml" hwp:variant="yes"/>
+            <self-uri l:ref="forthcoming:yes" c:role="http://schema.highwire.org/variant/source" xlink:role="source"
+                      content-type="xml" xlink:show="none" hwp:variant="yes"/>
+            <self-uri l:ref="forthcoming:yes" c:role="http://schema.highwire.org/variant/original" xlink:role="original"
+                      content-type="xml" xlink:show="none" hwp:variant="yes" xlink:href="577109.xml"/>
+            <self-uri content-type="abstract"
+                      xlink:href="file:/content/biorxiv/vol0/issue2026/abstracts/2024.01.24.577109v4/2024.01.24.577109v4.htslp"/>
+            <self-uri content-type="fulltext"
+                      xlink:href="file:/content/biorxiv/vol0/issue2026/fulltext/2024.01.24.577109v4/2024.01.24.577109v4.htslp"/>
+            <abstract hwp:id="abstract-1">
+                <title hwp:id="title-1">Abstract</title>
+                <sec hwp:id="sec-1">
+                    <title hwp:id="title-2">Background</title>
+                    <p hwp:id="p-4">Sumoylation is a post-translational modification that can regulate different
+                        physiological functions. Increased sumoylation, specifically conjugation of SUMO2/3 (small
+                        ubiquitin-like modifier 2/3), is detrimental to vascular health. However, the molecular
+                        mechanism mediating this effect is poorly understood.
+                    </p>
+                </sec>
+                <sec hwp:id="sec-2">
+                    <title hwp:id="title-3">Methods</title>
+                    <p hwp:id="p-5">We used cell-based assays and mass spectrometry to show that p66Shc is a direct
+                        target of SUMO2 and SUMO2 regulates p66Shc function via lysine-81 modification. To determine the
+                        effects of SUMO2-p66ShcK81 on vascular function, we generated p66ShcK81R knockin mice and
+                        crossbred to LDLr<sup>-/-</sup> mice to induce hyperlipidemia. Next, to determine
+                        p66ShcK81-SUMO2ylation-induced changes in endothelial cell signaling, we performed mass
+                        spectrometry followed by Ingenuity Pathway Analysis.
+                    </p>
+                </sec>
+                <sec hwp:id="sec-3">
+                    <title hwp:id="title-4">Results</title>
+                    <p hwp:id="p-6">Our data reveal that p66Shc mediates the effects of SUMO2 on endothelial cells. Mass
+                        spectrometry identified that SUMO2 modified lysine-81 in the unique collagen homology-2 domain
+                        of p66Shc. SUMO2ylation of p66Shc increased phosphorylation at serine-36, causing it to
+                        translocate to the mitochondria, a step critical for oxidative function of p66Shc. Notably,
+                        sumoylation-deficient p66Shc (p66ShcK81R) was resistant to SUMO2-induced p66ShcS36
+                        phosphorylation and mitochondrial translocation. P66ShcK81R knockin mice were resistant to
+                        endothelial dysfunction induced by SUMO2ylation and hyperlipidemia. Ingenuity Pathway Analysis
+                        revealed multiple signaling pathways regulated by p66ShcK81-SUMO2ylation in endothelial cells,
+                        highlighting JAK-STAT as a major pathway affected by SUMO2-p66ShcK81.
+                    </p>
+                </sec>
+                <sec hwp:id="sec-4">
+                    <title hwp:id="title-5">Conclusions</title>
+                    <p hwp:id="p-7">Collectively, our work reveals SUMO2-p66Shc signaling as a fundamental regulator of
+                        vascular endothelial function. We discovered that p66ShcK81 is an upstream modification
+                        regulating p66Shc signaling and mediates hyperlipidemia-induced endothelial dysfunction and
+                        oxidative stress.
+                    </p>
+                </sec>
+            </abstract>
+            <kwd-group kwd-group-type="author" hwp:id="kwd-group-1">
+                <title hwp:id="title-6">Keywords</title>
+                <kwd hwp:id="kwd-1">Sumoylation</kwd>
+                <kwd hwp:id="kwd-2">endothelial function</kwd>
+                <kwd hwp:id="kwd-3">p66Shc</kwd>
+                <kwd hwp:id="kwd-4">SUMO</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="funding-1" hwp:id="award-group-1">
+                    <funding-source hwp:id="funding-source-1">NIH</funding-source>
+                    <award-id hwp:id="award-id-1">R01HL152132</award-id>
+                    <award-id hwp:id="award-id-2">R21AG086743</award-id>
+                </award-group>
+                <award-group id="funding-2" hwp:id="award-group-2">
+                    <funding-source hwp:id="funding-source-2">Cystic Fibrosis Foundation</funding-source>
+                    <award-id hwp:id="award-id-3">005803I223</award-id>
+                </award-group>
+            </funding-group>
+            <counts>
+                <page-count count="26"/>
+            </counts>
+            <custom-meta-wrap>
+                <custom-meta hwp:id="custom-meta-1">
+                    <meta-name>citation_submitter_name</meta-name>
+                    <meta-value>Santosh Kumar</meta-value>
+                </custom-meta>
+                <custom-meta hwp:id="custom-meta-2">
+                    <meta-name>citation_submitter_email</meta-name>
+                    <meta-value>santosh-kumar@uiowa.edu</meta-value>
+                </custom-meta>
+                <custom-meta hwp:id="custom-meta-3">
+                    <meta-name>citation_submitter_id</meta-name>
+                    <meta-value>340275</meta-value>
+                </custom-meta>
+                <custom-meta hwp:id="custom-meta-4">
+                    <meta-name>citation_submitter_institution</meta-name>
+                    <meta-value>University of Iowa</meta-value>
+                </custom-meta>
+                <custom-meta hwp:id="custom-meta-5">
+                    <meta-name>citation_submitter_orcid</meta-name>
+                    <meta-value>0000-0003-1418-2020</meta-value>
+                </custom-meta>
+                <custom-meta hwp:id="custom-meta-6">
+                    <meta-name>special-property</meta-name>
+                    <meta-value>contains-inline-supplementary-material</meta-value>
+                </custom-meta>
+            </custom-meta-wrap>
+            <custom-meta-wrap>
+                <custom-meta hwp:id="custom-meta-7">
+                    <meta-name>has-earlier-version</meta-name>
+                    <meta-value>yes</meta-value>
+                </custom-meta>
+            </custom-meta-wrap>
+        </article-meta>
+        <notes hwp:id="notes-1">
+            <notes notes-type="competing-interest-statement" hwp:id="notes-2">
+                <title hwp:id="title-7">Competing Interest Statement</title>
+                <p hwp:id="p-8">The authors have declared no competing interest.</p>
+            </notes>
+            <fn-group content-type="summary-of-updates" hwp:id="fn-group-1">
+                <title hwp:id="title-8">Summary of Updates:</title>
+                <fn fn-type="update" hwp:id="fn-3">
+                    <p hwp:id="p-9">The manuscript has been reviewed by external reviewers and has been modified in
+                        accordance with their suggestions.
+                    </p>
+                </fn>
+            </fn-group>
+        </notes>
+    </front>
+    <body>
+        <sec id="s1" hwp:id="sec-5">
+            <title hwp:id="title-9">Introduction</title>
+            <p hwp:id="p-10">Endothelial cells play an important role in regulating vascular health. One of the primary
+                functions of endothelial cells is to maintain vascular tone and regulate blood flow in response to
+                physiological changes. In the context of disease, endothelial cells either fail to produce enough nitric
+                oxide (NO) or the available NO is quenched by reactive oxygen species (ROS). Consequently, this leads to
+                endothelial dysfunction (ED), characterized by the reduced availability of NO and impaired
+                vasorelaxation.
+                <sup>
+                    <xref ref-type="bibr" rid="c1" hwp:id="xref-ref-1-1" hwp:rel-id="ref-1">1</xref>
+                </sup>
+                ED is associated with various conditions such as diabetes, hyperlipidemia, hyperglycemia, obesity, and
+                aging.
+                <sup>
+                    <xref ref-type="bibr" rid="c2" hwp:id="xref-ref-2-1" hwp:rel-id="ref-2">2</xref>
+                </sup>
+                There is a strong correlation between ED and atherosclerotic changes in vessel walls.
+                <sup>
+                    <xref ref-type="bibr" rid="c3" hwp:id="xref-ref-3-1" hwp:rel-id="ref-3">3</xref>
+                </sup>
+                Therefore, ED is one of the prime targets to prevent pathologies including myocardial infarction and
+                stroke.
+            </p>
+            <p hwp:id="p-11">Sumoylation is a dynamic post-translational modification involved in many pathologies
+                including vascular disease.
+                <sup>
+                    <xref ref-type="bibr" rid="c4" hwp:id="xref-ref-4-1" hwp:rel-id="ref-4">4</xref>
+                </sup>
+                Increased sumoylation promotes ED and subsequent development of atherosclerosis.
+                <sup><xref ref-type="bibr" rid="c5" hwp:id="xref-ref-5-1" hwp:rel-id="ref-5">5</xref>,
+                    <xref ref-type="bibr" rid="c6" hwp:id="xref-ref-6-1" hwp:rel-id="ref-6">6</xref>
+                </sup>
+                Sumoylation occurs by conjugation of <bold>s</bold>mall <bold>u</bold>biquitin-like <bold>mo</bold>difier<bold>
+                    s
+                </bold> (SUMOs) to the lysine moiety of the target protein, which may change its fate and/or function.
+                SUMO conjugation is predicted to occur at a specific motif, ΨKXE, where Ψ represents an
+                aliphatic-branched amino acid, X a random amino acid, and E glutamic acid, although other non-canonical
+                sumoylation sites have also been reported.
+                <sup><xref ref-type="bibr" rid="c4" hwp:id="xref-ref-4-2" hwp:rel-id="ref-4">4</xref>, <xref
+                        ref-type="bibr" rid="c7" hwp:id="xref-ref-7-1" hwp:rel-id="ref-7">7</xref>,
+                    <xref ref-type="bibr" rid="c8" hwp:id="xref-ref-8-1" hwp:rel-id="ref-8">8</xref>
+                </sup>
+                There are four SUMO isoforms (SUMO1, SUMO2, SUMO3 and SUMO4) and among them SUMO2 is the most abundantly
+                expressed. Unlike SUMO1 and SUMO3, genetic deletion of SUMO2 is embryonically lethal.
+                <sup><xref ref-type="bibr" rid="c9" hwp:id="xref-ref-9-1" hwp:rel-id="ref-9">9</xref>,
+                    <xref ref-type="bibr" rid="c10" hwp:id="xref-ref-10-1" hwp:rel-id="ref-10">10</xref>
+                </sup>
+                While sumoylation is known to promote cardiovascular diseases, the effect of SUMO isoforms on the
+                vasculature is not well studied. Recently, we reported that endothelial-specific overexpression of SUMO2
+                impairs vascular endothelial function in mice.
+                <sup>
+                    <xref ref-type="bibr" rid="c11" hwp:id="xref-ref-11-1" hwp:rel-id="ref-11">11</xref>
+                </sup>
+                However, the molecular mechanisms mediating the endothelial effects of SUMO2 are not known.
+            </p>
+            <p hwp:id="p-12">p66Shc is a member of the ShcA family of adaptor proteins. Among the ShcA protein family
+                (p66Shc, p52Shc, and p46Shc), p66Shc is the largest protein due to an additional collagen homology
+                domain (CH2) at its N-terminus. Posttranslational modifications in the CH2 domain regulate the oxidative
+                function of p66Shc;
+                <sup><xref ref-type="bibr" rid="c12" hwp:id="xref-ref-12-1" hwp:rel-id="ref-12">12</xref>-
+                    <xref ref-type="bibr" rid="c15" hwp:id="xref-ref-15-1" hwp:rel-id="ref-15">15</xref>
+                </sup>
+                whereas phosphorylation in the CH1 domain leads to mitogenic signaling.
+                <sup><xref ref-type="bibr" rid="c16" hwp:id="xref-ref-16-1" hwp:rel-id="ref-16">16</xref>,
+                    <xref ref-type="bibr" rid="c17" hwp:id="xref-ref-17-1" hwp:rel-id="ref-17">17</xref>
+                </sup>
+                p66Shc is abundantly expressed in endothelium and mediates ED due to hyperlipidemia, hyperglycemia, and
+                aging.
+                <sup>
+                    <xref ref-type="bibr" rid="c18" hwp:id="xref-ref-18-1" hwp:rel-id="ref-18">18</xref>
+                </sup>
+                Correspondingly, mice with a genetic deletion of p66Shc have a longer life span and are protected
+                against ED due to metabolic disorders.
+                <sup><xref ref-type="bibr" rid="c19" hwp:id="xref-ref-19-1" hwp:rel-id="ref-19">19</xref>,
+                    <xref ref-type="bibr" rid="c20" hwp:id="xref-ref-20-1" hwp:rel-id="ref-20">20</xref>
+                </sup>
+                Here, we examined whether p66Shc mediates the effects of SUMO2 on endothelial cells. Using multiple
+                techniques, we show that SUMO2 directly modifies p66Shc at lysine-81 in its CH2 domain, which is
+                essential for SUMO2-induced ROS production and ED. Thus, our study uncovers a previously unknown
+                posttranslational modification that regulates p66Shc function in the endothelium and defines a novel
+                molecular mechanism by which increased SUMO2ylation induces ROS, leading to vascular ED.
+            </p>
+        </sec>
+        <sec id="s2" hwp:id="sec-6">
+            <title hwp:id="title-10">Results</title>
+            <sec id="s2a" hwp:id="sec-7">
+                <title hwp:id="title-11">p66Shc mediates SUMO2-induced ROS production in endothelial cells</title>
+                <p hwp:id="p-13">To address whether p66Shc mediates SUMO2-induced ROS production, we overexpressed SUMO2
+                    in human umbilical vein endothelial cells (HUVECs) with and without knockdown of p66Shc and used
+                    MitoSOX to detect mitochondrial level of ROS, a prominent function of p66Shc. As expected,
+                    overexpression of SUMO2 led to a robust increase in levels of ROS (<xref rid="fig1" ref-type="fig"
+                                                                                             hwp:id="xref-fig-1-1"
+                                                                                             hwp:rel-id="F1">Fig. 1A
+                    </xref> and <xref ref-type="fig" rid="fig1" hwp:id="xref-fig-1-2" hwp:rel-id="F1">B</xref>). This
+                    SUMO2-induced increase in ROS was significantly blunted in HUVECs with p66Shc knockdown (<xref
+                            rid="fig1" ref-type="fig" hwp:id="xref-fig-1-3" hwp:rel-id="F1">Fig. 1A
+                    </xref> and <xref ref-type="fig" rid="fig1" hwp:id="xref-fig-1-4" hwp:rel-id="F1">C</xref>). In a
+                    complementary approach, we used H<sub>2</sub>DCFDA to determine cellular ROS level and noted a
+                    similar increase in ROS level with overexpression of SUMO2 which was significantly reduced by the
+                    knockdown of p66Shc (<xref rid="fig1" ref-type="fig" hwp:id="xref-fig-1-5" hwp:rel-id="F1">Fig.
+                        1D</xref>).This suggests that SUMO2 is targeting p66Shc for ROS production in endothelial cells.
+                </p>
+                <fig id="fig1" position="float" fig-type="figure" orientation="portrait" hwp:id="F1"
+                     hwp:rev-id="xref-fig-1-1 xref-fig-1-2 xref-fig-1-3 xref-fig-1-4 xref-fig-1-5">
+                    <object-id pub-id-type="other" hwp:sub-type="pisa">biorxiv;2024.01.24.577109v4/FIG1</object-id>
+                    <object-id pub-id-type="other" hwp:sub-type="slug">F1</object-id>
+                    <object-id pub-id-type="publisher-id">fig1</object-id>
+                    <label>Figure 1:</label>
+                    <caption hwp:id="caption-1">
+                        <title hwp:id="title-12">p66Shc mediates SUMO2-induced ROS production and inflammation in
+                            endothelial cells.
+                        </title>
+                        <p hwp:id="p-14">(A) Immunoblot for Shc and SUMO2 expression in HUVECs following p66Shc
+                            knockdown (si-p66Shc) and SUMO2 overexpression (Ad-HA-SUMO2). (B and C) Quantification of
+                            ROS (MitoSOX fluorescence) in HUVECs from A. *P&lt;0.05; n=24-32; student’s t-test. (D)
+                            Quantification of ROS in HUVECs following p66Shc knockdown (si-p66Shc) and SUMO2
+                            overexpression (Ad-HA-SUMO2). ***P&lt;0.001, P&lt;0.05; n=10-15; One-way ANOVA. Data
+                            represents mean ±SEM. Immunoblots are representative of at least three independent
+                            experiments. GC, scrambled siRNA used as control; HUVECs, human umbilical vein endothelial
+                            cells.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="577109v4_fig1" position="float" orientation="portrait" hwp:id="graphic-1"/>
+                </fig>
+            </sec>
+            <sec id="s2b" hwp:id="sec-8">
+                <title hwp:id="title-13">p66Shc is directly modified by SUMO2</title>
+                <p hwp:id="p-15">We next asked whether p66Shc is a direct target for SUMO2. We overexpressed p66Shc in
+                    HEK-293 cells with and without SUMO2. Immunoprecipitation of p66Shc showed many slower migrating
+                    protein bands when SUMO2 and p66Shc were co-expressed, suggesting that p66Shc may be SUMO2ylated
+                    (<xref rid="fig2" ref-type="fig" hwp:id="xref-fig-2-1" hwp:rel-id="F2">Fig. 2A</xref>). To confirm
+                    that the slower migrating bands were due to sumoylation, we overexpressed SUMO-ligase (Ubc9) to
+                    facilitate sumoylation, and a deSUMOylating enzyme (SENP1) which removes SUMO proteins.
+                    Overexpression of Ubc9 increased the signal of slower migrating bands whereas SENP1 reduced the
+                    signal suggesting the slower migrating bands were due to sumoylation (<xref rid="fig2"
+                                                                                                ref-type="fig"
+                                                                                                hwp:id="xref-fig-2-2"
+                                                                                                hwp:rel-id="F2">Fig.
+                        2B</xref>). Next, we asked whether the SUMO2-p66Shc interaction exists in endothelial cells by
+                    overexpressing SUMO2 and p66Shc in HUVECs. Immunoprecipitation of flag-tagged p66Shc revealed
+                    sumoylation (<xref rid="fig2" ref-type="fig" hwp:id="xref-fig-2-3" hwp:rel-id="F2">Fig. 2C</xref>)
+                    which consistently increased in intensity with increasing SUMO2 expression (Fig. S1). To verify that
+                    p66Shc undergoes SUMO2ylation in HUVECs we treated cells with a pharmacological inhibitor of
+                    sumoylation (anacardic acid). This reduced sumoylation of p66Shc (<xref rid="fig2" ref-type="fig"
+                                                                                            hwp:id="xref-fig-2-4"
+                                                                                            hwp:rel-id="F2">Fig. 2D
+                        &amp;E</xref>), demonstrating that indeed p66Shc undergoes SUMO2ylation in endothelial cells. We
+                    also performed an <italic toggle="yes">in vitro</italic> sumoylation of p66Shc using recombinant
+                    His-tagged p66Shc protein and a commercially available kit (Enzo, Farmingdale, NY), which showed
+                    that recombinant p66Shc is modified by SUMO2 (<xref rid="fig2" ref-type="fig" hwp:id="xref-fig-2-5"
+                                                                        hwp:rel-id="F2">Fig. 2F</xref>). Collectively,
+                    these findings indicate that p66Shc is a direct target of SUMO2.
+                </p>
+                <fig id="fig2" position="float" fig-type="figure" orientation="portrait" hwp:id="F2"
+                     hwp:rev-id="xref-fig-2-1 xref-fig-2-2 xref-fig-2-3 xref-fig-2-4 xref-fig-2-5">
+                    <object-id pub-id-type="other" hwp:sub-type="pisa">biorxiv;2024.01.24.577109v4/FIG2</object-id>
+                    <object-id pub-id-type="other" hwp:sub-type="slug">F2</object-id>
+                    <object-id pub-id-type="publisher-id">fig2</object-id>
+                    <label>Figure 2:</label>
+                    <caption hwp:id="caption-2">
+                        <title hwp:id="title-14">SUMO2 directly modifies p66Shc.</title>
+                        <p hwp:id="p-16">(A) Immunoblot for sumoylated p66Shc in HEK-293 cells overexpressing SUMO2
+                            (HA-SUMO2) and p66Shc (Flag-p66Shc). (B) Immunoblot for p66Shc sumoylation in HEK-293 cells
+                            overexpressing SUMO2 (HA-SUMO2) and p66Shc (Flag-p66Shc) with or without overexpression of
+                            Ubc9 (HA-Ubc9) and SENP1 (Flag-SENP1). (C) Immunoblot for sumoylation of p66Shc in HUVECs
+                            overexpressing SUMO2 (Ad-HA-SUMO2) or p66Shc (Ad-Flag-p66Shc). (D) Immunoblot for p66Shc
+                            sumoylation in HUVEC cells overexpressing SUMO2 (Ad-HA-SUMO2) or p66Shc (Ad-Flag-p66Shc) in
+                            the presence or absence of anacardic acid. Quantification of SUMO2-p66Shc from immunoblot of
+                            D. One-way ANOVA, followed by Tukey’s post-hoc analysis, n=4 *P&lt;0.05, **P&lt;0.01. (F)
+                            Immunoblot for sumoylated recombinant p66Shc in the presence of absence of Ubc9. Immunoblots
+                            are representative of at least three independent experiments. Data represents mean ±SEM.
+                            Ad-Lac Z was used as adenoviral control to compensate for the difference in MOI among the
+                            groups.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="577109v4_fig2" position="float" orientation="portrait" hwp:id="graphic-2"/>
+                </fig>
+            </sec>
+            <sec id="s2c" hwp:id="sec-9">
+                <title hwp:id="title-15">SUMO2 modifies p66Shc via lysine-81</title>
+                <p hwp:id="p-17">The CH2 domain of p66Shc is highly conserved and involved in oxidative function of
+                    p66Shc. Within this region there are several conserved lysine residues. Among these is lysine 81,
+                    which is part of the ΨKXE motif required for sumoylation (<xref rid="fig3" ref-type="fig"
+                                                                                    hwp:id="xref-fig-3-1"
+                                                                                    hwp:rel-id="F3">Fig. 3A</xref>)
+                    Therefore, to examine if K81 is sumoylated, we took advantage of SUMO2ylated recombinant p66Shc and
+                    resolved it on SDS-PAGE. Based on the approximate location of modified protein bands seen in
+                    immunoblotting, we cut out the gel piece and subjected it to mass spectrometry analysis (Fig. S3).
+                    This demonstrated that lysine-81 (K81) in p66Shc was SUMO2ylated, identified as lysine conjugated
+                    with the QTGG motif present at c-terminal of SUMO2 (<xref rid="fig3" ref-type="fig"
+                                                                              hwp:id="xref-fig-3-2" hwp:rel-id="F3">Fig.
+                        3B</xref>). To confirm that SUMO2 modifies p66Shc at K81, we mutated this residue to Arginine
+                    (p66ShcK81R) and overexpressed it in HEK-293 cells with SUMO2 to determine if sumoylation still
+                    occurred. Immunoprecipitation showed that p66ShcK81R is resistant to SUMO2ylation, whereas it still
+                    occurred with the wild-type (WT) form (<xref rid="fig3" ref-type="fig" hwp:id="xref-fig-3-3"
+                                                                 hwp:rel-id="F3">Fig. 3C</xref>). Similar results were
+                    also observed in HUVECs (<xref rid="fig3" ref-type="fig" hwp:id="xref-fig-3-4" hwp:rel-id="F3">Fig.
+                        3D</xref>). We next performed an <italic toggle="yes">in vitro</italic> SUMO2ylation of
+                    recombinant p66ShcWT and p66ShcK81R. As anticipated, immunoblotting showed that, unlike p66ShcWT,
+                    p66ShcK81R is resistant to SUMO2ylation (<xref rid="fig3" ref-type="fig" hwp:id="xref-fig-3-5"
+                                                                   hwp:rel-id="F3">Fig. 3E</xref>). Next, to determine
+                    the endogenous SUMO2-p66Shc, we generate a custom antibody against the branched peptide, mimicking
+                    the region of SUMO2 attachment (SUMO2-K81) to p66Shc using a commercial source (YenZym, CA). Using
+                    this SUMO2-p66ShcK81 antibody, we performed immunoprecipitation and immunoblotting in HUVECs treated
+                    with o-LDL (200 μg/ml) for 48 hours and noted p66Shc-SUMO2ylation at endogenous level (<xref
+                            rid="fig3" ref-type="fig" hwp:id="xref-fig-3-6" hwp:rel-id="F3">Fig. 3F</xref>). Thus, our
+                    findings demonstrate that SUMO2 modifies p66Shc at K81.
+                </p>
+                <fig id="fig3" position="float" fig-type="figure" orientation="portrait" hwp:id="F3"
+                     hwp:rev-id="xref-fig-3-1 xref-fig-3-2 xref-fig-3-3 xref-fig-3-4 xref-fig-3-5 xref-fig-3-6">
+                    <object-id pub-id-type="other" hwp:sub-type="pisa">biorxiv;2024.01.24.577109v4/FIG3</object-id>
+                    <object-id pub-id-type="other" hwp:sub-type="slug">F3</object-id>
+                    <object-id pub-id-type="publisher-id">fig3</object-id>
+                    <label>Figure 3:</label>
+                    <caption hwp:id="caption-3">
+                        <title hwp:id="title-16">SUMO2 modifies p66Shc at lysine-81.</title>
+                        <p hwp:id="p-18">(A) Modular structure of p66Shc showing conserved lysine-81 in the CH2 domain.
+                            (B) Tandem mass spectrometry of <italic toggle="yes">in vitro SUMO</italic>2ylated
+                            recombinant p66Shc. (C) Immunoblot showing sumoylation of p66Shc in HEK-293 cells
+                            overexpressing p66ShcWT (Flag-p66ShcWT) or p66ShcK81R (Flag-p66ShcK81R) with and without
+                            SUMO2 (HA-SUMO2). (D) Immunoblot showing sumoylation of p66Shc in HUVECs overexpressing
+                            p66ShcWT (Ad-Flag-p66ShcWT) or p66ShcK81R (Ad-p66ShcK81R) with and without SUMO2
+                            (Ad-HA-SUMO2). (E) Immunoblot for sumoylation of recombinant p66ShcWT or p66ShcK81R. (F)
+                            Immunoprecipitation of SUMO2-p66Shc using SUMO2-p66ShcK81 antibody or the matching IgG
+                            control in HUVECs followed by immunoblotting with SUMO2-p66ShcK81 antibody showing
+                            endogenous SUMO2ylation of p66Shc (left-side panel). Immunoblotting with Shc antibody in
+                            whole cell lysate (right-side panel). Immunoblots are representative of at least three
+                            independent experiments. CH2, collagen homology 2; PTB, phosphotyrosine binding; CH1,
+                            Collagen homology 1; SH2, Src homology 2.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="577109v4_fig3" position="float" orientation="portrait" hwp:id="graphic-3"/>
+                </fig>
+            </sec>
+            <sec id="s2d" hwp:id="sec-10">
+                <title hwp:id="title-17">SUMO2 promotes serine36 phosphorylation and mitochondrial translocation of
+                    p66Shc
+                </title>
+                <p hwp:id="p-19">In response to pro-oxidant stimuli, p66Shc becomes phosphorylated at serine36 (S36) and
+                    translocates to mitochondria. Once there it oxidizes cytochrome C to produce ROS
+                    <sup><xref ref-type="bibr" rid="c21" hwp:id="xref-ref-21-1" hwp:rel-id="ref-21">21</xref>,
+                        <xref ref-type="bibr" rid="c22" hwp:id="xref-ref-22-1" hwp:rel-id="ref-22">22</xref>
+                    </sup>
+                    , which is a central mechanism to activate the oxidative function of p66Shc. Since the K81 and S36
+                    residues of p66Shc are both present in its conserved CH2 domain, we asked whether promoting
+                    SUMO2ylation also facilitates phosphorylation of the S36 residue of p66Shc. In HEK-293 cells as well
+                    as in HUVECs, we noted increased levels of p66ShcS36 phosphorylation when SUMO2 and p66Shc were
+                    co-expressed (<xref rid="fig4" ref-type="fig" hwp:id="xref-fig-4-1" hwp:rel-id="F4">Fig. 4A-D</xref>).
+                    To determine whether SUMO2-induced S36 phosphorylation is mediated via K81 sumoylation, we evaluated
+                    p66ShcS36 phosphorylation in HUVECs overexpressing p66ShcK81R and SUMO2. SUMO2 overexpression
+                    significantly increased S36 phosphorylation in cells expressing p66ShcWT whereas this response was
+                    markedly attenuated in cells expressing p66ShcK81R (<xref rid="fig4" ref-type="fig"
+                                                                              hwp:id="xref-fig-4-2" hwp:rel-id="F4">Fig.
+                        4E
+                    </xref> and <xref ref-type="fig" rid="fig4" hwp:id="xref-fig-4-3" hwp:rel-id="F4">F</xref>),
+                    indicating that K81 SUMOylation promotes, but is not strictly required for, S36 phosphorylation. As
+                    p66ShcS36 phosphorylation increases p66Shc level in mitochondria, we evaluated whether SUMO2 affects
+                    mitochondrial levels of p66Shc. Levels of p66Shc in the mitochondria of HUVECs increased in a
+                    dose-dependent manner upon SUMO2 overexpression (<xref rid="fig5" ref-type="fig"
+                                                                           hwp:id="xref-fig-5-1" hwp:rel-id="F5">Fig. 5A
+                    </xref> and <xref ref-type="fig" rid="fig5" hwp:id="xref-fig-5-2" hwp:rel-id="F5">B</xref>).
+                    However, mitochondrial expression of p66Shc was significantly lower in HUVECs expressing p66ShcK81R
+                    relative to p66ShcWT (<xref rid="fig5" ref-type="fig" hwp:id="xref-fig-5-3" hwp:rel-id="F5">Fig.
+                        5C
+                    </xref> and <xref ref-type="fig" rid="fig5" hwp:id="xref-fig-5-4" hwp:rel-id="F5">D</xref>).
+                    Collectively, these findings support a model in which SUMO2ylation at K81 facilitates S36
+                    phosphorylation and enhances mitochondrial translocation of p66Shc, thereby promoting its oxidative
+                    signaling function.
+                </p>
+                <fig id="fig4" position="float" fig-type="figure" orientation="portrait" hwp:id="F4"
+                     hwp:rev-id="xref-fig-4-1 xref-fig-4-2 xref-fig-4-3">
+                    <object-id pub-id-type="other" hwp:sub-type="pisa">biorxiv;2024.01.24.577109v4/FIG4</object-id>
+                    <object-id pub-id-type="other" hwp:sub-type="slug">F4</object-id>
+                    <object-id pub-id-type="publisher-id">fig4</object-id>
+                    <label>Figure 4:</label>
+                    <caption hwp:id="caption-4">
+                        <title hwp:id="title-18">SUMO2 promotes p66ShcS36 phosphorylation by sumoylation of K81.</title>
+                        <p hwp:id="p-20">(A) Immunoblot for p66ShcS36 phosphorylation in HEK-293 cells overexpressing
+                            SUMO2 (HA-SUMO2) and p66ShcWT (Flag-p66ShcWT). (B) Quantification of p66ShcS36
+                            phosphorylation from A. *P&lt;0.05; n=6; one-way ANOVA. (C) Immunoblot for p66ShcS36
+                            phosphorylation in HUVECs overexpressing SUMO2 (Ad-HA-SUMO2) or p66ShcWT (Ad-Flag-p66ShcWT).
+                            (D) Quantification of p66ShcS36 phosphorylation from C. *P&lt;0.05; n=8; one-way ANOVA. (E)
+                            Immunoblot for p66ShcS36 phosphorylation in HUVECs expressing SUMO2 (Ad-HA-SUMO2) and
+                            p66ShcWT (Ad-Flag-p66ShcWT) or p66ShcK81R (Ad-Flag-p66ShcK81R). (F) Quantification of
+                            p66ShcS36 phosphorylation from E. *P&lt;0.05, **P&lt;0.01; n=11; two-way ANOVA. Immunoblots
+                            were quantified with iBright image analysis software. Data represents mean ±SEM. Immunoblots
+                            are representative of at least three independent experiments.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="577109v4_fig4" position="float" orientation="portrait" hwp:id="graphic-4"/>
+                </fig>
+                <fig id="fig5" position="float" fig-type="figure" orientation="portrait" hwp:id="F5"
+                     hwp:rev-id="xref-fig-5-1 xref-fig-5-2 xref-fig-5-3 xref-fig-5-4">
+                    <object-id pub-id-type="other" hwp:sub-type="pisa">biorxiv;2024.01.24.577109v4/FIG5</object-id>
+                    <object-id pub-id-type="other" hwp:sub-type="slug">F5</object-id>
+                    <object-id pub-id-type="publisher-id">fig5</object-id>
+                    <label>Figure 5:</label>
+                    <caption hwp:id="caption-5">
+                        <title hwp:id="title-19">p66ShcK81 SUMO2ylation of K81 in p66Shc promotes its translocation to
+                            the mitochondria.
+                        </title>
+                        <p hwp:id="p-21">(A) Immunoblot for p66ShcWT in whole cell lysates or the mitochondrial fraction
+                            of HUVECs ectopically expressing SUMO2 (Ad-HA-SUMO2) and p66ShcWT (Ad-Flag-p66ShcWT). (B)
+                            Quantification of the relative abundance of p66Shc in the mitochondria from A. **P&lt;0.01,
+                            ****P&lt;0.0001; n=5; one-way ANOVA. (C) Immunoblot for p66Shc in whole cell lysates or the
+                            mitochondrial fraction of HUVECs ectopically expressing SUMO2 (Ad-HA-SUMO2) and p66ShcWT
+                            (Ad-Flag-p66ShcWT or p66ShcK81R (Ad-Flag-p66ShcK81R). (D) Quantification of relative
+                            abundance of p66Shc in the mitochondria from C. *P&lt;0.05, **P&lt;0.01; n=7; two-way ANOVA.
+                            Data represents mean ±SEM. Immunoblots are representative of at least three independent
+                            experiments.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="577109v4_fig5" position="float" orientation="portrait" hwp:id="graphic-5"/>
+                </fig>
+            </sec>
+            <sec id="s2e" hwp:id="sec-11">
+                <title hwp:id="title-20">Mice expressing non-sumoylatable p66ShcK81R are protected against SUMO2-induced
+                    ED
+                </title>
+                <p hwp:id="p-22">To determine whether SUMO2ylation of p66Shc at lysine 81 modulates endothelial control
+                    of vascular tone, we generated a knock-in mouse model in which endogenous p66Shc was replaced with a
+                    SUMOylation-deficient mutant (p66ShcK81R). This model was generated using CRISPR-Cas9-mediated
+                    genome editing to substitute arginine for lysine at position 81 of p66Shc (<xref rid="fig6"
+                                                                                                     ref-type="fig"
+                                                                                                     hwp:id="xref-fig-6-1"
+                                                                                                     hwp:rel-id="F6">
+                        Fig. 6A
+                    </xref> and <xref ref-type="fig" rid="fig6" hwp:id="xref-fig-6-2" hwp:rel-id="F6">B</xref>). These
+                    mice are viable and there was no obvious physiological difference from wild type mice, except that
+                    the endothelium-independent relaxation of aortic rings was more pronounced in p66ShcK81R knockin
+                    mice (Fig. S4). To examine the effect of SUMO2 on endothelial function in these mice, we used
+                    adenoviruses to express SUMO2 in aortic rings from WT and p66ShcK81R knockin mice (<xref rid="fig6"
+                                                                                                             ref-type="fig"
+                                                                                                             hwp:id="xref-fig-6-3"
+                                                                                                             hwp:rel-id="F6">
+                        Fig. 6C
+                    </xref> and <xref ref-type="fig" rid="fig6" hwp:id="xref-fig-6-4" hwp:rel-id="F6">D</xref>).
+                    Subsequently, the aortic rings were evaluated for endothelium-dependent relaxation (induced by
+                    acetylcholine) and endothelium-independent relaxation (induced by sodium nitroprusside). In aortic
+                    rings from WT mice, endothelium-dependent relaxation was significantly delayed by SUMO2
+                    overexpression (<xref rid="fig6" ref-type="fig" hwp:id="xref-fig-6-5" hwp:rel-id="F6">Fig. 6E</xref>)
+                    whereas it was unchanged in p66ShcK81R mice (<xref rid="fig6" ref-type="fig" hwp:id="xref-fig-6-6"
+                                                                       hwp:rel-id="F6">Fig. 6F</xref>). In contrast,
+                    endothelium-independent relaxation was not affected by SUMO2 overexpression (<xref rid="fig6"
+                                                                                                       ref-type="fig"
+                                                                                                       hwp:id="xref-fig-6-7"
+                                                                                                       hwp:rel-id="F6">
+                        Fig. 6G
+                    </xref> and <xref ref-type="fig" rid="fig6" hwp:id="xref-fig-6-8" hwp:rel-id="F6">H</xref>). This
+                    suggests that the effect of SUMO2 on endothelial function is primarily mediated via p66ShcK81.
+                </p>
+                <fig id="fig6" position="float" fig-type="figure" orientation="portrait" hwp:id="F6"
+                     hwp:rev-id="xref-fig-6-1 xref-fig-6-2 xref-fig-6-3 xref-fig-6-4 xref-fig-6-5 xref-fig-6-6 xref-fig-6-7 xref-fig-6-8">
+                    <object-id pub-id-type="other" hwp:sub-type="pisa">biorxiv;2024.01.24.577109v4/FIG6</object-id>
+                    <object-id pub-id-type="other" hwp:sub-type="slug">F6</object-id>
+                    <object-id pub-id-type="publisher-id">fig6</object-id>
+                    <label>Figure 6:</label>
+                    <caption hwp:id="caption-6">
+                        <title hwp:id="title-21">p66ShcK81R knockin (KI) are resistant to SUMO2-induced endothelial
+                            dysfunction.
+                        </title>
+                        <p hwp:id="p-23">(A) DNA sequencing data from a p66ShcK81R knockin (KI) mouse showing a point
+                            mutation (A&gt;G) resulting in an amino acid change (K→R), and insertion of silent mutation
+                            to create a digestion site for ApaI endonuclease for genotyping. (B) DNA gel electrophoresis
+                            of a PCR-amplified and ApaI-digested amplicon identifying the p66ShcK81R KI allele. (C and
+                            D) Representative immunoblots showing SUMO2 expression in aortic rings from wild type and
+                            p66ShcK81R KI mice (1.67 × 10<sup>8</sup> pfu/ring). (E and F) Graphs showing % contraction
+                            following induction of endothelium-dependent relaxation in aortic rings from (E) wild-type
+                            mice, n=14-16 from 4 mice) and (F) p66ShcK81R KI mice (n=15-16 rings from 4 mice) expressing
+                            a control vector (Ad-Lac Z) or overexpressing SUMO2 (Ad-HA-SUMO2). (G and H) Graphs showing
+                            % contraction following induction of endothelium-independent relaxation in aortic rings from
+                            (G) wild type (n=14-16 from 4 mice) and (H) p66ShcK81R KI mice (n=14-15 from 4 mice)
+                            expressing a control vector (Ad-Lac Z) or overexpressing SUMO2 (Ad-HA-SUMO2). Curves were
+                            compared for nonlinear fit. ****P&lt;0.0001. Ach-acetylcholine, SNP-sodium nitroprusside,
+                            PE-Phenylephrine, Homo-homozygous, Het-heterozygous, and NTC-No template control. Data
+                            represents mean ±SEM.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="577109v4_fig6" position="float" orientation="portrait" hwp:id="graphic-6"/>
+                </fig>
+            </sec>
+            <sec id="s2f" hwp:id="sec-12">
+                <title hwp:id="title-22">P66ShcK81R knockin mice are protected against hyperlipidemia-induced
+                    endothelial dysfunction
+                </title>
+                <p hwp:id="p-24">To examine the physiological significance of p66Shc-SUMO2, we chose hyperlipidemia as a
+                    suitable stimulus as it has been shown to promote sumoylation.
+                    <sup>
+                        <xref ref-type="bibr" rid="c23" hwp:id="xref-ref-23-1" hwp:rel-id="ref-23">23</xref>
+                    </sup>
+                    To confirm hyperlipidemia-induced activation of sumoylation and involvement of SUMO2 specifically,
+                    we knocked down SUMO2 in HUVECs and treated them with oxidized low-density lipoprotein (o-LDL).
+                    Immunoblotting with anti-SUMO2/3 antibody showed a robust increase in sumoylation with o-LDL and the
+                    majority of sumoylation was due to SUMO2 (<xref rid="fig7" ref-type="fig" hwp:id="xref-fig-7-1"
+                                                                    hwp:rel-id="F7">Fig. 7A</xref>). Next, we crossbred
+                    p66ShcK81R knockin mice with low-density lipoprotein receptor knockout (LDLr<sup>-/-</sup>) mice to
+                    generate LDLr<sup>-/-</sup>Xp66ShcK81R KI mice and fed them high fat diet (HFD) for 4 weeks to
+                    induce hyperlipidemia. There was no difference in serum cholesterol level between the LDLr<sup>-/-
+                    </sup> and LDLr<sup>-/-</sup>Xp66ShcK81R KI mice on HFD (<xref rid="fig7" ref-type="fig"
+                                                                                   hwp:id="xref-fig-7-2"
+                                                                                   hwp:rel-id="F7">Fig. 7B</xref>). We
+                    performed vascular reactivity assay on the aortic rings of WT mice, LDLr<sup>-/-</sup> mice on
+                    normal diet and LDLr<sup>-/-</sup> on HFD and noted to a significant impairment of
+                    endothelium-dependent relaxation of aortic rings from LDLr<sup>-/-</sup> mice compared to aortic
+                    rings from wild type mice and LDLr<sup>-/-</sup>Xp66ShcK81R KI (<xref rid="fig7" ref-type="fig"
+                                                                                          hwp:id="xref-fig-7-3"
+                                                                                          hwp:rel-id="F7">Fig. 7C</xref>).
+                    However, the endothelium-independent relaxations were similar among the groups (<xref rid="fig7"
+                                                                                                          ref-type="fig"
+                                                                                                          hwp:id="xref-fig-7-4"
+                                                                                                          hwp:rel-id="F7">
+                        Fig. 7D</xref>). Further we evaluated the level of oxidative stress in aortas of LDLr<sup>-/-
+                    </sup> and LDLr<sup>-/-</sup>Xp66ShcK81R KI mice on HFD by determiening the level of 8-OHdG
+                    (8-hydroxy deoxyguansine), a marker of oxidative damage of DNA. We noticed that LDLr<sup>-/-</sup>Xp66ShcK81R
+                    KI mice have significantly less oxidative damage to aortic endothelium compared to LDLr<sup>-/-
+                    </sup> mice (<xref rid="fig7" ref-type="fig" hwp:id="xref-fig-7-5" hwp:rel-id="F7">Fig. 7E</xref> and
+                    F). Collectively, our study shows that p66Shc mediates the effects of SUMO2 on vasculature.
+                </p>
+                <fig id="fig7" position="float" fig-type="figure" orientation="portrait" hwp:id="F7"
+                     hwp:rev-id="xref-fig-7-1 xref-fig-7-2 xref-fig-7-3 xref-fig-7-4 xref-fig-7-5">
+                    <object-id pub-id-type="other" hwp:sub-type="pisa">biorxiv;2024.01.24.577109v4/FIG7</object-id>
+                    <object-id pub-id-type="other" hwp:sub-type="slug">F7</object-id>
+                    <object-id pub-id-type="publisher-id">fig7</object-id>
+                    <label>Figure 7.</label>
+                    <caption hwp:id="caption-7">
+                        <title hwp:id="title-23">p66ShcK81R knockin (KI) prevents hyperlipidemia-induced endothelial
+                            dysfunction and oxidative stress.
+                        </title>
+                        <p hwp:id="p-25">(A) Immunoblot showing oxidized-LDL (o-LDL)-induced changes in
+                            SUMO2/3-conjugated proteins in HUVECs with and without SUMO2. (B) Graph showing serum
+                            cholesterol-level in wild type, LDLr<sup>-/-</sup> mice on high fat diet, and p66ShcK81R KI
+                            mice on high fat diet (n=4/group). One-way ANOVA, ****P&lt;0.0001. Graphs showing %
+                            contraction following induction of endothelium-dependent relaxation (C) and
+                            endothelium-independent relaxation (D) in aortic rings from male wild-type mice, (n=14 rings
+                            from 5 mice), LDLr<sup>-/-</sup> mice on high fat diet (n=18 rings from 6 mice) and LDLr<sup>
+                                -/-
+                            </sup> Xp66ShcK81R KI mice on high fat diet (n=12 rings from 6 mice). Two-way ANOVA. ***P&lt;0.001.
+                            (E) Representative images showing the level of 8-OHdG in aortic section of LDLr<sup>-/-
+                            </sup> mice on high fat diet (n=6 mice) and LDLr<sup>-/-</sup> Xp66ShcK81R KI mice on high
+                            fat diet (n=6 mice) and their (F) quantification. One-way ANOVA. *P&lt;0.05. HFD-high fat
+                            diet Ach-acetylcholine, SNP-sodium nitroprusside, PE-Phenylephrine, 8-OHdG-8 hydroxy
+                            deoxyguanosine. Data represents mean ±SEM.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="577109v4_fig7" position="float" orientation="portrait" hwp:id="graphic-7"/>
+                </fig>
+            </sec>
+            <sec id="s2g" hwp:id="sec-13">
+                <title hwp:id="title-24">p66ShcK81-SUMO2ylation affects multiple signaling pathways in endothelial
+                    cells
+                </title>
+                <p hwp:id="p-26">Given that SUMO2 modifies p66Shc at K81 and causes endothelial dysfunction, we next
+                    asked how p66ShcK81-SUMO2 affects endothelial cells. We performed global proteomics profiling of
+                    HUVECs overexpressing SUMO2 and p66ShcWT or p66ShcK81R using mass spectrometry. Comparative analysis
+                    of protein expression was performed against control (HUVECs infected with an equal number of
+                    adenovirsues expressing LacZ) (Fig. S5A). Principal component analysis showed a distinct protein
+                    expression profile for cells expressing p66ShcWT and p66ShcK81R (<xref rid="fig8" ref-type="fig"
+                                                                                           hwp:id="xref-fig-8-1"
+                                                                                           hwp:rel-id="F8">Fig. 8A
+                    </xref> and B). To understand the effect of p66Shc K81 SUMOylation, we examined pathways altered in
+                    cells expressing p66ShcWT and p66ShcK81R. The majority of pathways were downregulated, with
+                    particularly strong suppression of JAK–STAT signaling. This observation is consistent with the known
+                    role of Shc proteins in mediating growth factor receptor signaling. Unlike p52Shc and p46Shc, p66Shc
+                    is reported to negatively regulate growth receptor signaling. Supporting this, our mass spectrometry
+                    data revealed a greater than 15-fold downregulation of JAK-STAT signaling in cells expressing
+                    p66ShcWT in the presence of SUMO2 (<xref rid="fig8" ref-type="fig" hwp:id="xref-fig-8-2"
+                                                             hwp:rel-id="F8">Fig. 8C
+                    </xref> and <xref ref-type="fig" rid="fig8" hwp:id="xref-fig-8-3" hwp:rel-id="F8">D</xref>). In
+                    contrast, this effect was attenuated in cells expressing p66ShcK81R with SUMO2. It is important to
+                    note that endogenous p66ShcWT was present in both conditions, which may have competed with the
+                    overexpressed p66ShcK81R. Together, these findings suggest that K81 SUMOylation plays a critical
+                    role in regulating p66Shc function.
+                </p>
+                <fig id="fig8" position="float" fig-type="figure" orientation="portrait" hwp:id="F8"
+                     hwp:rev-id="xref-fig-8-1 xref-fig-8-2 xref-fig-8-3">
+                    <object-id pub-id-type="other" hwp:sub-type="pisa">biorxiv;2024.01.24.577109v4/FIG8</object-id>
+                    <object-id pub-id-type="other" hwp:sub-type="slug">F8</object-id>
+                    <object-id pub-id-type="publisher-id">fig8</object-id>
+                    <label>Figure 8.</label>
+                    <caption hwp:id="caption-8">
+                        <title hwp:id="title-25">p66ShcK81 sumoylation affects multiple key regulatory pathways in
+                            endothelial cells.
+                        </title>
+                        <p hwp:id="p-27">(A&amp;B) Principal component analysis (PCA) of proteins expressed in
+                            endothelial cells expressing SUMO2+p66ShcWT and SUMO2+p66ShcK81R. (C&amp;D) Bar chart
+                            presentation of key regulatory pathways differentially affected by SUMO2-p66ShcWT (C) and
+                            SUMO2-p66ShcK81R (D) in endothelial cells. The protein expression data (fold change) was
+                            obtained from HUVECs expressing SUMO2 with p66ShcWT or p66ShcK81R compared to those
+                            expressing Ad-Lac Z. Pathway enrichment analysis was performed using R-based bioinformatics
+                            tools, including PROGENy/decoupleR pathway activity inference and visualization packages.
+                            Data were derived from a sample size of n=6.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="577109v4_fig8" position="float" orientation="portrait" hwp:id="graphic-8"/>
+                </fig>
+            </sec>
+        </sec>
+        <sec id="s3" hwp:id="sec-14">
+            <title hwp:id="title-26">Discussion</title>
+            <p hwp:id="p-28">Although SUMO2 and p66Shc are expressed in endothelium and are associated with ED, the
+                mechanisms by which this occurs are unclear. Here we identified SUMO2 modification of p66Shc as a novel
+                molecular signal regulating vascular endothelial function. SUMO2 modifies p66Shc at K81, which increases
+                phosphorylation of p66Shc at S36, resulting in its translocation to the mitochondria. These steps are
+                critical for p66Shc-dependent ROS production. Notably, this phenomenon was evident in non-endothelial
+                cells as well, suggesting that SUMO2-p66Shc may also regulate other physiologic functions. Mice
+                expressing a non-sumoylatable form of p66Shc (p66ShcK81R KI) were protected against SUMO2 and
+                hyperlipidemia-induced ED and oxidative stress, which further supports the role of SUMO2-p66ShcK81 in
+                regulating endothelium function.
+            </p>
+            <p hwp:id="p-29">Multiple studies suggest that sumoylation promotes ED.
+                <sup>
+                    <xref ref-type="bibr" rid="c24" hwp:id="xref-ref-24-1" hwp:rel-id="ref-24">24</xref>
+                </sup>
+                Preventing sumoylation by downregulating the SUMO ligases, Ubc9 (E2 ligase) and PIAS1 (E3 ligase),
+                rescued oxidative stress and advanced glycation end product-mediated endothelial inflammation and
+                dysfunction.
+                <sup>
+                    <xref ref-type="bibr" rid="c25" hwp:id="xref-ref-25-1" hwp:rel-id="ref-25">25</xref>
+                </sup>
+                Conversely, partial genetic deletion of the de-sumoylation enzyme, sentrin/SUMO-specific protease 2
+                (SENP2), significantly increased endothelial apoptosis, inflammation, and dysfunction, which promoted
+                atherosclerotic plaque formation.
+                <sup><xref ref-type="bibr" rid="c5" hwp:id="xref-ref-5-2" hwp:rel-id="ref-5">5</xref>,
+                    <xref ref-type="bibr" rid="c6" hwp:id="xref-ref-6-2" hwp:rel-id="ref-6">6</xref>
+                </sup>
+                However, the isoform-specific effects of SUMOs on endothelial function have not been well studied. We
+                previously reported that endothelial expression of SUMO2 impairs vasorelaxation.
+                <sup>
+                    <xref ref-type="bibr" rid="c11" hwp:id="xref-ref-11-2" hwp:rel-id="ref-11">11</xref>
+                </sup>
+                By showing that mice having p66ShcK81R knockin are resistant to endothelial effects of SUMO2 and
+                hyperlipidemia, this study explains the prior findings that the effects of SUMO2 on vasculature are
+                likely mediated by p66Shc.
+            </p>
+            <p hwp:id="p-30">The adapter protein p66Shc mediates receptor tyrosine kinase signaling in a variety of cell
+                types. Among them, the effects of p66Shc on endothelial cells are well studied and pronounced.
+                <sup>
+                    <xref ref-type="bibr" rid="c18" hwp:id="xref-ref-18-2" hwp:rel-id="ref-18">18</xref>
+                </sup>
+                In particular, endothelial function in mice with genetic deletion of p66Shc are protected against a
+                variety of stimuli such as diabetes, aging, and hyperlipidemia.
+                <sup><xref ref-type="bibr" rid="c19" hwp:id="xref-ref-19-2" hwp:rel-id="ref-19">19</xref>, <xref
+                        ref-type="bibr" rid="c20" hwp:id="xref-ref-20-2" hwp:rel-id="ref-20">20</xref>,
+                    <xref ref-type="bibr" rid="c26" hwp:id="xref-ref-26-1" hwp:rel-id="ref-26">26</xref>
+                </sup>
+                p66Shc produces ROS by oxidation of cytochrome C in the mitochondria as well as by activating Rac1.
+                <sup><xref ref-type="bibr" rid="c13" hwp:id="xref-ref-13-1" hwp:rel-id="ref-13">13</xref>,
+                    <xref ref-type="bibr" rid="c22" hwp:id="xref-ref-22-2" hwp:rel-id="ref-22">22</xref>
+                </sup>
+                Phosphorylation at S36 in the CH2 domain of p66Shc is one of the earliest discovered posttranslational
+                modifications that govern its oxidative function.
+                <sup>
+                    <xref ref-type="bibr" rid="c12" hwp:id="xref-ref-12-2" hwp:rel-id="ref-12">12</xref>
+                </sup>
+                Crosstalk among different posttranslational modifications including phosphorylation, acetylation, and
+                sumoylation is well known.
+                <sup><xref ref-type="bibr" rid="c27" hwp:id="xref-ref-27-1" hwp:rel-id="ref-27">27</xref>-
+                    <xref ref-type="bibr" rid="c30" hwp:id="xref-ref-30-1" hwp:rel-id="ref-30">30</xref>
+                </sup>
+                Our finding that SUMO2 increases S36 phosphorylation in p66Shc suggests the existence of such a
+                crosstalk in regulating the oxidative function of p66Shc. The molecular weight of the phosphorylated
+                p66ShcS36 protein band (close to 70kD) suggests that the pool of SUMO2-induced phosphorylated p66ShcS36
+                is not SUMO2ylated. Therefore, it is likely that K81-SUMOylated and S36-phosphorylated forms of p66Shc
+                coexist in the same pool of protein, but that p66Shc is not SUMOylated and phosphorylated at the same
+                time. Future studies will be needed to establish the hierarchy of this phenomena.
+            </p>
+            <p hwp:id="p-31">Based on mass spectrometry analysis and <italic toggle="yes">in vitro</italic> sumoylation
+                of recombinant p66Shc, it appears that p66ShcK81 is a primary target of SUMO2. However, the multiple
+                protein bands higher than 66kD that were present in the immunoprecipitation assay suggest the
+                possibility that additional sumoylation sites are present in p66Shc. Technical challenges limited our
+                ability to determine the nature of these protein bands. Yet, in silico analysis using an available
+                sumoylation prediction tool (Cuckoo workgroup) indicates 3 possible sumoylation motifs present in
+                p66Shc, namely K81, K462, and K582, which can non-specifically be modified by SUMO1/2/3/4. Importantly,
+                among the possible sumoylation motifs only K81 is present in the CH2 domain, which is unique structural
+                feature of p66Shc (i.e., not present in other isoforms: p52Shc and p46Shc) that has a regulatory effect
+                on its function. Therefore, even though other lysines are sumoylated, it is likely that the effect of
+                p66Shc-sumoylation is mediated through the K81 modification and has also been supported by proteomics
+                analysis.
+            </p>
+            <p hwp:id="p-32">The primary function of the ShcA family of adaptor proteins is to mediate growth factor
+                receptor signaling
+                <sup>
+                    <xref ref-type="bibr" rid="c18" hwp:id="xref-ref-18-3" hwp:rel-id="ref-18">18</xref>
+                </sup>
+                . However, p66Shc is unique within this family, as it deviates from the classical role of Shc proteins
+                and instead promotes oxidative stress. Our global mass spectrometry data suggest that enhancing
+                p66ShcK81 SUMO2ylation inhibits JAK-STAT signaling, a key downstream pathway of growth factor receptor
+                signaling. The negative regulation of growth receptor signaling by p66Shc, through competition with
+                p52Shc for Grb2 binding, has been previously reported
+                <sup>
+                    <xref ref-type="bibr" rid="c31" hwp:id="xref-ref-31-1" hwp:rel-id="ref-31">31</xref>
+                </sup>
+                . In addition, a recent study demonstrated that p66Shc can mediate EGFR-ERK signaling
+                <sup>
+                    <xref ref-type="bibr" rid="c32" hwp:id="xref-ref-32-1" hwp:rel-id="ref-32">32</xref>
+                </sup>
+                . Therefore, beyond its established role in ROS regulation, p66ShcK81-SUMO2ylation may have additional
+                functional roles in endothelial cell physiology.
+            </p>
+            <p hwp:id="p-33">One of the limitations of this study is that we did not perform gain-of-function
+                experiments to ascertain if SUMO2-modified p66ShcK81 regulates p66Shc function <italic toggle="yes">in
+                    vivo</italic>, which is technically too challenging. Additionally, we were unable to examine the
+                behavior of the phosphomimetic double mutant (S36D/K81R) to directly assess the interplay between K81
+                SUMO2ylation and S36 phosphorylation in mitochondrial localization. Prior studies have shown that K81 of
+                p66Shc undergoes acetylation
+                <sup>
+                    <xref ref-type="bibr" rid="c14" hwp:id="xref-ref-14-1" hwp:rel-id="ref-14">14</xref>
+                </sup>
+                and that a specific lysine can undergo sumoylation as well as acetylation.
+                <sup>
+                    <xref ref-type="bibr" rid="c29" hwp:id="xref-ref-29-1" hwp:rel-id="ref-29">29</xref>
+                </sup>
+                Although p66ShcK81R disrupts acetylation and sumoylation that occurs from acetyl transferase and
+                SUMOylating enzymes, it is possible that the same lysine is sumoylated and acetylated in a context
+                dependent manner. Importantly, the extent of post translational modification is so small that a
+                competition between acetylation and sumoylation for the same target residue is highly unlikely. The fact
+                that p66ShcK81R KI mice are protected against SUMO2-induced ED supports the hypothesis that p66ShcK81
+                mediates the endothelial effects of SUMO2.
+            </p>
+            <p hwp:id="p-34">Collectively, our study identified p66Shc SUMO2ylation as a unique cellular signaling
+                mechanism specifically regulating vascular endothelial function. As such, this signaling mechanism may
+                also affect advanced pathologies such as atherosclerosis, where both increased SUMOylation and
+                expression of p66Shc has been reported. Nevertheless, given its potential to regulate endothelial
+                function, SUMO2ylation of p66Shc presents a novel therapeutic target for pathologies associated with ED.
+            </p>
+        </sec>
+        <sec sec-type="supplementary-material" hwp:id="sec-15">
+            <title hwp:id="title-27">Supporting information</title>
+            <supplementary-material position="float" orientation="portrait" hwp:id="DC1">
+                <object-id pub-id-type="other" hwp:sub-type="slug">DC1</object-id>
+                <label>Supplement file</label>
+                <media xlink:href="supplements/577109_file10.docx" position="float" orientation="portrait"
+                       hwp:id="media-1"/>
+            </supplementary-material>
+        </sec>
+    </body>
+    <back>
+        <ack hwp:id="ack-1">
+            <title hwp:id="title-28">Acknowledgements</title>
+            <p hwp:id="p-35">S. Kumar was supported by NIH grants R01HL152132, R21AG086743 and CFF pilot and feasibility
+                grant 005803I223. Sequencing data presented herein were obtained at the Genomics Division of the Iowa
+                Institute of Human Genetics, which is supported, in part, by the University of Iowa Carver College of
+                Medicine. Viral Vectors were provided by the University of Iowa Viral Vector Core. Mass spectrometry was
+                performed at Mass Spectrometry and Proteomics Core Facility, University of Nebraska. The University of
+                Nebraska Medical Center Mass Spectrometry and Proteomics Core Facility is administrated through the
+                Office of the Vice Chancellor for Research and supported by state funds from the Nebraska Research
+                Initiative. The p66ShcK81R knockin mouse was generated at the University of Iowa Genome Editing Core
+                Facility, supported in part by grants from the NIH and from the University of Iowa Carver College of
+                Medicine. We wish to thank Norma Sinclair, Patricia Yarolem, Joanne Schwarting and Rongbin Guan for
+                their technical expertise in generating transgenic mice. We gratefully acknowledge Kris Griener of the
+                Design Center for language editing and Dr. Jennifer Y. Barr of the Scientific Editing and Research
+                Communication Core at the University of Iowa Carver College of Medicine for critical reading of the
+                manuscript and suggestions toward improving the clarity of the manuscript.
+            </p>
+        </ack>
+        <ref-list hwp:id="ref-list-1">
+            <title hwp:id="title-29">References</title>
+            <ref id="c1" hwp:id="ref-1" hwp:rev-id="xref-ref-1-1">
+                <label>1.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.1"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-1">
+                    <string-name name-style="western" hwp:sortable="Ludmer PL">
+                        <surname>Ludmer</surname>
+                        <given-names>PL</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Selwyn AP">
+                        <surname>Selwyn</surname>
+                        <given-names>AP</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Shook TL">
+                        <surname>Shook</surname>
+                        <given-names>TL</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Wayne RR">
+                        <surname>Wayne</surname>
+                        <given-names>RR</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Mudge GH">
+                        <surname>Mudge</surname>
+                        <given-names>GH</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Alexander RW">
+                        <surname>Alexander</surname>
+                        <given-names>RW</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Ganz P.">
+                        <surname>Ganz</surname>
+                        <given-names>P.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-2">Paradoxical vasoconstriction induced by acetylcholine in
+                        atherosclerotic coronary arteries</article-title>. <source hwp:id="source-1">N Engl J
+                    Med</source>. <year>1986</year>;<volume>315</volume>:<fpage>1046</fpage>–
+                    <lpage>1051</lpage>
+                </citation>
+            </ref>
+            <ref id="c2" hwp:id="ref-2" hwp:rev-id="xref-ref-2-1">
+                <label>2.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.2"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-2">
+                    <string-name name-style="western" hwp:sortable="Lundberg JO">
+                        <surname>Lundberg</surname>
+                        <given-names>JO</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Weitzberg E.">
+                        <surname>Weitzberg</surname>
+                        <given-names>E.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-3">Nitric oxide signaling in health and disease</article-title>. <source
+                        hwp:id="source-2">Cell</source>. <year>2022</year>;<volume>185</volume>:<fpage>2853</fpage>–
+                    <lpage>2878</lpage>
+                </citation>
+            </ref>
+            <ref id="c3" hwp:id="ref-3" hwp:rev-id="xref-ref-3-1">
+                <label>3.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.3"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-3">
+                    <string-name name-style="western" hwp:sortable="Dai G">
+                        <surname>Dai</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Kaazempur-Mofrad MR">
+                        <surname>Kaazempur-Mofrad</surname>
+                        <given-names>MR</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Natarajan S">
+                        <surname>Natarajan</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Zhang Y">
+                        <surname>Zhang</surname>
+                        <given-names>Y</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Vaughn S">
+                        <surname>Vaughn</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Blackman BR">
+                        <surname>Blackman</surname>
+                        <given-names>BR</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Kamm RD">
+                        <surname>Kamm</surname>
+                        <given-names>RD</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Garcia-Cardena G">
+                        <surname>Garcia-Cardena</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Gimbrone MA Jr.">
+                        <surname>Gimbrone</surname>
+                        <given-names>MA</given-names>,
+                        <suffix>Jr.</suffix>
+                    </string-name>
+                    <article-title hwp:id="article-title-4">Distinct endothelial phenotypes evoked by arterial waveforms
+                        derived from atherosclerosis-susceptible and -resistant regions of human
+                        vasculature</article-title>. <source hwp:id="source-3">Proc Natl Acad Sci U S A</source>. <year>
+                    2004</year>;<volume>101</volume>:<fpage>14871</fpage>–
+                    <lpage>14876</lpage>
+                </citation>
+            </ref>
+            <ref id="c4" hwp:id="ref-4" hwp:rev-id="xref-ref-4-1 xref-ref-4-2">
+                <label>4.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.4"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-4">
+                    <string-name name-style="western" hwp:sortable="Chang HM">
+                        <surname>Chang</surname>
+                        <given-names>HM</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Yeh ETH">
+                        <surname>Yeh</surname>
+                        <given-names>ETH</given-names>
+                    </string-name>
+                    . <article-title hwp:id="article-title-5">Sumo: From bench to bedside</article-title>. <source
+                        hwp:id="source-4">Physiol Rev</source>. <year>2020</year>;<volume>100</volume>:<fpage>
+                    1599</fpage>–
+                    <lpage>1619</lpage>
+                </citation>
+            </ref>
+            <ref id="c5" hwp:id="ref-5" hwp:rev-id="xref-ref-5-1 xref-ref-5-2">
+                <label>5.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.5"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-5">
+                    <string-name name-style="western" hwp:sortable="Heo KS">
+                        <surname>Heo</surname>
+                        <given-names>KS</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Le NT"><surname>Le</surname>.
+                        <given-names>NT</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Cushman HJ">
+                        <surname>Cushman</surname>
+                        <given-names>HJ</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Giancursio CJ">
+                        <surname>Giancursio</surname>
+                        <given-names>CJ</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Chang E">
+                        <surname>Chang</surname>
+                        <given-names>E</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Woo CH">
+                        <surname>Woo</surname>
+                        <given-names>CH</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Sullivan MA">
+                        <surname>Sullivan</surname>
+                        <given-names>MA</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Taunton J">
+                        <surname>Taunton</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Yeh ET">
+                        <surname>Yeh</surname>
+                        <given-names>ET</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Fujiwara K">
+                        <surname>Fujiwara</surname>
+                        <given-names>K</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Abe J.">
+                        <surname>Abe</surname>
+                        <given-names>J.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-6">Disturbed flow-activated p90rsk kinase accelerates
+                        atherosclerosis by inhibiting senp2 function</article-title>. <source hwp:id="source-5">J Clin
+                    Invest</source>. <year>2015</year>;<volume>125</volume>:<fpage>1299</fpage>–
+                    <lpage>1310</lpage>
+                </citation>
+            </ref>
+            <ref id="c6" hwp:id="ref-6" hwp:rev-id="xref-ref-6-1 xref-ref-6-2">
+                <label>6.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.6"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-6">
+                    <string-name name-style="western" hwp:sortable="Heo KS">
+                        <surname>Heo</surname>
+                        <given-names>KS</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Chang E">
+                        <surname>Chang</surname>
+                        <given-names>E</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Le NT">
+                        <surname>Le</surname>
+                        <given-names>NT</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Cushman H">
+                        <surname>Cushman</surname>
+                        <given-names>H</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Yeh ET">
+                        <surname>Yeh</surname>
+                        <given-names>ET</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Fujiwara K">
+                        <surname>Fujiwara</surname>
+                        <given-names>K</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Abe J.">
+                        <surname>Abe</surname>
+                        <given-names>J.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-7">De-sumoylation enzyme of sentrin/sumo-specific protease 2
+                        regulates disturbed flow-induced sumoylation of erk5 and p53 that leads to endothelial
+                        dysfunction and atherosclerosis</article-title>. <source hwp:id="source-6">Circ
+                    Res</source>. <year>2013</year>;<volume>112</volume>:<fpage>911</fpage>–
+                    <lpage>923</lpage>
+                </citation>
+            </ref>
+            <ref id="c7" hwp:id="ref-7" hwp:rev-id="xref-ref-7-1">
+                <label>7.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.7"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-7">
+                    <string-name name-style="western" hwp:sortable="Song J">
+                        <surname>Song</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Durrin LK">
+                        <surname>Durrin</surname>
+                        <given-names>LK</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Wilkinson TA">
+                        <surname>Wilkinson</surname>
+                        <given-names>TA</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Krontiris TG">
+                        <surname>Krontiris</surname>
+                        <given-names>TG</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Chen Y.">
+                        <surname>Chen</surname>
+                        <given-names>Y.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-8">Identification of a sumo-binding motif that recognizes
+                        sumo-modified proteins</article-title>. <source hwp:id="source-7">Proc Natl Acad Sci U S
+                    A</source>. <year>2004</year>;<volume>101</volume>:<fpage>14373</fpage>–
+                    <lpage>14378</lpage>
+                </citation>
+            </ref>
+            <ref id="c8" hwp:id="ref-8" hwp:rev-id="xref-ref-8-1">
+                <label>8.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.8"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-8">
+                    <string-name name-style="western" hwp:sortable="Impens F">
+                        <surname>Impens</surname>
+                        <given-names>F</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Radoshevich L">
+                        <surname>Radoshevich</surname>
+                        <given-names>L</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Cossart P">
+                        <surname>Cossart</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Ribet D.">
+                        <surname>Ribet</surname>
+                        <given-names>D.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-9">Mapping of sumo sites and analysis of sumoylation changes
+                        induced by external stimuli</article-title>. <source hwp:id="source-8">Proc Natl Acad Sci U S
+                    A</source>. <year>2014</year>;<volume>111</volume>:<fpage>12432</fpage>–
+                    <lpage>12437</lpage>
+                </citation>
+            </ref>
+            <ref id="c9" hwp:id="ref-9" hwp:rev-id="xref-ref-9-1">
+                <label>9.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.9"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-9">
+                    <string-name name-style="western" hwp:sortable="Wang L">
+                        <surname>Wang</surname>
+                        <given-names>L</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Wansleeben C">
+                        <surname>Wansleeben</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Zhao S">
+                        <surname>Zhao</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Miao P">
+                        <surname>Miao</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Paschen W">
+                        <surname>Paschen</surname>
+                        <given-names>W</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Yang W.">
+                        <surname>Yang</surname>
+                        <given-names>W.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-10">Sumo2 is essential while sumo3 is dispensable for mouse
+                        embryonic development</article-title>. <source hwp:id="source-9">EMBO Rep</source>. <year>
+                    2014</year>;<volume>15</volume>:<fpage>878</fpage>–
+                    <lpage>885</lpage>
+                </citation>
+            </ref>
+            <ref id="c10" hwp:id="ref-10" hwp:rev-id="xref-ref-10-1">
+                <label>10.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.10"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-10">
+                    <string-name name-style="western" hwp:sortable="Zhang FP">
+                        <surname>Zhang</surname>
+                        <given-names>FP</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Mikkonen L">
+                        <surname>Mikkonen</surname>
+                        <given-names>L</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Toppari J">
+                        <surname>Toppari</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Palvimo JJ">
+                        <surname>Palvimo</surname>
+                        <given-names>JJ</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Thesleff I">
+                        <surname>Thesleff</surname>
+                        <given-names>I</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Janne OA">
+                        <surname>Janne</surname>
+                        <given-names>OA</given-names>
+                    </string-name>
+                    . <article-title hwp:id="article-title-11">Sumo-1 function is dispensable in normal mouse
+                    development</article-title>. <source hwp:id="source-10">Mol Cell Biol</source>. <year>
+                    2008</year>;<volume>28</volume>:<fpage>5381</fpage>–
+                    <lpage>5390</lpage>
+                </citation>
+            </ref>
+            <ref id="c11" hwp:id="ref-11" hwp:rev-id="xref-ref-11-1 xref-ref-11-2">
+                <label>11.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.11"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-11">
+                    <string-name name-style="western" hwp:sortable="Kim YR">
+                        <surname>Kim</surname>
+                        <given-names>YR</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Jacobs JS">
+                        <surname>Jacobs</surname>
+                        <given-names>JS</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Li Q">
+                        <surname>Li</surname>
+                        <given-names>Q</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Gaddam RR">
+                        <surname>Gaddam</surname>
+                        <given-names>RR</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Vikram A">
+                        <surname>Vikram</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Liu J">
+                        <surname>Liu</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Kassan M">
+                        <surname>Kassan</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Irani K">
+                        <surname>Irani</surname>
+                        <given-names>K</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Kumar S.">
+                        <surname>Kumar</surname>
+                        <given-names>S.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-12">Sumo2 regulates vascular endothelial function and oxidative
+                        stress in mice</article-title>. <source hwp:id="source-11">Am J Physiol Heart Circ
+                    Physiol</source>. <year>2019</year>;<volume>317</volume>:<fpage>H1292</fpage>–
+                    <lpage>H1300</lpage>
+                </citation>
+            </ref>
+            <ref id="c12" hwp:id="ref-12" hwp:rev-id="xref-ref-12-1 xref-ref-12-2">
+                <label>12.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.12"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-12">
+                    <string-name name-style="western" hwp:sortable="Pinton P">
+                        <surname>Pinton</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Rimessi A">
+                        <surname>Rimessi</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Marchi S">
+                        <surname>Marchi</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Orsini F">
+                        <surname>Orsini</surname>
+                        <given-names>F</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Migliaccio E">
+                        <surname>Migliaccio</surname>
+                        <given-names>E</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Giorgio M">
+                        <surname>Giorgio</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Contursi C">
+                        <surname>Contursi</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Minucci S">
+                        <surname>Minucci</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Mantovani F">
+                        <surname>Mantovani</surname>
+                        <given-names>F</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Wieckowski MR">
+                        <surname>Wieckowski</surname>
+                        <given-names>MR</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Del Sal G">
+                        <surname>Del Sal</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pelicci PG">
+                        <surname>Pelicci</surname>
+                        <given-names>PG</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Rizzuto R.">
+                        <surname>Rizzuto</surname>
+                        <given-names>R.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-13">Protein kinase c beta and prolyl isomerase 1 regulate
+                        mitochondrial effects of the life-span determinant p66shc</article-title>. <source
+                        hwp:id="source-12">Science</source>. <year>2007</year>;<volume>315</volume>:<fpage>659</fpage>–
+                    <lpage>663</lpage>
+                </citation>
+            </ref>
+            <ref id="c13" hwp:id="ref-13" hwp:rev-id="xref-ref-13-1">
+                <label>13.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.13"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-13">
+                    <string-name name-style="western" hwp:sortable="Khanday FA">
+                        <surname>Khanday</surname>
+                        <given-names>FA</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Yamamori T">
+                        <surname>Yamamori</surname>
+                        <given-names>T</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Mattagajasingh I">
+                        <surname>Mattagajasingh</surname>
+                        <given-names>I</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Zhang Z">
+                        <surname>Zhang</surname>
+                        <given-names>Z</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Bugayenko A">
+                        <surname>Bugayenko</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Naqvi A">
+                        <surname>Naqvi</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Santhanam L">
+                        <surname>Santhanam</surname>
+                        <given-names>L</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Nabi N">
+                        <surname>Nabi</surname>
+                        <given-names>N</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Kasuno K">
+                        <surname>Kasuno</surname>
+                        <given-names>K</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Day BW">
+                        <surname>Day</surname>
+                        <given-names>BW</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Irani K.">
+                        <surname>Irani</surname>
+                        <given-names>K.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-14">Rac1 leads to phosphorylation-dependent increase in
+                        stability of the p66shc adaptor protein: Role in rac1-induced oxidative stress</article-title>. <source
+                        hwp:id="source-13">Mol Biol Cell</source>. <year>2006</year>;<volume>17</volume>:<fpage>
+                    122</fpage>–
+                    <lpage>129</lpage>
+                </citation>
+            </ref>
+            <ref id="c14" hwp:id="ref-14" hwp:rev-id="xref-ref-14-1">
+                <label>14.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.14"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-14">
+                    <string-name name-style="western" hwp:sortable="Kumar S">
+                        <surname>Kumar</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Kim YR">
+                        <surname>Kim</surname>
+                        <given-names>YR</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Vikram A">
+                        <surname>Vikram</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Naqvi A">
+                        <surname>Naqvi</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Li Q">
+                        <surname>Li</surname>
+                        <given-names>Q</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Kassan M">
+                        <surname>Kassan</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Kumar V">
+                        <surname>Kumar</surname>
+                        <given-names>V</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Bachschmid MM">
+                        <surname>Bachschmid</surname>
+                        <given-names>MM</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Jacobs JS">
+                        <surname>Jacobs</surname>
+                        <given-names>JS</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Kumar A">
+                        <surname>Kumar</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Irani K.">
+                        <surname>Irani</surname>
+                        <given-names>K.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-15">Sirtuin1-regulated lysine acetylation of p66shc governs
+                        diabetes-induced vascular oxidative stress and endothelial dysfunction</article-title>. <source
+                        hwp:id="source-14">Proc Natl Acad Sci U S A</source>. <year>2017</year>;<volume>
+                    114</volume>:<fpage>1714</fpage>–
+                    <lpage>1719</lpage>
+                </citation>
+            </ref>
+            <ref id="c15" hwp:id="ref-15" hwp:rev-id="xref-ref-15-1">
+                <label>15.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.15"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-15">
+                    <string-name name-style="western" hwp:sortable="Pacini S">
+                        <surname>Pacini</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pellegrini M">
+                        <surname>Pellegrini</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Migliaccio E">
+                        <surname>Migliaccio</surname>
+                        <given-names>E</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Patrussi L">
+                        <surname>Patrussi</surname>
+                        <given-names>L</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Ulivieri C">
+                        <surname>Ulivieri</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Ventura A">
+                        <surname>Ventura</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Carraro F">
+                        <surname>Carraro</surname>
+                        <given-names>F</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Naldini A">
+                        <surname>Naldini</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Lanfrancone L">
+                        <surname>Lanfrancone</surname>
+                        <given-names>L</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pelicci P">
+                        <surname>Pelicci</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Baldari CT">
+                        <surname>Baldari</surname>
+                        <given-names>CT</given-names>
+                    </string-name>
+                    . <article-title hwp:id="article-title-16">P66shc promotes apoptosis and antagonizes mitogenic
+                    signaling in t cells</article-title>. <source hwp:id="source-15">Mol Cell Biol</source>. <year>
+                    2004</year>;<volume>24</volume>:<fpage>1747</fpage>–
+                    <lpage>1757</lpage>
+                </citation>
+            </ref>
+            <ref id="c16" hwp:id="ref-16" hwp:rev-id="xref-ref-16-1">
+                <label>16.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.16"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-16">
+                    <string-name name-style="western" hwp:sortable="Rozakis-Adcock M">
+                        <surname>Rozakis-Adcock</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="McGlade J">
+                        <surname>McGlade</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Mbamalu G">
+                        <surname>Mbamalu</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pelicci G">
+                        <surname>Pelicci</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Daly R">
+                        <surname>Daly</surname>
+                        <given-names>R</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Li W">
+                        <surname>Li</surname>
+                        <given-names>W</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Batzer A">
+                        <surname>Batzer</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Thomas S">
+                        <surname>Thomas</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Brugge J">
+                        <surname>Brugge</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pelicci PG">
+                        <surname>Pelicci</surname>
+                        <given-names>PG</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Schlessinger J">
+                        <surname>Schlessinger</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pawson T">
+                        <surname>Pawson</surname>
+                        <given-names>T</given-names>
+                    </string-name>
+                    , <etal>et al.</etal>
+                    <article-title hwp:id="article-title-17">Association of the shc and grb2/sem5 sh2-containing
+                        proteins is implicated in activation of the ras pathway by tyrosine
+                        kinases</article-title>. <source hwp:id="source-16">Nature</source>. <year>1992</year>;<volume>
+                    360</volume>:<fpage>689</fpage>–
+                    <lpage>692</lpage>
+                </citation>
+            </ref>
+            <ref id="c17" hwp:id="ref-17" hwp:rev-id="xref-ref-17-1">
+                <label>17.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.17"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-17">
+                    <string-name name-style="western" hwp:sortable="Gotoh N">
+                        <surname>Gotoh</surname>
+                        <given-names>N</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Tojo A">
+                        <surname>Tojo</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Shibuya M.">
+                        <surname>Shibuya</surname>
+                        <given-names>M.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-18">A novel pathway from phosphorylation of tyrosine residues
+                        239/240 of shc, contributing to suppress apoptosis by il-3</article-title>. <source
+                        hwp:id="source-17">EMBO J</source>. <year>1996</year>;<volume>15</volume>:<fpage>6197</fpage>–
+                    <lpage>6204</lpage>
+                </citation>
+            </ref>
+            <ref id="c18" hwp:id="ref-18" hwp:rev-id="xref-ref-18-1 xref-ref-18-2 xref-ref-18-3">
+                <label>18.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.18"
+                          ref:linkable="no" ref:use-reference-as-is="yes" hwp:id="citation-18">
+                    <string-name name-style="western" hwp:sortable="Kumar S.">
+                        <surname>Kumar</surname>
+                        <given-names>S.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-19">P66shc and vascular endothelial
+                        function</article-title>. <source hwp:id="source-18">Biosci Rep</source>. <year>2019</year>;
+                    <volume>39</volume>
+                </citation>
+            </ref>
+            <ref id="c19" hwp:id="ref-19" hwp:rev-id="xref-ref-19-1 xref-ref-19-2">
+                <label>19.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.19"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-19">
+                    <string-name name-style="western" hwp:sortable="Napoli C">
+                        <surname>Napoli</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Martin-Padura I">
+                        <surname>Martin-Padura</surname>
+                        <given-names>I</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="de Nigris F">
+                        <surname>de Nigris</surname>
+                        <given-names>F</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Giorgio M">
+                        <surname>Giorgio</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Mansueto G">
+                        <surname>Mansueto</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Somma P">
+                        <surname>Somma</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Condorelli M">
+                        <surname>Condorelli</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Sica G">
+                        <surname>Sica</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="De Rosa G">
+                        <surname>De Rosa</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pelicci P.">
+                        <surname>Pelicci</surname>
+                        <given-names>P.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-20">Deletion of the p66shc longevity gene reduces systemic and
+                        tissue oxidative stress, vascular cell apoptosis, and early atherogenesis in mice fed a high-fat
+                        diet</article-title>. <source hwp:id="source-19">Proc Natl Acad Sci U S A</source>. <year>
+                    2003</year>;<volume>100</volume>:<fpage>2112</fpage>–
+                    <lpage>2116</lpage>
+                </citation>
+            </ref>
+            <ref id="c20" hwp:id="ref-20" hwp:rev-id="xref-ref-20-1 xref-ref-20-2">
+                <label>20.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.20"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-20">
+                    <string-name name-style="western" hwp:sortable="Camici GG">
+                        <surname>Camici</surname>
+                        <given-names>GG</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Schiavoni M">
+                        <surname>Schiavoni</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Francia P">
+                        <surname>Francia</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Bachschmid M">
+                        <surname>Bachschmid</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Martin-Padura I">
+                        <surname>Martin-Padura</surname>
+                        <given-names>I</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Hersberger M">
+                        <surname>Hersberger</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Tanner FC">
+                        <surname>Tanner</surname>
+                        <given-names>FC</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pelicci P">
+                        <surname>Pelicci</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Volpe M">
+                        <surname>Volpe</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Anversa P">
+                        <surname>Anversa</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Luscher TF">
+                        <surname>Luscher</surname>
+                        <given-names>TF</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Cosentino F.">
+                        <surname>Cosentino</surname>
+                        <given-names>F.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-21">Genetic deletion of p66(shc) adaptor protein prevents
+                        hyperglycemia-induced endothelial dysfunction and oxidative stress</article-title>. <source
+                        hwp:id="source-20">Proc Natl Acad Sci U S A</source>. <year>2007</year>;<volume>
+                    104</volume>:<fpage>5217</fpage>–
+                    <lpage>5222</lpage>
+                </citation>
+            </ref>
+            <ref id="c21" hwp:id="ref-21" hwp:rev-id="xref-ref-21-1">
+                <label>21.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.21"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-21">
+                    <string-name name-style="western" hwp:sortable="Wright KD">
+                        <surname>Wright</surname>
+                        <given-names>KD</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Staruschenko A">
+                        <surname>Staruschenko</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Sorokin A.">
+                        <surname>Sorokin</surname>
+                        <given-names>A.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-22">Role of adaptor protein p66shc in renal
+                        pathologies</article-title>. <source hwp:id="source-21">Am J Physiol Renal
+                    Physiol</source>. <year>2018</year>;<volume>314</volume>:<fpage>F143</fpage>–
+                    <lpage>F153</lpage>
+                </citation>
+            </ref>
+            <ref id="c22" hwp:id="ref-22" hwp:rev-id="xref-ref-22-1 xref-ref-22-2">
+                <label>22.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.22"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-22">
+                    <string-name name-style="western" hwp:sortable="Giorgio M">
+                        <surname>Giorgio</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Migliaccio E">
+                        <surname>Migliaccio</surname>
+                        <given-names>E</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Orsini F">
+                        <surname>Orsini</surname>
+                        <given-names>F</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Paolucci D">
+                        <surname>Paolucci</surname>
+                        <given-names>D</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Moroni M">
+                        <surname>Moroni</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Contursi C">
+                        <surname>Contursi</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pelliccia G">
+                        <surname>Pelliccia</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Luzi L">
+                        <surname>Luzi</surname>
+                        <given-names>L</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Minucci S">
+                        <surname>Minucci</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Marcaccio M">
+                        <surname>Marcaccio</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pinton P">
+                        <surname>Pinton</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Rizzuto R">
+                        <surname>Rizzuto</surname>
+                        <given-names>R</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Bernardi P">
+                        <surname>Bernardi</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Paolucci F">
+                        <surname>Paolucci</surname>
+                        <given-names>F</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pelicci PG">
+                        <surname>Pelicci</surname>
+                        <given-names>PG</given-names>
+                    </string-name>
+                    . <article-title hwp:id="article-title-23">Electron transfer between cytochrome c and p66shc
+                    generates reactive oxygen species that trigger mitochondrial apoptosis</article-title>. <source
+                        hwp:id="source-22">Cell</source>. <year>2005</year>;<volume>122</volume>:<fpage>221</fpage>–
+                    <lpage>233</lpage>
+                </citation>
+            </ref>
+            <ref id="c23" hwp:id="ref-23" hwp:rev-id="xref-ref-23-1">
+                <label>23.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.23"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-23">
+                    <string-name name-style="western" hwp:sortable="Woo CH">
+                        <surname>Woo</surname>
+                        <given-names>CH</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Abe J.">
+                        <surname>Abe</surname>
+                        <given-names>J.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-24">Sumo--a post-translational modification with therapeutic
+                        potential?
+                    </article-title>
+                    <source hwp:id="source-23">Curr Opin Pharmacol</source>. <year>2010</year>;<volume>
+                    10</volume>:<fpage>146</fpage>–
+                    <lpage>155</lpage>
+                </citation>
+            </ref>
+            <ref id="c24" hwp:id="ref-24" hwp:rev-id="xref-ref-24-1">
+                <label>24.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.24"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-24">
+                    <string-name name-style="western" hwp:sortable="Abe JI">
+                        <surname>Abe</surname>
+                        <given-names>JI</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Sandhu UG">
+                        <surname>Sandhu</surname>
+                        <given-names>UG</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Hoang NM">
+                        <surname>Hoang</surname>
+                        <given-names>NM</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Thangam M">
+                        <surname>Thangam</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Quintana-Quezada RA">
+                        <surname>Quintana-Quezada</surname>
+                        <given-names>RA</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Fujiwara K">
+                        <surname>Fujiwara</surname>
+                        <given-names>K</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Le NT.">
+                        <surname>Le</surname>
+                        <given-names>NT.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-25">Coordination of cellular localization-dependent effects of
+                        sumoylation in regulating cardiovascular and neurological diseases</article-title>. <source
+                        hwp:id="source-24">Adv Exp Med Biol</source>. <year>2017</year>;<volume>963</volume>:<fpage>
+                    337</fpage>–
+                    <lpage>358</lpage>
+                </citation>
+            </ref>
+            <ref id="c25" hwp:id="ref-25" hwp:rev-id="xref-ref-25-1">
+                <label>25.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.25"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-25">
+                    <string-name name-style="western" hwp:sortable="Woo CH">
+                        <surname>Woo</surname>
+                        <given-names>CH</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Shishido T">
+                        <surname>Shishido</surname>
+                        <given-names>T</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="McClain C">
+                        <surname>McClain</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Lim JH">
+                        <surname>Lim</surname>
+                        <given-names>JH</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Li JD">
+                        <surname>Li</surname>
+                        <given-names>JD</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Yang J">
+                        <surname>Yang</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Yan C">
+                        <surname>Yan</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Abe J.">
+                        <surname>Abe</surname>
+                        <given-names>J.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-26">Extracellular signal-regulated kinase 5 sumoylation
+                        antagonizes shear stress-induced antiinflammatory response and endothelial nitric oxide synthase
+                        expression in endothelial cells</article-title>. <source hwp:id="source-25">Circ
+                    Res</source>. <year>2008</year>;<volume>102</volume>:<fpage>538</fpage>–
+                    <lpage>545</lpage>
+                </citation>
+            </ref>
+            <ref id="c26" hwp:id="ref-26" hwp:rev-id="xref-ref-26-1">
+                <label>26.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.26"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-26">
+                    <string-name name-style="western" hwp:sortable="Francia P">
+                        <surname>Francia</surname>
+                        <given-names>P</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="delli Gatti C">
+                        <surname>delli Gatti</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Bachschmid M">
+                        <surname>Bachschmid</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Martin-Padura I">
+                        <surname>Martin-Padura</surname>
+                        <given-names>I</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Savoia C">
+                        <surname>Savoia</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Migliaccio E">
+                        <surname>Migliaccio</surname>
+                        <given-names>E</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pelicci PG">
+                        <surname>Pelicci</surname>
+                        <given-names>PG</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Schiavoni M">
+                        <surname>Schiavoni</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Luscher TF">
+                        <surname>Luscher</surname>
+                        <given-names>TF</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Volpe M">
+                        <surname>Volpe</surname>
+                        <given-names>M</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Cosentino F.">
+                        <surname>Cosentino</surname>
+                        <given-names>F.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-27">Deletion of p66shc gene protects against age-related
+                        endothelial dysfunction</article-title>. <source hwp:id="source-26">Circulation</source>. <year>
+                    2004</year>;<volume>110</volume>:<fpage>2889</fpage>–
+                    <lpage>2895</lpage>
+                </citation>
+            </ref>
+            <ref id="c27" hwp:id="ref-27" hwp:rev-id="xref-ref-27-1">
+                <label>27.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.27"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-27">
+                    <string-name name-style="western" hwp:sortable="Chang E">
+                        <surname>Chang</surname>
+                        <given-names>E</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Abe JI">
+                        <surname>Abe</surname>
+                        <given-names>JI</given-names>
+                    </string-name>
+                    . <article-title hwp:id="article-title-28">Kinase-sumo networks in diabetes-mediated cardiovascular
+                    disease</article-title>. <source hwp:id="source-27">Metabolism</source>. <year>2016</year>;<volume>
+                    65</volume>:<fpage>623</fpage>–
+                    <lpage>633</lpage>
+                </citation>
+            </ref>
+            <ref id="c28" hwp:id="ref-28">
+                <label>28.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.28"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-28">
+                    <string-name name-style="western" hwp:sortable="Abe J">
+                        <surname>Abe</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Berk BC">
+                        <surname>Berk</surname>
+                        <given-names>BC</given-names>
+                    </string-name>
+                    . <article-title hwp:id="article-title-29">Novel mechanisms of endothelial
+                    mechanotransduction</article-title>. <source hwp:id="source-28">Arterioscler Thromb Vasc
+                    Biol</source>. <year>2014</year>;<volume>34</volume>:<fpage>2378</fpage>–
+                    <lpage>2386</lpage>
+                </citation>
+            </ref>
+            <ref id="c29" hwp:id="ref-29" hwp:rev-id="xref-ref-29-1">
+                <label>29.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.29"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-29">
+                    <string-name name-style="western" hwp:sortable="Stankovic-Valentin N">
+                        <surname>Stankovic-Valentin</surname>
+                        <given-names>N</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Deltour S">
+                        <surname>Deltour</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Seeler J">
+                        <surname>Seeler</surname>
+                        <given-names>J</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Pinte S">
+                        <surname>Pinte</surname>
+                        <given-names>S</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Vergoten G">
+                        <surname>Vergoten</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Guerardel C">
+                        <surname>Guerardel</surname>
+                        <given-names>C</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Dejean A">
+                        <surname>Dejean</surname>
+                        <given-names>A</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Leprince D.">
+                        <surname>Leprince</surname>
+                        <given-names>D.</given-names>
+                    </string-name>
+                    <article-title hwp:id="article-title-30">An acetylation/deacetylation-sumoylation switch through a
+                        phylogenetically conserved psikxep motif in the tumor suppressor hic1 regulates transcriptional
+                        repression activity</article-title>. <source hwp:id="source-29">Mol Cell Biol</source>. <year>
+                    2007</year>;<volume>27</volume>:<fpage>2661</fpage>–
+                    <lpage>2675</lpage>
+                </citation>
+            </ref>
+            <ref id="c30" hwp:id="ref-30" hwp:rev-id="xref-ref-30-1">
+                <label>30.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.30"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-30">
+                    <string-name name-style="western" hwp:sortable="Wu SY">
+                        <surname>Wu</surname>
+                        <given-names>SY</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Chiang CM">
+                        <surname>Chiang</surname>
+                        <given-names>CM</given-names>
+                    </string-name>
+                    . <article-title hwp:id="article-title-31">Crosstalk between sumoylation and acetylation regulates
+                    p53-dependent chromatin transcription and DNA binding</article-title>. <source hwp:id="source-30">
+                    EMBO J</source>. <year>2009</year>;<volume>28</volume>:<fpage>1246</fpage>–
+                    <lpage>1259</lpage>
+                </citation>
+            </ref>
+            <ref id="c31" hwp:id="ref-31" hwp:rev-id="xref-ref-31-1">
+                <label>31.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.31"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-31">
+                    <string-name name-style="western" hwp:sortable="Xi G">
+                        <surname>Xi</surname>
+                        <given-names>G</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Shen X">
+                        <surname>Shen</surname>
+                        <given-names>X</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Clemmons DR">
+                        <surname>Clemmons</surname>
+                        <given-names>DR</given-names>
+                    </string-name>
+                    . <article-title hwp:id="article-title-32">P66shc negatively regulates insulin-like growth factor i
+                    signal transduction via inhibition of p52shc binding to src homology 2 domain-containing protein
+                    tyrosine phosphatase substrate-1 leading to impaired growth factor receptor-bound protein-2 membrane
+                    recruitment</article-title>. <source hwp:id="source-31">Mol Endocrinol</source>. <year>
+                    2008</year>;<volume>22</volume>:<fpage>2162</fpage>–
+                    <lpage>2175</lpage>
+                </citation>
+            </ref>
+            <ref id="c32" hwp:id="ref-32" hwp:rev-id="xref-ref-32-1">
+                <label>32.</label>
+                <citation publication-type="journal" citation-type="journal" ref:id="2024.01.24.577109v4.32"
+                          ref:linkable="yes" ref:use-reference-as-is="yes" hwp:id="citation-32">
+                    <string-name name-style="western" hwp:sortable="Powell AM">
+                        <surname>Powell</surname>
+                        <given-names>AM</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Cumming RC">
+                        <surname>Cumming</surname>
+                        <given-names>RC</given-names>
+                    </string-name>
+                    ,
+                    <string-name name-style="western" hwp:sortable="Betts DH">
+                        <surname>Betts</surname>
+                        <given-names>DH</given-names>
+                    </string-name>
+                    . <article-title hwp:id="article-title-33">P66shc deletion confers apoptotic resistance to loss of
+                    egfr-erk signalling in neural stem cells</article-title>. <source hwp:id="source-32">Cell Death
+                    Dis</source>. <year>2025</year>;<volume>16</volume>:
+                    <fpage>479</fpage>
+                </citation>
+            </ref>
+        </ref-list>
+    </back>
+</article>

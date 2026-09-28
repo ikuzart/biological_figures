@@ -1,0 +1,56 @@
+{
+  "key": "722203v1_fig7",
+  "paper": {
+    "preprint": "722203v1",
+    "doi": "10.64898/2026.05.02.722203",
+    "title": "Ether lipid remodeling during neuronal differentiation prevents ferroptosis",
+    "authors": "Asaro et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 7.",
+    "caption": "Plasmalogen deficiency increases sensitivity to iron-induced toxicity in C. elegans (A) Survival analysis of wild-type ( wt ) and tmem-189 mutant (ko) C. elegans exposed to increasing concentrati ns of ferric ammonium citrate (FAC). (B) Schematic experimental workflow of animal treatment for locomotion analysis. (C) Locomotor performance and (D) quantification of wild-type and tmem-189 mutant animals exposed to sublethal FAC concentrations and rescue with ferrostatin-1 (Fer-1). Error bars are SEM of 18-39 replicates."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\n100\nwt\ntmem-189(ko)\nSurvival (%)\n50\n0\n0\n100\n200\n300\n400\n500\nFAC (mM)\n\nB\nExperimental workflow\nwt\nwt\nwt\ntmem-189(ko)\ntmem-189(ko)\ntmem-189(ko)\nDMSO\n200mM FAC +\n200mM FAC +\nDMSO\nFer-1 (200µM)\nL4 animals\nLocomotion assessment\n+46h post-treatment\n\nC\nwt\ntmem-189(ko)\nVehicle\n+FAC\n+FAC\n+Ferrostatin-1\n\nD\n30\nwt\ntmem-189(ko)\n20\nMedian speed (pixel/frame)\n10\n0\nvehicle\nFAC\nFAC\n+ Ferrostatin-1",
+    "entities": [
+      {
+        "text": "Plasmalogen",
+        "type": "chemical"
+      },
+      {
+        "text": "iron",
+        "type": "chemical"
+      },
+      {
+        "text": "C. elegans",
+        "type": "organism"
+      },
+      {
+        "text": "tmem-189",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "ferric ammonium citrate",
+        "type": "chemical"
+      },
+      {
+        "text": "FAC",
+        "type": "chemical"
+      },
+      {
+        "text": "ferrostatin-1",
+        "type": "chemical"
+      },
+      {
+        "text": "Fer-1",
+        "type": "chemical"
+      },
+      {
+        "text": "DMSO",
+        "type": "chemical"
+      }
+    ],
+    "notes": "Panel letters are placed first in their panels, although the panel B title and the panel C column headers sit slightly higher. The dish and worm drawings, arrows and dashed timeline in panel B are drawn shapes and left out. The panel C track images carry no text. \"tmem-189(ko)\" is listed as tmem-189, dropping the knockout mark.",
+    "done": true
+  }
+}

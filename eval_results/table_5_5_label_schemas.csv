@@ -1,0 +1,28 @@
+source,label,share,n
+gold,gene_or_protein,0.3824175824175824,174
+gold,cell_or_tissue,0.25054945054945055,114
+gold,chemical,0.18681318681318682,85
+gold,technique,0.0967032967032967,44
+gold,other,0.03956043956043956,18
+gold,organism,0.03956043956043956,18
+gold,disease,0.004395604395604396,2
+d4data-biomedical-ner-all,Diagnostic_procedure,0.42535787321063395,832
+d4data-biomedical-ner-all,Lab_value,0.3773006134969325,738
+d4data-biomedical-ner-all,Detailed_description,0.09764826175869121,191
+d4data-biomedical-ner-all,Coreference,0.037321063394683024,73
+d4data-biomedical-ner-all,Sign_symptom,0.025051124744376277,49
+d4data-biomedical-ner-all,Biological_structure,0.014826175869120654,29
+d4data-biomedical-ner-all (correct strings),Diagnostic_procedure,0.6774193548387096,189
+d4data-biomedical-ner-all (correct strings),Lab_value,0.0931899641577061,26
+d4data-biomedical-ner-all (correct strings),Detailed_description,0.07168458781362007,20
+d4data-biomedical-ner-all (correct strings),Coreference,0.05017921146953405,14
+d4data-biomedical-ner-all (correct strings),Biological_structure,0.04659498207885305,13
+d4data-biomedical-ner-all (correct strings),Sign_symptom,0.02867383512544803,8
+bert-base-ner,MISC,0.4583333333333333,66
+bert-base-ner,ORG,0.3402777777777778,49
+bert-base-ner,PER,0.125,18
+bert-base-ner,LOC,0.0763888888888889,11
+bert-base-ner (correct strings),MISC,0.5789473684210527,33
+bert-base-ner (correct strings),ORG,0.3157894736842105,18
+bert-base-ner (correct strings),PER,0.07017543859649122,4
+bert-base-ner (correct strings),LOC,0.03508771929824561,2

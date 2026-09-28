@@ -1,0 +1,28 @@
+{
+  "key": "725920v2_fig5",
+  "paper": {
+    "preprint": "725920v2",
+    "doi": "10.64898/2026.05.19.725920",
+    "title": "FlowFI: an interactive graphical software package for bespoke design of imaging parameters in flow cytometry to explore morphological diversity in bone marrow megakaryocytes",
+    "authors": "Wilsenach et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 5.",
+    "caption": "Relative improvement when gating using novel parameters. ( A ) False Positive Rate is shown when defining a gate using standard parameters (light grey) versus an additional gate using new parameters (dark grey). Change in specificity is shown across ploidy classes with the largest absolute decrease in false positives coming from the largest 2n class. Significance was calculated using McNemar’s test for paired changes in the proportion of false positives with or without the additional gate with Benjami-Hochberg correction. The overall reduction was significant at the p<0.001 significance level which was confirmed for the validation dataset (See Supplementary Fig. 3). ( B ) This UMAP based on the original standard gating parameters shows events separated by ploidy in parameter space with examples for high and low ploidy. The majority of events removed by the new gate (grey density plot) appear to be at the boundary between low (≤8n) and high (≥16n) ploidy cells, suggesting the new gate primarily removes ambiguous events with intermediate morphology. ( C ) The gating parameter SYCybyD measures the symmetry of cytoplasmic signal around the nucleus. It suggests that SYCybyD is predictably lower at the class boundary due to the presence of irregular doublets, triplets and nuclear fragments around the nuclei (two low symmetry examples are shown)."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\n1.0\nstandard only\n14%***\n0.9\nnew parameters\n0.8\n11%***\n24%**\n0.7\n28%*\n0.6\n24%\nFalse Positive Rate\n0.5\n0.4\n0.3\n0.2\n0.1\n0.0\n2n\n4n\n8n\n16n\n32n\n(N=884)\n(N=382)\n(N=64)\n(N=101)\n(N=36)\n\nB\n2n\n4n\n8n\n16n\n32n\n\nC\n1.0\n0.5\nSymmetry (SYCybyD)\n0.0\n\n0.00\n0.01\n0.02\n0.03\n0.04\n0.05\nRemoved Event Density",
+    "entities": [
+      {
+        "text": "UMAP",
+        "type": "technique"
+      },
+      {
+        "text": "nucleus",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "The grey colour bar with the title Removed Event Density sits below and between panels B and C, so it is written last. The small cell images inset in B and C have no text. SYCybyD is a named gating parameter and is not listed as an entity. Type is mixed because B and C contain micrograph insets.",
+    "done": true
+  }
+}

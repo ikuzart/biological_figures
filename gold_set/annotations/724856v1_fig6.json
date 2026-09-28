@@ -1,0 +1,68 @@
+{
+  "key": "724856v1_fig6",
+  "paper": {
+    "preprint": "724856v1",
+    "doi": "10.64898/2026.05.13.724856",
+    "title": "Physiological levels of 3-hydroxykynurenine alter mitochondrial function and morphology in neuronal cells",
+    "authors": "Cassidy et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 6:",
+    "caption": "Transcriptomic profiling and differential gene expression analysis revealed altered expression of mitochondrially relevant genes following treatment with 3-HK. (A) DESeq2 results table showing the number of significantly up/down regulated differentially expressed transcripts in each experimental condition. VEH = vehicle control. (B) Normalised read counts of transcript NM_001278463 encoding for gene DNM1L when treated with 3-HK compared between conditions. (C) Normalised read counts of transcript NM_002693 encoding for gene POLG when treated with 3-HK compared between conditions. (D) Normalised read counts of transcript NM_012237 encoding for gene SIRT2 when treated with 3-HK compared between conditions. (E) Normalised read counts of transcript NM_001003788 encoding for gene STRADA when treated with 3-HK compared between conditions. Each point represents one biological replicate. Interquartile range shown per condition. ***P < 0.001. **P < 0.01. *P < 0.05."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nConditions\n#Up regulated\n#Down regulated\n#Total\nVEH vs 0.1 µM\n37\n12\n49\nVEH vs 1 µM\n30\n25\n55\nVEH vs 10 µM\n38\n8\n46\n0.1 µM vs 1 µM\n42\n33\n75\n0.1 µM vs 10 µM\n51\n18\n69\n1 µM vs 10 µM\n88\n10\n98\n\nB\nDNM1L\n*\n2500\n2000\n1500\n1000\n0\n0.1\n1\n10\n3-HK (µM)\n\nC\nPOLG\n*\n2000\nNormalised expression\n1500\n1000\n0\n0.1\n1\n10\n3-HK (µM)\n\nD\nSIRT2\n***\n**\n***\n2000\n1500\n1000\n0\n0.1\n1\n10\n3-HK (µM)\n\nE\nSTRADA\n*\n1200\n1000\nNormalised expression\n800\n600\n400\n0\n0.1\n1\n10\n3-HK (µM)",
+    "entities": [
+      {
+        "text": "Transcriptomic profiling",
+        "type": "technique"
+      },
+      {
+        "text": "differential gene expression analysis",
+        "type": "technique"
+      },
+      {
+        "text": "3-HK",
+        "type": "chemical"
+      },
+      {
+        "text": "DESeq2",
+        "type": "technique"
+      },
+      {
+        "text": "NM_001278463",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "DNM1L",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "NM_002693",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "POLG",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "NM_012237",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "SIRT2",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "NM_001003788",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "STRADA",
+        "type": "gene_or_protein"
+      }
+    ],
+    "notes": "The left edge of the figure is clipped. Panel letters A, B and D are partly cut off and kept. The y-axis labels of panels B and D are cut off and left out (only a dot remains in B; half of the letters in D). Panel A is a table drawn as an image, so the type is mixed. The RefSeq transcript IDs (NM_...) are listed as gene_or_protein.",
+    "done": true
+  }
+}

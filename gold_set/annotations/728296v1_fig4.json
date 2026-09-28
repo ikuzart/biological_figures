@@ -1,0 +1,72 @@
+{
+  "key": "728296v1_fig4",
+  "paper": {
+    "preprint": "728296v1",
+    "doi": "10.64898/2026.05.27.728296",
+    "title": "Supplemental deinoxanthin ameliorates bone marrow microenvironmental impairments and recovers functional damage of bone marrow-retained cells in total body irradiation-exposed mice",
+    "authors": "Rijal et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Fig. 4",
+    "caption": "DEIX inhibits oxidative damage and inflammatory response and recovers the antioxidant defense system in the BM of TBI-exposed mice. IHC staining images exhibiting the expression patterns of ( A ) 8-OHdg, ( B ) γ-H 2 AX, ( C ) HO-1, ( D ) COX2, ( E ) SOD-1, and ( F ) Nrf2 in the BM of the control, TBI, and TBI+DEIX groups five weeks post-TBI."
+  },
+  "gold": {
+    "figure_type": "micrograph",
+    "ocr_text": "A\n8-OHdg\nEpiphysis\nMetaphysis\nControl\nTBI\nTBI+DEIX\n30 µm\n30 µm\n\nB\nγ-H2AX\nEpiphysis\nMetaphysis\nControl\nTBI\nTBI+DEIX\n60 µm\n60 µm\n\nC\nHO-1\nEpiphysis\nMetaphysis\nControl\nTBI\nTBI+DEIX\n30 µm\n30 µm\n\nD\nCOX2\nEpiphysis\nMetaphysis\nControl\nTBI\nTBI+DEIX\n60 µm\n60 µm\n\nE\nSOD-1\nEpiphysis\nMetaphysis\nControl\nTBI\nTBI+DEIX\n60 µm\n60 µm\n\nF\nNrf2\nEpiphysis\nMetaphysis\nControl\nTBI\nTBI+DEIX\n60 µm\n60 µm",
+    "entities": [
+      {
+        "text": "DEIX",
+        "type": "chemical"
+      },
+      {
+        "text": "BM",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "TBI",
+        "type": "other"
+      },
+      {
+        "text": "mice",
+        "type": "organism"
+      },
+      {
+        "text": "IHC",
+        "type": "technique"
+      },
+      {
+        "text": "8-OHdg",
+        "type": "chemical"
+      },
+      {
+        "text": "γ-H2AX",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "HO-1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "COX2",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "SOD-1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Nrf2",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Epiphysis",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Metaphysis",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "Scale-bar labels in the TBI+DEIX rows of A and C are partly overlapped by tissue but readable. Scale bars in the Control and TBI rows carry no label. The caption renders the subscript as \"γ-H 2 AX\"; the entity is listed once, in the image form γ-H2AX. TBI (total body irradiation) is listed as other.",
+    "done": true
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "key": "724521v1_fig1",
+  "paper": {
+    "preprint": "724521v1",
+    "doi": "10.64898/2026.05.12.724521",
+    "title": "The Uvrag-containing PI3K complex promotes Hsc70-4 dependent endosomal clathrin removal and lysosomal maturation in Drosophila nephrocytes",
+    "authors": "Nagy et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 1.",
+    "caption": "PI3K(III) complex II is required for normal late endosome and lysosome organization in nephrocytes. A–D. Large Rab7-positive late endosomes are observed in control nephrocytes (A) and in cells depleted of Atg14 (PI3K(III) complex I–specific subunit) (D), where Rab7 strongly colocalizes with the PI(3)P reporter GFP-FYVE (orange arrows). In contrast, depletion of the catalytic subunit Vps34 (B) or the complex II–specific subunit Uvrag (C) leads to a strong reduction of GFP-FYVE signal. Under these conditions, most Rab7 signal relocates to the cell periphery or forms large intracellular structures (blue arrows). Nuclei are shown in blue (DNA). Scale bars: 10 μm. Insets display merged (M), Rab7 (R7), and GFP-FYVE (GF) channels. E–H. Early endosomes were labeled using anti-Rab5 and late endosomes using anti-Rab7 antibodies. In control cells (E) and Atg14 knockdown cells (H), late endosomes form a distinct layer beneath the Rab5-positive early endosomes. In contrast, in Vps34- (F) or Uvrag-depleted (G) cells, Rab7-positive endosomes are largely lost, with remaining Rab7 signal accumulating at the cell periphery or forming large intracellular structures (blue arrows). In these cells, the Rab5 and Rab7 layers appear intermixed. Nuclei are shown in blue (DNA). Scale bars: 10 μm. Insets display merged (M), Rab5 (R5) and Rab7 (R7) signals of the boxed regions. I–L. Late endosomes were labeled with anti-Rab7 and lysosomes with anti-Lamp1. In control (I) and Atg14 knockdown cells (L), Lamp1-positive lysosomes form a layer near and slightly beneath Rab7-positive late endosomes. In contrast, in Vps34- (J) or Uvrag-depleted (K) cells, this organization becomes disrupted: both Rab7 and Lamp1 signals redistribute to the cell periphery or accumulate in large intracellular structures (blue arrows). Nuclei are shown in blue (DNA). Scale bars: 10 μm. Insets display merged (M), Rab7 (R7), and Lamp1 (L1) signals of the boxed regions. M–P. Nephrocytes expressing TGN-YFP were labeled with anti-Rab7. In control (M) and Atg14 knockdown cells (P), Golgi structures appear elongated and are located beneath late endosomes. In contrast, in Vps34- (N) or Uvrag-depleted (O) cells, TGN-YFP–positive structures appear more rounded and less organized. Nuclei are shown in blue (DNA). Scale bars: 10 μm. Insets display merged (M), Rab7 (R7), and TGN-YFP (TY) signals of the boxed regions. Q. Quantification of GFP-FYVE fluorescence intensity shown in panels A–D (n = 44). R. Quantification of Rab7-positive endosome size shown in panels E–H (n = 100). S. Quantification of the proportion of inner Lamp1 signal shown in panels I–L (n = 15). T. Quantification of the maximum width of Golgi-YFP structures shown in panels M–P (n = 100)."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\ncontrol\nM\nR7\nRab7\nGFP-FYVE\nDNA\nGF\n\nB\nvps34 RNAi\nM\nR7\nRab7\nGFP-FYVE\nDNA\nGF\n\nC\nuvrag RNAi\nM\nR7\nRab7\nGFP-FYVE\nDNA\nGF\n\nD\natg14 RNAi\nM\nR7\nRab7\nGFP-FYVE\nDNA\nGF\n\nE\ncontrol\nM\nR7\nRab7\nRab5\nDNA\nR5\n\nF\nvps34 RNAi\nM\nR7\nRab7\nRab5\nDNA\nR5\n\nG\nuvrag RNAi\nM\nR7\nRab7\nRab5\nDNA\nR5\n\nH\natg14 RNAi\nM\nR7\nRab7\nRab5\nDNA\nR5\n\nI\ncontrol\nM\nR7\nRab7\nLamp1\nDNA\nL1\n\nJ\nvps34 RNAi\nM\nR7\nRab7\nLamp1\nDNA\nL1\n\nK\nuvrag RNAi\nM\nR7\nRab7\nLamp1\nDNA\nL1\n\nL\natg14 RNAi\nM\nR7\nRab7\nLamp1\nDNA\nL1\n\nM\ncontrol\nM\nR7\nRab7\nTGN-YFP\nDNA\nTY\n\nN\nvps34 RNAi\nM\nR7\nRab7\nTGN-YFP\nDNA\nTY\n\nO\nuvrag RNAi\nM\nR7\nRab7\nTGN-YFP\nDNA\nTY\n\nP\natg14 RNAi\nM\nR7\nRab7\nTGN-YFP\nDNA\nTY\n\nQ\n40\n****\nGFP-FYVE intensity (a.u.)\n20\n****\n0\ncontrol\nVps34 Ri\nuvrag Ri\natg14 Ri\n\nR\n4\n****\nRab7+ endosome\ndiameter (µm)\n2\n****\n0\ncontrol\nVps34 Ri\nuvrag Ri\natg14 Ri\n\nS\n150\n****\n****\nPercentage of inner\nLamp1 signal (%)\n75\n0\ncontrol\nVps34 Ri\nuvrag Ri\natg14 Ri\n\nT\n3.0\nTGN width (µm)\n1.5\n****\n****\n0.0\ncontrol\nVps34 Ri\nuvrag Ri\natg14 Ri",
+    "entities": [
+      {
+        "text": "PI3K(III) complex II",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "PI3K(III) complex I",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "late endosome",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "lysosome",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "nephrocytes",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Rab7",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Atg14",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "PI(3)P",
+        "type": "chemical"
+      },
+      {
+        "text": "GFP-FYVE",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Vps34",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Uvrag",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "nuclei",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "DNA",
+        "type": "chemical"
+      },
+      {
+        "text": "R7",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "GF",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "early endosomes",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "Rab5",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "endosome",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "R5",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Lamp1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "L1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "TGN-YFP",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Golgi",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "TY",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Golgi-YFP",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "TGN",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "RNAi",
+        "type": "technique"
+      }
+    ],
+    "notes": "Scale bars carry no printed label. Arrows and inset boxes are drawn shapes and are left out. The inset channel abbreviations R7, GF, R5, L1 and TY are defined in the caption, so they are listed as abbreviations of the channel names; Ri in the plot tick labels is not listed. DNA (the nuclear channel label) is listed as a chemical. Singular and plural forms (lysosome/lysosomes, late endosome/late endosomes) are listed once. cell periphery is taken as a location and not listed.",
+    "done": true
+  }
+}

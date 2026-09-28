@@ -1,0 +1,80 @@
+{
+  "key": "722904v2_fig7",
+  "paper": {
+    "preprint": "722904v2",
+    "doi": "10.64898/2026.05.05.722904",
+    "title": "An aPKC rheostat induces apical contraction in response to epithelial stretching",
+    "authors": "Doerflinger et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 7.",
+    "caption": "A model showing how cell stretching could activate a compensatory apical contraction. Apical domain expansion dilutes active aPKC at the apical membrane, allowing unphosphorylated Yurt to bind to Crumbs and tetramerise, where it induces Myosin activation through Shroom, Cysts, Rho, Rho kinase and Myosin."
+  },
+  "gold": {
+    "figure_type": "diagram",
+    "ocr_text": "Crb\naPKC\nAJ\nYurt\nYurt\nYurt Rok Myosin\nCrumbs\n?\nShroom\nYurt\nRok\nCysts\nE-cad\nRho\nBaz\nMyosin contractility",
+    "entities": [
+      {
+        "text": "aPKC",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Yurt",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Crumbs",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Crb",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Myosin",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Shroom",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Cysts",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Rho",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Rho kinase",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Rok",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "E-cad",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Baz",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "AJ",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "apical membrane",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "apical domain",
+        "type": "cell_or_tissue"
+      }
+    ],
+    "notes": "The small arrow glyphs between Yurt, Rok and Myosin are left out like the drawn arrows. The figure has no panel letters. AJ is taken as adherens junction and listed as cell_or_tissue.",
+    "done": true
+  }
+}

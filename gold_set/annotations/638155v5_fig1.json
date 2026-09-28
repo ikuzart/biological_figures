@@ -1,0 +1,76 @@
+{
+  "key": "638155v5_fig1",
+  "paper": {
+    "preprint": "638155v5",
+    "doi": "10.1101/2025.02.13.638155",
+    "title": "The roles of MKI67, GNL2, and MDN1 in Ribosome biogenesis and Transcriptome regulation in the Neuronal Lineage cell line HEK293T",
+    "authors": "Iuchi and Paulo",
+    "licence": "CC BY 4.0",
+    "figure_label": "Fig 1.",
+    "caption": "Schematic representations of the primary structures of proteins. A . KI-67, B . GNL2. C . MDN1. The marks indicate the followings: red bar, NoLS; green loop, IDR; blue rectangle, C-terminal DNA-binding region; and pink bar, NLS. Additional structural information is provided directly below each figure."
+  },
+  "gold": {
+    "figure_type": "diagram",
+    "ocr_text": "A\n1\n500\n1000\n1500\n2000\n2500\n3000\n3256\nMKI67\nFHA\nPP1B\nRepeat 1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\nNoLs\n\nB\n1\n200\n400\n600\n700\n731\nGNL2\nNLS\nGTP binding\nNoLS\n\nC\n1\n1000\n2000\n3000\n4000\n5000\n5596\nMDN1\nAAA-ATPase\nAAA-ATPase\nMIDAS\nNoLs\nprotomer 1\n2\n3\n4\n5\n6\nLinker\n(VWFA)",
+    "entities": [
+      {
+        "text": "KI-67",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "MKI67",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "GNL2",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "MDN1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "NoLS",
+        "type": "other"
+      },
+      {
+        "text": "IDR",
+        "type": "other"
+      },
+      {
+        "text": "DNA",
+        "type": "chemical"
+      },
+      {
+        "text": "NLS",
+        "type": "other"
+      },
+      {
+        "text": "FHA",
+        "type": "other"
+      },
+      {
+        "text": "PP1B",
+        "type": "other"
+      },
+      {
+        "text": "GTP",
+        "type": "chemical"
+      },
+      {
+        "text": "AAA-ATPase",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "MIDAS",
+        "type": "other"
+      },
+      {
+        "text": "VWFA",
+        "type": "other"
+      }
+    ],
+    "notes": "The dashed line joining the two AAA-ATPase labels in C is a drawn line and is left out. NoLs (A, C) and NoLS (B, caption) differ only in case and are listed once. Domain and motif labels (FHA, PP1B, NLS, NoLS, IDR, MIDAS, VWFA, AAA-ATPase) are listed as entities; generic region words (Repeat, protomer, Linker, C-terminal DNA-binding region) are not. DNA from \"DNA-binding\" is listed as chemical.",
+    "done": true
+  }
+}

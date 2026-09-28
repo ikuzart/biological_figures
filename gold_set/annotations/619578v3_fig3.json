@@ -1,0 +1,76 @@
+{
+  "key": "619578v3_fig3",
+  "paper": {
+    "preprint": "619578v3",
+    "doi": "10.1101/2024.10.24.619578",
+    "title": "Disruption of sphingolipid metabolism promotes tau seeding through endolysosomal membrane rigidification and rupture",
+    "authors": "Tittelmeier et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 3.",
+    "caption": "KD of SPHK2 and aggregated tau increases membrane rigidity leading to lysosomal rupture. (A) Scheme of the fluorescence properties of C-Laurdan. The dye is excited at 405 nm and exhibits peak emission at 450 nm (red) in ordered membrane phases and ∼500 nm in the disordered phase (blue). Two-channel acquisition is conducted in the wavelength bands indicated by shaded boxes. (B) Upper panels: Pseudo-colored images of SH-SY5Y cells transfected with control or SPHK2 siRNA showing the C-Laurdan GP Index at each pixel position. Lower panels show LysoTracker staining. Scale bar = 10 µm. (C) Quantification of GP values in SH-SY5Y cells upon transfected with control or SPHK2 siRNA. GP values were measured across the whole cell (left) or restricted to LysoTracker-positive (LTR) regions (right). Statistical analysis was conducted using a two-way mixed-model ANOVA, followed by pairwise comparisons of estimated marginal means with Sidak correction for multiple comparisons. n = 3 independent experiments, with 10 images analyzed per experiment. (D) Upper panel: Pseudo-colored images of SH-SY5Y cells exposed to PBS control or 1N4R tau fibrils showing the C-Laurdan GP Index at each pixel position. Lower panels show LysoTracker staining. Scale bar = 10 µm. (E) Quantification of GP values in SH-SY5Y cells exposed to PBS control or 1N4R tau fibrils. GP values were measured across the whole cell (left) or restricted to LysoTracker-positive (LTR) regions (right). Statistical analysis was conducted using a two-way mixed-model ANOVA followed by pairwise comparisons of estimated marginal means with Sidak correction for multiple comparisons. n = 3 independent experiments, with 10 images analyzed per experiment. (F) Maximum intensity projection of confocal z-stacks of HEK293T cells expressing sfGFP-LGALS3 upon treatment with control or SPHK2 siRNA, exposed to PBS control or 1N4R tau fibrils. Scale bar = 10 µm. (G) Quantification of sfGFP-LGALS3 foci per cell in HEK293T cells upon treatment with control or SPHK2 siRNA, exposed to PBS control or 1N4R tau fibrils. Data represent the mean number of foci per cell. Statistical analysis was done using Kruskal-Wallis with a Dunn’s post-hoc test. N = 3 independent experiments, with 10 images analyzed per experiment. (H) Maximum intensity projection of confocal z-stacks of a P301S tau-Venus biosensor cell line upon treatment with control or SPHK2 siRNA with and without exposure to 1N4R tau fibrils. Scale bar = 10 µm. (I) Quantification of tau-Venus foci upon treatment with control or SPHK2 siRNA with and without exposure to 1N4R tau fibrils. Data were analyzed by a two-way mixed-model ANOVA, followed by pairwise comparisons were performed using estimated marginal means with Sidak correction. n = 3 independent experiments, with 10 images analyzed per experiment. n.s.: not significant, * = p < 0.05, ** = p < 0.01, *** = p < 0.001."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nC-Laurdan\nOrdered\nDisordered\nEmission\nintensity\n400\n500\n600\nPeak emission wavelength:\nOrdered: ~450 nm\nDisordered: ~500 nm\n\nB\nControl siRNA\nSPHK2 siRNA\n0.3\nGP Index\n-0.5\nLysoTracker\n\nC\n*\n*\n0.30\n0.20\n0.10\nGP Index\n0.00\n-0.10\n-0.20\nControl siRNA\nSPHK2 siRNA\nLTR-Control siRNA\nLTR- SPHK2 siRNA\n\nD\nPBS\ntau fibrils\n0.3\nGP Index\n-0.5\nLysoTracker\n\nE\n***\n**\n0.00\n-0.05\nGP Index\n-0.10\n-0.15\n-0.20\nPBS\ntau\nLTR-PBS\nLTR-tau\n\nF\nControl siRNA\nSPHK2 siRNA\nControl siRNA\nSPHK2 siRNA\n+tau fibrils\n+ tau fibrils\nsfGFP-LGALS3\n\nG\n***\n***\n**\n*\n50\n**\n40\nn.s.\n30\nsfGFP-LGALS3 foci/cell\n20\n10\n0\nControl\nsiRNA\nSPHK2\nsiRNA\nControl\nsiRNA+tau\nSPHK2\nsiRNA+tau\n\nH\nControl siRNA +\nSPHK2 siRNA +\nControl siRNA\nSPHK2 siRNA\ntau fibrils\ntau fibrils\ntau-Venus\n\nI\n***\n***\n***\n100\n80\n60\n***\nTau foci/cell\n40\n***\n20\nn.s.\n0\nControl\nsiRNA\nSPHK2\nsiRNA\nControl\nsiRNA +tau\nSPHK2\nsiRNA +tau",
+    "entities": [
+      {
+        "text": "SPHK2",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "tau",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "C-Laurdan",
+        "type": "chemical"
+      },
+      {
+        "text": "SH-SY5Y",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "LysoTracker",
+        "type": "chemical"
+      },
+      {
+        "text": "LTR",
+        "type": "chemical"
+      },
+      {
+        "text": "PBS",
+        "type": "chemical"
+      },
+      {
+        "text": "1N4R tau",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Maximum intensity projection",
+        "type": "technique"
+      },
+      {
+        "text": "confocal",
+        "type": "technique"
+      },
+      {
+        "text": "HEK293T",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "sfGFP-LGALS3",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "P301S tau-Venus",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "tau-Venus",
+        "type": "gene_or_protein"
+      }
+    ],
+    "notes": "The atom letters of the C-Laurdan structure in panel A (HO, O, N, O) are left out. In F and H the two-line column titles are ordered line by line by height. The rotated two-line x-axis labels in G and I are kept together label by label, left to right. LTR is listed as the caption's abbreviation for LysoTracker.",
+    "done": true
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "key": "723579v1_fig1",
+  "paper": {
+    "preprint": "723579v1",
+    "doi": "10.64898/2026.05.07.723579",
+    "title": "Alternative organelle targeting of OPA1 mediates fatty acid release from lipid droplets",
+    "authors": "Li et al.",
+    "licence": "CC BY 4.0",
+    "figure_label": "Figure 1.",
+    "caption": "Comprehensive analysis of fatty acid trafficking reveals defective fatty acid release from lipid droplets in OPA1 knockout cells. (A) Multidirectional fatty acid (FA) trafficking pathways between lipid droplets (LDs) and mitochondria. Terms: FAO, fatty acid oxidation; NG497, an ATGL inhibitor; Triacsin C, an inhibitor of long FA acyl-CoA synthetase. (B) BODIPY 493/503-labeled LDs detected via confocal microscopy before and after 6-h incubation with 10 µM Triacsin C in wildtype (WT) and OPA1 knockout (KO) U2OS cells treated with 100 µM oleic acid (OA) overnight. Maximal intensity projected (MIP) confocal images from whole cells are shown. Dashed lines mark cell boundary. (C) Quantification of BODIPY 493/503-positive LD content as described in (B). Mean ± standard deviation from three independent experiments are shown (total of 99–161 cells). n.s., no significance, **P ≤ 0.001, as assessed by one-way ANOVA. (D) Quantification of monodansylpentane (MDH)-positive LD content in WT, OPA1 KO, and OPA1-expressing OPA1 KO U2OS cells treated with 100 µM OA overnight followed by 10 µM Triacsin C incubation for 6 h. Mean ± standard deviation from three independent experiments are shown (total of 81–115 cells). n.s., no significance, **P ≤ 0.01, *P ≤ 0.05, as assessed by one-way ANOVA. (E) Subcellular localization of TopFluor (TF)-OA and TOM20-Halo (JF646) detected via confocal microscopy in WT and OPA1 KO U2OS cells treated with 20 µM DGAT1 and DGAT2 inhibitors. MIP confocal images from three axial slices (∼0.6 µm total thickness) are shown. (F) Quantification of the intensity of peripheral mitochondria (mito) of TF-OA as described in (E) and in cells pretreated with 10 µM Triacsin C, 1 µM BODIPY-linoleic acid (LA), or 1 µM NBD-arachidonic acid (AA). Mean ± standard deviation from three independent experiments are shown (total of 38–50 cells). n.s., no significance, ****P ≤ 0.0001, *P ≤ 0.05, as assessed by one-way ANOVA. (G) Scintillation counts per minute (CPM) for complete 14 C-OA oxidation in WT and OPA1 KO U2OS cells under control and Triacsin C-treated conditions. Mean ± standard deviation from three independent experiments are shown. n.s., no significance, ***P ≤ 0.001, *P ≤ 0.05, as assessed by one-way ANOVA. (H) Concentration of cholesterol-ester (CE), diacylglycerol (DAG), triglyceride (TAG), and monoacylglycerol (MAG) in steady-state WT and OPA1 KO U2OS cells determined via liquid chromatography–mass spectrometry. Mean ± standard deviation from four replicates are shown. n.s., no significance, ****P ≤ 0.0001, as assessed by unpaired t -test. (I) Variance in acyl-carnitine levels across acyl-chain length in steady-state WT and OPA1 KO U2OS cells determined using liquid chromatography–mass spectrometry. Mean ± standard deviation from four replicates are shown. n.s., no significance, ****P ≤ 0.0001, ***P ≤ 0.001, **P ≤ 0.01, *P ≤ 0.05, as assessed by unpaired t -test."
+  },
+  "gold": {
+    "figure_type": "mixed",
+    "ocr_text": "A\nNG497\nTriacsin C\nRelease from\nlipid droplet\nLipid droplet\nMitochondiral\nimport\nFatty acid\nIncorporation\ninto neutral lipids\nFAO\nTriacsin C or\nDGATs inhibitors\nMitochondria\n\nB\n100 µM OA overnight\nWT\nOPA1 KO\nTime 0h\nTriacsin C 6h\n10 µm\n\nC\n3\nWT\nn.s.\nOPA1 KO\n2\n**\nRelative LD content\n(BODIPY-positive area)\n1\n0\nTriacsin C (h)\n0\n6\n\nD\nWT\n4\nOPA1 KO\nOPA1 KO + OPA1\nn.s.\n3\nRelative LD content\n(MDH-positive area)\n2\n**\n*\n1\n0\nTriacsin C (h)\n0\n6\n\nE\nInset\nMerge\nTF-OA\nTOM20-Halo\nWT\n10 µm\n4 µm\n1 µM TF-OA 10 min\nOPA1 KO\n\nF\nWT\nn.s.\nOPA1 KO\n*\n2\n****\n****\n****\nRelative mean FA intensity\nin mito (fold to wildtype)\n1\n0\nDGATs Inh\n+\n-\n+\n-\n+\n+\n+\n+\nTriacsin C\n-\n+\n-\n+\n-\n-\n-\n-\nFluor. FA\nOA\nOA\nOA\nOA\nLA\nLA\nAA\nAA\n\nG\nWT\nOPA1 KO\n***\n*\n1.0\nComplete 14C-OA oxidation\n(fold CPM to WT control)\n0.5\nn.s.\n0.0\nControl\nTriacsin C\n\nH\n25\nWT\n****\nOPA1 KO\n20\nn.s.\n15\nLipid Concentration (nmol/mg)\n10\n****\nn.s.\n5\n0\nCE\nDAG\nTAG\nMAG\n\nI\n5\nWT\nOPA1 KO\n**\n****\n****\n4\n****\n****\n****\n3\n***\n**\nNormalized level\n****\n****\n2\n****\n*\nn.s.\n**\n1\n0\nC14\nC16\nC17\nC18\nC20\nC22\nC24\nC26\nC16:1\nC18:1\nC20:1\nC22:1\nC24:1\nC26:1\nAcyl-carnitine",
+    "entities": [
+      {
+        "text": "OPA1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "fatty acid",
+        "type": "chemical"
+      },
+      {
+        "text": "FA",
+        "type": "chemical"
+      },
+      {
+        "text": "lipid droplet",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "LD",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "mitochondria",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "mito",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "NG497",
+        "type": "chemical"
+      },
+      {
+        "text": "ATGL",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "Triacsin C",
+        "type": "chemical"
+      },
+      {
+        "text": "long FA acyl-CoA synthetase",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "BODIPY 493/503",
+        "type": "chemical"
+      },
+      {
+        "text": "BODIPY",
+        "type": "chemical"
+      },
+      {
+        "text": "confocal microscopy",
+        "type": "technique"
+      },
+      {
+        "text": "U2OS",
+        "type": "cell_or_tissue"
+      },
+      {
+        "text": "oleic acid",
+        "type": "chemical"
+      },
+      {
+        "text": "OA",
+        "type": "chemical"
+      },
+      {
+        "text": "Maximal intensity projected",
+        "type": "technique"
+      },
+      {
+        "text": "MIP",
+        "type": "technique"
+      },
+      {
+        "text": "monodansylpentane",
+        "type": "chemical"
+      },
+      {
+        "text": "MDH",
+        "type": "chemical"
+      },
+      {
+        "text": "TopFluor",
+        "type": "chemical"
+      },
+      {
+        "text": "TF",
+        "type": "chemical"
+      },
+      {
+        "text": "TF-OA",
+        "type": "chemical"
+      },
+      {
+        "text": "TOM20-Halo",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "JF646",
+        "type": "chemical"
+      },
+      {
+        "text": "DGAT1",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "DGAT2",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "DGATs",
+        "type": "gene_or_protein"
+      },
+      {
+        "text": "BODIPY-linoleic acid",
+        "type": "chemical"
+      },
+      {
+        "text": "LA",
+        "type": "chemical"
+      },
+      {
+        "text": "NBD-arachidonic acid",
+        "type": "chemical"
+      },
+      {
+        "text": "AA",
+        "type": "chemical"
+      },
+      {
+        "text": "14C-OA",
+        "type": "chemical"
+      },
+      {
+        "text": "cholesterol-ester",
+        "type": "chemical"
+      },
+      {
+        "text": "CE",
+        "type": "chemical"
+      },
+      {
+        "text": "diacylglycerol",
+        "type": "chemical"
+      },
+      {
+        "text": "DAG",
+        "type": "chemical"
+      },
+      {
+        "text": "triglyceride",
+        "type": "chemical"
+      },
+      {
+        "text": "TAG",
+        "type": "chemical"
+      },
+      {
+        "text": "monoacylglycerol",
+        "type": "chemical"
+      },
+      {
+        "text": "MAG",
+        "type": "chemical"
+      },
+      {
+        "text": "liquid chromatography–mass spectrometry",
+        "type": "technique"
+      },
+      {
+        "text": "acyl-carnitine",
+        "type": "chemical"
+      },
+      {
+        "text": "neutral lipids",
+        "type": "chemical"
+      }
+    ],
+    "notes": "Panel A: \"Mitochondiral\" is a typo in the figure, kept as printed. \"lipid droplet\" and \"LD\" are listed in the singular (the caption also has the plural forms). Panel I: the acyl-chain tick labels (C14 to C26:1) are not listed as entities. \"long FA acyl-CoA synthetase\" is kept whole as the enzyme name. FAO (fatty acid oxidation) is a process and is not listed.",
+    "done": true
+  }
+}
